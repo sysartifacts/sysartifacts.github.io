@@ -1,0 +1,76 @@
+/* ***********************************
+
+     notestips.com (c) copyright 2003
+     TYPE	: Stylesheet
+     TITLE	: css-buttons
+     DESC	: "Mike Golding's Buttons" in pure CSS v2.0
+     AUTHOR	: Mike Golding
+	  
+	  PLEASE LEAVE THIS NOTICE INTACT
+
+   *********************************** */
+
+/* ORIGINAL BUTTON STYLING (v1.0) - FIXED SIZE */	
+#css-buttons ul{list-style: none;margin: 0 0 10px 0;padding: 0;}   
+#css-buttons li{border: 1px solid #333; margin: 5px 0 0 20px; width:112px;}
+#css-buttons li a{color: white; text-decoration: none;}
+
+.css-button {
+display:block;
+font: 10px verdana, arial, sans-serif;
+padding: 2px 0px 2px 0px; border: 1px solid white;
+text-decoration: none; width:110px;
+background: #ccc;color: #fff;
+}
+ 
+.css-button span {
+font: bold 10px verdana, arial, sans-serif;
+padding: 2px 3px 2px 3px; color: #fff;
+}
+
+
+
+
+
+/* VARIATION BUTTON STYLING (v2.0) - SIZABLE SIZE */
+#css-buttons2 ul{list-style: none;margin: 0 0 10px 0;padding: 0;}
+#css-buttons2 li{border: 1px solid #999; margin: 5px 0 0 20px; width:9.0em;}
+head:first-child+body #css-buttons2 li{padding-right:2px;}
+#css-buttons2 li a{color: #333; text-decoration: none;}
+
+.css-button2 {
+display:block;
+font: 0.8em verdana, arial, sans-serif;
+padding: 2px 0 2px 0px; border: 1px solid white;
+text-decoration: none; width:100%;
+background: #ddd;color: #333;
+}
+
+.css-button2 span {
+font: bold 1.0em verdana, arial, sans-serif;
+padding: 2px 3px 2px 3px; color: #fff;
+}  
+
+
+
+/* BUTTON LOGO STYLING */
+.rss span{background:#f60;}
+.geo span{background:#093; font-style:italic;}
+.fun span{background:#5ACE29;}
+.res span{background:#A857E6;}
+.blogdex span{background:#b20d1c;}
+.nd6 span{background:#ffbf18; color:#e26200;}
+.nd5 span{background:#ffbf18; color:#e26200;}
+.lotus span{background:#fc0; color:#000;}
+.ibm span{background:#069;}
+.openntf span{background:#79A9D2;}
+.dominoblog span{background:#3DB6D9;}
+.domblog span{background:#FFA548;}
+.freedomblog span{background:#EC8D00; color:red;}
+.blogsphere span{background:#0066B1;}
+.mt span{background:#069;}
+.amazon span{background:#f90;color:black;font: bold 1.1em helvetica, arial, Sans-Serif;}
+.paypal span{background:#eaf7fc;color:#244873;font-style:italic;}
+.paypal2{font: bold 10px helvetica, arial, Sans-Serif;}
+.w3c span {background: #fff; color: #069; font: bold 1.1em helvetica, arial, Sans-Serif;}
+.w3c2{background: #fc6;color: black !important;}

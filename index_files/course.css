@@ -1,0 +1,143 @@
+body, td, th { font: 10pt Verdana, Tahoma, Sans-Serif; color: black; }
+h1           { font-size: 16pt; }
+h2           { font-size: 13pt; }
+h3           { font-size: 11pt; }
+hr           { color: silver; height: 3px; }
+body         { background: white; }
+a            { text-decoration: none; color: chocolate; font-weight:bold; }
+a:visited    { color: chocolate; }
+a:hover      { text-decoration: underline; color: chocolate; }
+.headline    { font-size: 11pt; }
+td.design    { background-color: silver; font-size: 1pt; width: 3px; }
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+#banner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: no-repeat top center;
+	margin: 10px;
+	width: 310px; /* picture width */
+	height: 170px; /* picture height */
+}
+#header {
+	margin-left: 330px; /* picture width */
+	min-height: 170px; /* picture height */
+	position: relative;
+	border-left: 3px solid #bbb;
+	padding-left: 10px;
+	max-width: 800px;
+}
+
+#header #details {
+	max-width: 800px;
+	padding: 0;
+	padding-left: 5px;
+}
+
+#header #michlogo {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#nav {
+	position: relative;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+	border-right: 3px solid #bbb;
+	text-align: right;
+	width: 9em;
+}
+#nav a {
+	display: block;
+	padding: 0.5em;
+	border: 1px solid #fff;
+	margin: 0;
+	margin-right: 2px;
+}
+#nav a.selected {
+	background: #eee;
+	border-color: chocolate;
+}
+#nav a:hover {
+	text-decoration: none;
+	color: chocolate;
+}
+#nav a.good:hover {
+	background: lightgray;
+	border: 1px solid #696969;
+}
+
+#content {
+	max-width: 840px;
+	padding: 0;
+	margin-left: 10em;
+	padding-left: 5px;
+	text-align: justify;
+	margin-top: 2em;
+}
+
+#abstract_box {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 100;
+	width: 40%;
+	background: #66a;
+	color: #fff;
+	overflow: auto;
+	padding: 1em;
+	margin: 0;
+	text-align: justify;
+	visibility: hidden;
+}
+
+.alist {
+	border-spacing: 4px;
+	width: 100%;
+}
+.alist th {
+	border-right: 3px solid #bbb;
+	text-align: right;
+	padding-right: 0.7em;
+	width: 11em;
+}
+.alist td.heading {
+	border: 1px solid;
+}
+.alist td.indent1 { 
+  background-color: #cde;
+}
+.alist td.indent2 { 
+  border: 1px dashed;
+  padding-left: 2em;
+}
+.alist .empty {
+	height: 1.5em;
+}
+.alist td.paper {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.alist .hltablerow:hover {
+	background: #eee;
+	cursor: default;
+	margin-bottom: 10em;
+}
+
+#css-buttons2 { position: fixed; bottom: 0; left: 0; margin: 2px; }
+#css-buttons2 li { margin-left: 0; }
+
+/* hacks to get IE to screw up less than usual */
+* html #header { width: 600px; }
+* html #content { width: 800px; }
+* html #header { height: 140px; }
+* html #css-buttons2 { position: absolute; }
+* html #nav li { border: 1px solid #fff; }
