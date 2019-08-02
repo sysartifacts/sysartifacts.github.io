@@ -1,0 +1,41 @@
+Ramnatthan Alagappan,ra@cs.wisc.edu,University of Wisconsin Madison,pc
+Pierre-Louis Aublin,pl@sslab.keio.ac.jp,Keio University Japan,pc
+Vinay Banakar,vinay.s.banakar@gmail.com,Hewlett Packard Enterprise,pc
+Emad Beni,emad.heydaribeni@cs.kuleuven.be,KU Leuven,pc
+Tej Chajed,tchajed@mit.edu,MIT,pc
+Ata Fatahi,azf82@cse.psu.edu,Penn State University,pc
+Swapnil Gandhi,gandhis@iisc.ac.in,Indian Institute of Science Bangalore,pc
+Panagiotis Garefalakis,pgaref@imperial.ac.uk,Imperial College London,pc
+Shady Issa,shadi.issa@tecnico.ulisboa.pt,INESC-ID Portugal,pc
+Rishabh Iyer,rishabh.iyer@epfl.ch,EPFL,pc
+Shehbaz Jaffer,shehbaz@cs.toronto.edu,University of Toronto,pc
+Abhinav Jangda,aabhinav@cs.umass.edu,UMass Amherst,pc
+Saurabh Jha,sjha8@illinois.edu,UIUC,pc
+Ivo Jimenez,ivo@cs.ucsc.edu,UC Santa Cruz,pc
+Kostis Kaffes,kkaffes@stanford.edu,Stanford University,pc
+Tanvir Khan,takh@umich.edu,University of Michigan,pc
+Chung Hwan Kim,chungkim@nec-labs.com,NEC Labs America,pc
+Thomas Lemberger,thomas.lemberger@sosy.ifi.lmu.de,LMU Munich,pc
+Kai Mast,kaimast@cs.cornell.edu,Cornell University,pc
+Christopher Meiklejohn,christopher.meiklejohn@gmail.com,CMU,pc
+Bunjamin Memishi,bunjamin.memishi@dlr.de,German Aerospace Center,pc
+Rodrigo Moreira,rodrigo.moreira@ufu.br,Federal University of Uberlandia, Brazil,pc
+Fabio Pierazzi,fabio.pierazzi@kcl.ac.uk,King's College London,pc
+Thamir Qadah,tqadah@purdue.edu,Purdue University,pc
+Andrew Quinn,arquinn@umich.edu,University of Michigan,pc
+Prabhu Rajasekaran,rajasekp@uci.edu,UC Irvine,pc
+Aravindh Raman,aravindh.raman@kcl.ac.uk,King's college London,pc
+Lukas Rupprecht,lukas.rupprecht@ibm.com,IBM Research Almaden,pc
+Alireza Sanaee,ssanae2@uic.edu,University of Illinois at Chicago,pc
+Valerio Schiavoni,valerio.schiavoni@unine.ch,University of Neuchatel, Switzerland,pc
+Mohammad Shahrad,mshahrad@princeton.edu,Princeton University,pc
+Aakash Sharma,aakash.sharma@uit.no,Arctic University of Norway,pc
+Zhenyu Song,zhenyus@princeton.edu,Princeton University,pc
+Akshitha Sriraman,akshitha@umich.edu,University of Michigan,pc
+Amoghavarsha Suresh,amsuresh@cs.stonybrook.edu,Stony Brook University,pc
+Iman Tabrizian,iman.tabrizian@mail.utoronto.ca,University of Toronto,pc
+Chia-Che Tsai,chiache@tamu.edu,Texas A&M University,pc
+Anjo Vahldiek-Oberwagner,anjovahldiek@gmail.com,Intel Labs,pc
+Shuai Wang,shuaiw@cse.ust.hk,Hong Kong University of Science and Technology,pc
+Xiaoguang Wang,xiaoguang@vt.edu,Virginia Tech,pc
+Fang Zhou,zhou.1250@osu.edu,Ohio State University,pc
