@@ -139,14 +139,14 @@ img {
   	border: 1px solid black;
 	border-spacing: 4px;
 	border-collapse: collapse;
-	width: 70%;
+	width: 80%;
 }
 .results td {
 	border: 1px solid;
 	padding: 5px;
 	border-spacing: 2px;
 	border-collapse: collapse;
-	width: 35%;
+	width: 30%;
 }
 /* hacks to get IE to screw up less than usual */
 * html #header { width: 600px; }
