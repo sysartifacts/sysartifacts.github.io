@@ -139,33 +139,14 @@ img {
   	border: 1px solid black;
 	border-spacing: 4px;
 	border-collapse: collapse;
+	width: 70%;
 }
-.results td,tr {
+.results td {
 	border: 1px solid;
 	padding: 5px;
 	border-spacing: 2px;
 	border-collapse: collapse;
-}
-.dot_blue {
-  height: 10px;
-  width: 10px;
-  background-color: blue;
-  border-radius: 50%;
-  display: inline-block;
-}
-.dot_red {
-  height: 10px;
-  width: 10px;
-  background-color: red;
-  border-radius: 50%;
-  display: inline-block;
-}
-.dot_green {
-  height: 10px;
-  width: 10px;
-  background-color: green;
-  border-radius: 50%;
-  display: inline-block;
+	width: 35%;
 }
 /* hacks to get IE to screw up less than usual */
 * html #header { width: 600px; }
