@@ -147,6 +147,7 @@ img {
 	border-spacing: 2px;
 	border-collapse: collapse;
 	width: 30%;
+	text-align: left;
 }
 /* hacks to get IE to screw up less than usual */
 * html #header { width: 600px; }
