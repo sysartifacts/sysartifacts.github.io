@@ -1,6 +1,6 @@
-Verifying concurrent crash-safe systems with Armada; Artifact Available, Artifact Functional, Results Replicated;
+Verifying concurrent, crash-safe systems with Perennial; Artifact Available, Artifact Functional, Results Replicated;
 Risk-based planning for evolving data-center networks; Artifact Available, Artifact Functional, Results Replicated;
-Serval: scaling symbolic evaluation for automated verification of systems code; Artifact Available, Artifact Functional, Results Replicated;
+Scaling symbolic evaluation for automated verification of systems code with Serval; Artifact Available, Artifact Functional, Results Replicated;
 RECIPE: Reusing Concurrent In-Memory Indexes for Persistent Memory; Artifact Available, Artifact Functional, Results Replicated;
 File Systems Unfit as Distributed Storage Backends: Lessons from 10 Years of Ceph Evolution; Artifact Available, Artifact Functional, Results Replicated;
 SplitFS: Reducing Software Overhead in File Systems for Persistent Memory; Artifact Available, Artifact Functional, Results Replicated;
