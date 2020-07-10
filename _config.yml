@@ -1,0 +1,8 @@
+repository: 'sysartifacts/sysartifacts.github.io'
+url: "https://sysartifacts.github.io"
+markdown: kramdown
+plugins:
+- jekyll-redirect-from # see https://docs.github.com/en/enterprise/2.13/user/articles/redirects-on-github-pages
+exclude:
+- Gemfile
+- Gemfile.lock
