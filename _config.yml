@@ -6,3 +6,7 @@ plugins:
 exclude:
 - Gemfile
 - Gemfile.lock
+
+# variables, accessible via site.xxx in the templates
+# NB: --watch will not pick up changes here, so jekyll must be restarted
+name: Artifacts Evaluation # Can we find a better name?
