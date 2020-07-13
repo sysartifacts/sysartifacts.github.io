@@ -5,19 +5,19 @@ layout: main
 <h1> {{ site.name }} </h1>
 
 <p>
-... <b>General goals go here</b> text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
+  usable software systems as well as to validate the results of the accepted papers.
+
+  sysartifacts gathers artifact evaluation results from CS system conferences.
 </p>
-
-<h2> News </h2>
-
-<ul>
-  <li>Eurosys 2021<a href="https://2021.eurosys.org/cfp.html#cfp">CFP</a> is out and it includes an Artifact Evaluation (stay tuned for more!)</li>
-</ul>
 
 <h2> Conference Artifact Evaluations </h2>
 
-<ul>
-  <li><a href="sosp2019/">SOSP 19</a></li>
-  <li><a href="bfqv2020/">BFQV 20</a></li>
-  <li><a href="rhebflf2021/">RHEBFLF 21</a></li>
+<dl>
+  {% for c in site.conferences %}
+  <dt>{{c.name}}</dt>
+    {% for year in c.years %}
+      <dd><a href="{{c.name | downcase}}{{year}}">{{c.name}} {{year}}</a></dd>
+    {% endfor %}
+  {% endfor %}
 </ul>

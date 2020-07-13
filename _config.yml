@@ -9,4 +9,15 @@ exclude:
 
 # variables, accessible via site.xxx in the templates
 # NB: --watch will not pick up changes here, so jekyll must be restarted
-name: Artifacts Evaluation # Can we find a better name?
+name: Systems Research Artifacts # Can we find a better name?
+
+conferences:
+    - name: EuroSys
+      years:
+        - 2021
+    - name: OSDI
+      years:
+        - 2020
+    - name: SOSP
+      years:
+        - 2019
