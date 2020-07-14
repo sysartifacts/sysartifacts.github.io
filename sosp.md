@@ -10,6 +10,5 @@ introduce artifact evaluation in 2019.
 
 {% assign conf = site.conferences | where: 'name', 'SOSP' | first %}
 {% assign sorted_ae = (conf.ae | sort: 'year') | reverse %}
-{{conf.name}} {% for ae in sorted_ae %}
-: [{{ae.year}}]({{ae.location}})
+{% for ae in sorted_ae %}* [{{ae.year}}]({{ae.location}})
 {% endfor %}
