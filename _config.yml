@@ -7,8 +7,6 @@ exclude:
 - Gemfile
 - Gemfile.lock
 theme: minima
-minima:
-  skin: solarized
 
 header_pages:
   - index.md
@@ -26,7 +24,7 @@ conferences:
     - name: EuroSys
       ae:
         - year: 2021
-          location: eurosys2021
+          location: \#
     - name: OSDI
       ae:
         - year: 2020
