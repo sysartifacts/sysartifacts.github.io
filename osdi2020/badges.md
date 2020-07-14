@@ -7,5 +7,6 @@ title: OSDI 2020 Badges
 
 Submitted artifacts could select to be evaluated against the following badges:
 
-Badge | Description
-TBD | TDB
+| Badge | Description |
+|:-----:|:-----------:|
+| TBD   | TDB         |

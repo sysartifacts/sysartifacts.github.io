@@ -7,5 +7,6 @@ title: OSDI 2020 Artifact Evaluation Results
 
 No artifacts evaluated
 
-Paper title | Awarded Badges | Available at
-TBD | TBD | TBD
+| Paper title | Awarded Badges | Available at |
+|:-----------:|:--------------:|:------------:|
+| TBD | TBD | TBD |
