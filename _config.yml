@@ -6,6 +6,17 @@ plugins:
 exclude:
 - Gemfile
 - Gemfile.lock
+theme: minima
+minima:
+  skin: solarized
+
+header_pages:
+  - index.md
+  - eurosys.md
+  - osdi.md
+  - sosp.md
+
+description: Systems Research Artifacts
 
 # variables, accessible via site.xxx in the templates
 # NB: --watch will not pick up changes here, so jekyll must be restarted
@@ -13,11 +24,16 @@ name: Systems Research Artifacts # Can we find a better name?
 
 conferences:
     - name: EuroSys
-      years:
-        - 2021
+      ae:
+        - year: 2021
+          location: eurosys2021
     - name: OSDI
-      years:
-        - 2020
+      ae:
+        - year: 2020
+          location: osdi2020
     - name: SOSP
-      years:
-        - 2019
+      ae:
+        - year: 2019
+          location: sosp2019
+        - year: 2021
+          location: \#
