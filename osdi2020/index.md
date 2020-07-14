@@ -1,9 +1,10 @@
 ---
-layout: home
-title: OSDI 2020 Artifact Evaluation
+layout: single
+title: Artifact Evaluation
+sidebar:
+    title: 'OSDI 2020'
+    nav: osdi2020toc
 ---
-
-{% include_relative menu.md %}
 
 A scientific paper consists of a constellation of artifacts that extend beyond the document itself:
 software, hardware, evaluation data and documentation, raw survey results, mechanized proofs,

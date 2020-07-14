@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: Systems Research Artifacts
 ---
 Goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release

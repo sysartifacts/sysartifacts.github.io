@@ -1,9 +1,10 @@
 ---
-layout: home
-title: OSDI 2020 Call for Artifacts
+layout: single
+title: Call for Artifacts
+sidebar:
+    title: 'OSDI 2020'
+    nav: osdi2020toc
 ---
-
-{% include_relative menu.md %}
 
 Reposted call for artifacts from [USENIX OSDI
 Website](https://www.usenix.org/conference/osdi20/call-for-artifacts).

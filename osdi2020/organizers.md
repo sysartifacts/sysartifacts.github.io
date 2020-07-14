@@ -1,9 +1,10 @@
 ---
-layout: home
-title: OSDI 2020 Artifact Evaluation Organizers
+layout: single
+title: Organizers
+sidebar:
+    title: 'OSDI 2020'
+    nav: osdi2020toc
 ---
-
-{% include_relative menu.md %}
 
 ## Artifact Evaluation co-Chairs
 

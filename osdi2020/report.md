@@ -1,8 +1,9 @@
 ---
-layout: home
-title: OSDI 2020 Artifact Evaluation Report
+layout: single
+title: Report
+sidebar:
+    title: 'OSDI 2020'
+    nav: osdi2020toc
 ---
-
-{% include_relative menu.md %}
 
 We will publish our experience in as a small report.

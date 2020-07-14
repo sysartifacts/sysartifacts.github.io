@@ -1,9 +1,10 @@
 ---
-layout: home
-title: OSDI 2020 Artifact Evaluation Badges
+layout: single
+title: Badges
+sidebar:
+    title: 'OSDI 2020'
+    nav: osdi2020toc
 ---
-
-{% include_relative menu.md %}
 
 Submitted artifacts could select to be evaluated against the following badges:
 
