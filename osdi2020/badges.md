@@ -1,6 +1,6 @@
 ---
 layout: home
-title: OSDI 2020 Badges
+title: OSDI 2020 Artifact Evaluation Badges
 ---
 
 {% include_relative menu.md %}

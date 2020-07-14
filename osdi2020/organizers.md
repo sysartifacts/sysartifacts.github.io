@@ -1,6 +1,6 @@
 ---
 layout: home
-title: OSDI 2020 Organizers
+title: OSDI 2020 Artifact Evaluation Organizers
 ---
 
 {% include_relative menu.md %}

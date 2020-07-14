@@ -1,6 +1,6 @@
 ---
 layout: home
-title: OSDI 2020 AE Report
+title: OSDI 2020 Artifact Evaluation Report
 ---
 
 {% include_relative menu.md %}
