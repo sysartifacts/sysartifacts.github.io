@@ -7,7 +7,6 @@ plugins:
 exclude:
 - Gemfile
 - Gemfile.lock
-#theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 
 description: Systems Research Artifacts
@@ -20,7 +19,7 @@ conferences:
     - name: EuroSys
       ae:
         - year: 2021
-          location: \#
+          location: eurosys2021
     - name: OSDI
       ae:
         - year: 2020
@@ -29,5 +28,3 @@ conferences:
       ae:
         - year: 2019
           location: sosp2019
-        - year: 2021
-          location: \#

@@ -8,9 +8,9 @@ sidebar:
 
 ## Artifact Evaluation co-Chairs
 
-* Eric Eide (University of Utah)
-* Ryan Stutsman (University of Utah)
-* Anjo Vahldiek-Oberwagner (Intel Labs)
+* [Eric Eide](https://www.cs.utah.edu/~eeide/) (University of Utah)
+* [Ryan Stutsman](https://rstutsman.github.io/) (University of Utah)
+* [Anjo Vahldiek-Oberwagner](https://vahldiek.github.io/) (Intel Labs)
 
 ## Artifact Evaluation Committee
 
