@@ -3,10 +3,28 @@ url: "https://sysartifacts.github.io"
 markdown: kramdown
 plugins:
 - jekyll-redirect-from # see https://docs.github.com/en/enterprise/2.13/user/articles/redirects-on-github-pages
+- jekyll-include-cache
 exclude:
 - Gemfile
 - Gemfile.lock
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+
+description: Systems Research Artifacts
 
 # variables, accessible via site.xxx in the templates
 # NB: --watch will not pick up changes here, so jekyll must be restarted
-name: Artifacts Evaluation # Can we find a better name?
+title: Systems Research Artifacts # Can we find a better name?
+
+conferences:
+    - name: EuroSys
+      ae:
+        - year: 2021
+          location: eurosys2021
+    - name: OSDI
+      ae:
+        - year: 2020
+          location: osdi2020
+    - name: SOSP
+      ae:
+        - year: 2019
+          location: sosp2019

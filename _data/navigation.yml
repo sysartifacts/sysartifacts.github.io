@@ -1,0 +1,49 @@
+main:
+  - title: EuroSys
+    url: eurosys.html
+  - title: OSDI
+    url: osdi.html
+  - title: SOSP
+    url: sosp.html
+
+osdi2020toc:
+    - title: 'Artifact Evaluation'
+      url: osdi2020/index.html
+    - title: 'Call for Artifacts'
+      url: osdi2020/call.html
+    - title: 'Organizers'
+      url: osdi2020/organizers.html
+    - title: 'Badges'
+      url: osdi2020/badges.html
+    - title: 'Results'
+      url: osdi2020/results.html
+    - title: 'Report'
+      url: osdi2020/report.html
+
+eurosys2021toc:
+  - title: 'Artifact Evaluation'
+    url: eurosys2021/index.html
+  - title: 'Call for Artifacts'
+    url: eurosys2021/call.html
+  - title: 'Organizers'
+    url: eurosys2021/organizers.html
+  - title: 'Badges'
+    url: eurosys2021/badges.html
+  - title: 'Results'
+    url: eurosys2021/results.html
+  - title: 'Report'
+    url: eurosys2021/report.html
+
+confyeartoc:
+  - title: 'Artifact Evaluation'
+    url: aetemplate/index.html
+  - title: 'Call for Artifacts'
+    url: aetemplate/call.html
+  - title: 'Organizers'
+    url: aetemplate/organizers.html
+  - title: 'Badges'
+    url: aetemplate/badges.html
+  - title: 'Results'
+    url: aetemplate/results.html
+  - title: 'Report'
+    url: aetemplate/report.html
