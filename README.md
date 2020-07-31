@@ -3,6 +3,9 @@
 Sysartifacts (https://sysartifacts-generalize.github.io/) hosts the artifact
 evaluation of multiple conferences (EuroSys, OSDI, SOSP) . While started for
 SOSP'19, the website was generalized to also host the AE's for EuroSys and OSDI.
+As part of the generalization we changed from static HTML pages to a
+Jekyll-rendered site. This process is integrated into github pages. This
+repository includes the sources for Jekyll to render the html pages.
 
 ## Contributing to Sysartifacts
 
@@ -19,7 +22,7 @@ the main page. The goal of this section is to add a new AE of year X to this
 conference. Exemplarily, we go through the process for EuroSys'22. Please follow
 the following steps:
 
-#. Add AE year to `_config.yml`
+1. Add AE year to `_config.yml`
 
 Change the conference specific configuration from:
 
@@ -44,12 +47,12 @@ To include the additional year:
 The location points to the folder which includes the AE for the particular year
 and conference.
 
-#. Copy the `aetemplate` folder to `eurosys2022`
+2. Copy the `aetemplate` folder to `eurosys2022`
 
 The `aetemplate` folder includes a set of standard files with work in
 progress marks.
 
-#. Alter the left hand menu for the AE year
+3. Alter the left hand menu for the AE year
 
 Each file in `eurosys2022` includes a variable definition at the top. Part of
 this definition is the sidebar. This sidebar is the left menu when you look at
@@ -89,7 +92,7 @@ eurosys2022toc:
     url: eurosys2022/results.html
 ```
 
-#. Writing the AE contents
+4. Writing the AE contents
 
 Simply go to the `eurosys2022` folder and write in kramdown ([cheat
 sheet](https://kramdown.gettalong.org/quickref.html)). Each `*.md` file will
@@ -103,7 +106,7 @@ artifacts easily accessible.
 
 To add a conference, please follow the following steps and submit a PR.
 
-#. Add conference to `_config.yml`
+1. Add conference to `_config.yml`
 
 The `conferences` variable in `_config.yml` describes the different conference
 supported by sysartifacts. Simply add you conference to the list by changing the
@@ -130,7 +133,7 @@ conferences:
 
 This automatically adds the conference to the main landing page of sysartifacts.
 
-#. Add a conference specific site
+2. Add a conference specific site
 
 Copy the `.md` from one of the existing conferences (e.g. `osdi.md`) in the root
 folder to your conference name (e.g. `atc.md`). This will lead to creating
@@ -139,7 +142,7 @@ folder to your conference name (e.g. `atc.md`). This will lead to creating
 Adopt this page to your conference name by changing the title and the code
 snippet which creates the list of AE years. (e.g. change `OSDI` to `ATC`)
 
-#. Create a link in the top menu to the conference specific site
+3. Create a link in the top menu to the conference specific site
 
 The top menu is defined in `_data/navigation.yml` under the variable main.
 Simply add your conference name in alphabetical order to the main menu and set
