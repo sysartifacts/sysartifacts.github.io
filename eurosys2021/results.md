@@ -6,8 +6,4 @@ sidebar:
     nav: eurosys2021toc
 ---
 
-No artifacts evaluated
-
-| Paper title | Awarded Badges | Available at |
-|:-----------:|:--------------:|:------------:|
-| TBD | TBD | TBD |
+We will publish results of the EuroSys 2021 Artifact Evaluation here after they have been completed.

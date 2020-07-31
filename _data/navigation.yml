@@ -21,18 +21,16 @@ osdi2020toc:
       url: osdi2020/report.html
 
 eurosys2021toc:
-  - title: 'Artifact Evaluation'
-    url: eurosys2021/index.html
   - title: 'Call for Artifacts'
-    url: eurosys2021/call.html
-  - title: 'Organizers'
-    url: eurosys2021/organizers.html
-  - title: 'Badges'
+    url: eurosys2021/index.html
+  - title: 'Call for AEC Members'
+    url: eurosys2021/aec-call.html
+  - title: 'Available Badges'
     url: eurosys2021/badges.html
+  - title: 'Committee'
+    url: eurosys2021/committee.html
   - title: 'Results'
     url: eurosys2021/results.html
-  - title: 'Report'
-    url: eurosys2021/report.html
 
 confyeartoc:
   - title: 'Artifact Evaluation'
