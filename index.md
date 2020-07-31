@@ -5,7 +5,7 @@ title: Systems Research Artifacts
 Goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
 usable software systems as well as to validate the results of the accepted papers.
 
-sysartifacts gathers artifact evaluation results from CS systems conferences.
+This website collects resources and results around artifact evaluation for computer systems conferences.
 
 ## Conference Artifact Evaluations
 
