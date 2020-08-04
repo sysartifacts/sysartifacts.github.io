@@ -1,7 +1,7 @@
 # Systems Research Artifacts (sysartifacts)
 
-Sysartifacts (https://sysartifacts-generalize.github.io/) hosts the artifact
-evaluation of multiple conferences (EuroSys, OSDI, SOSP) . While started for
+The [sysartifacts website](https://sysartifacts.github.io/) hosts the artifact
+evaluation of multiple conferences (EuroSys, OSDI, SOSP). While initially for
 SOSP'19, the website was generalized to also host the AE's for EuroSys and OSDI.
 As part of the generalization we changed from static HTML pages to a
 Jekyll-rendered site. This process is integrated into github pages. This
@@ -17,7 +17,7 @@ master and available on the sysartifacts website.
 
 ## Adding another Artifact Evaluation year to an existing Conference
 
-A conference already exists, if it is shown in the top menu and represented on
+A conference already exists if it is shown in the top menu and represented on
 the main page. The goal of this section is to add a new AE of year X to this
 conference. Exemplarily, we go through the process for EuroSys'22. Please follow
 the following steps:
@@ -30,7 +30,7 @@ Change the conference specific configuration from:
 - name: EuroSys
       ae:
         - year: 2021
-          location: eurosys2022
+          location: eurosys2021
 ```
 
 To include the additional year:
@@ -39,7 +39,7 @@ To include the additional year:
 - name: EuroSys
       ae:
         - year: 2021
-          location: eurosys2022
+          location: eurosys2021
         - year: 2022
           location: eurosys2022
 ```
@@ -73,7 +73,7 @@ sidebar:
     nav: eurosys2022toc
 ```
 
-This changes the title of the sidebar, but and changes the contents to
+This changes the title of the sidebar, and changes the navigation contents to
 `eurosys2022toc`. This table of contents (TOC) does not exist yet and hence, has
 to be added to `_data/navigation.yml`. Again, simply copy paste from the
 `confyeartoc` template and adjust the location and menu points.
@@ -101,7 +101,7 @@ add it to the `eurosys2022toc` menu defined in `_data/navigation`.
 
 ## Adding an additional conference to sysartifacts
 
-We welcome other system conferences to join the efforts to make systems
+We welcome other systems conferences to join the efforts to make systems
 artifacts easily accessible.
 
 To add a conference, please follow the following steps and submit a PR.
