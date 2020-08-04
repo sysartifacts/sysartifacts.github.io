@@ -64,6 +64,8 @@ For papers accepted after a revision stage:
 * Artifact notification date: 30 March 2021
 * Camera-ready deadline: 2 April 2021
 
+All deadline times are **23:59 hrs [UTC](https://www.timeanddate.com/worldclock/timezone/utc)**.
+
 Submission site
 ---------------
 
