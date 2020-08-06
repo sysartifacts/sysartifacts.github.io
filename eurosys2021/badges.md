@@ -40,4 +40,4 @@ Note that the ACM Publications Board interchanged the definitions of the words �
 The text above reflects the [new definition](https://www.acm.org/publications/policies/artifact-review-badging).
 
 Artifact Evaluation—especially reproducing results—requires time commitment and effort from both authors and reviewers.
-Please see the [Call for Artifacts](call.html) for more details on the expectations for authors, submitted artifacts, and reviewers.
+Please see the [Call for Artifacts](index.html) for more details on the expectations for authors, submitted artifacts, and reviewers.

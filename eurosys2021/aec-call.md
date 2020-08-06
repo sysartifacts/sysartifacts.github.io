@@ -6,7 +6,7 @@ sidebar:
     nav: eurosys2021toc
 ---
 
-We are looking for members of the Artifact Evaluation Committee (AEC), who will contribute to EuroSys’ new [Artifact Evaluation](call.html) (AE) process by reviewing submitted artifacts.
+We are looking for members of the Artifact Evaluation Committee (AEC), who will contribute to EuroSys’ new [Artifact Evaluation](index.html) (AE) process by reviewing submitted artifacts.
 AEC membership is especially suitable for researchers early in their career, such as PhD students.
 Even as a first-year PhD student, you are welcome to join the AEC, provided you are working in a topic area [covered by EuroSys](https://2021.eurosys.org/cfp.html#cfp) (such as operating systems, distributed/networked systems, systems security, and other areas of computer systems research).
 You can be located anywhere in the world as all committee discussions will happen online.
