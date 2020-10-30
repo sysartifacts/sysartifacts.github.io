@@ -43,7 +43,6 @@ Sandeep Polisetty (University of Massachusetts Amherst) <br>
 Thamir Qadah (Purdue University) <br>
 Edo Roth (University of Pennsylvania) <br>
 Yizhou Shan (University of California (San Diego) <br>
-Aakash Sharma (UiT The Arctic University of Norway) <br>
 Basavesh Ammanaghatta Shivakumar (Purdue University) <br>
 Cesar A. Stuardo (University of Chicago) <br>
 Chunzhi Su (Google) <br>
