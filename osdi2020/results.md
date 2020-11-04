@@ -66,11 +66,12 @@ span#rr {
 
 **Distinguished Artifact Award**:
 
-* TBD
+* **"Testing Database Engines via Pivoted Query Synthesis"** by Manuel Rigger and Zhendong Su (ETH Zurich)
+* **"Serving DNNs like Clockwork: Performance Predictability from the Bottom Up"** <br> by Arpan Gujarati (MPI-SWS), Reza Karimi (Emory University), Safya Alzayat (MPI-SWS), Wei Hao (MPI-SWS), Antoine Kaufmann (MPI-SWS), Ymir Vigfusson (Emory University), and Jonathan Mace (MPI-SWS)
 
 | Paper title | Awarded Badges | Available at |
 |:-----------|:--------------:|:------------:|
-| [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/conference/osdi20/presentation/rigger) |  <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [DOI](http://doi.org/10.5281/zenodo.4005705) |
+| [Testing Database Engines via Pivoted Query Synthesis](https://www.usenix.org/conference/osdi20/presentation/rigger) <br> **Distinguished Artifact Award** |  <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [DOI](http://doi.org/10.5281/zenodo.4005705) |
 | [Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel](https://www.usenix.org/conference/osdi20/presentation/nelson) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/uw-unsat/jitterbug/tree/osdi20-artifact) |
 | [RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers](https://www.usenix.org/conference/osdi20/presentation/zhu) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/netx-repo/RSCS) |
 | [Overload Control for µs-scale RPCs with Breakwater](https://www.usenix.org/conference/osdi20/presentation/cho) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/joshuafried/caladan-ae/tree/osdi20ae/breakwater) |
@@ -86,7 +87,7 @@ span#rr {
 | [AIFM: High-Performance, Application-Integrated Far Memory](https://www.usenix.org/conference/osdi20/presentation/ruan) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/zainryan/AIFM-AE) |
 | [Toward a Generic Fault Tolerance Technique for Partial Network Partitioning](https://www.usenix.org/conference/osdi20/presentation/alfatafta) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/UWASL/NIFTY) |
 | [Achieving 100Gbps Intrusion Prevention on a Single Server](https://www.usenix.org/conference/osdi20/presentation/zhao-zhipeng) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/cmu-snap/pigasus) |
-| [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/conference/osdi20/presentation/gujarati) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Gitlab](https://gitlab.mpi-sws.org/cld/ml/clockwork-results/-/tree/osdi_2020_ae) [Gitlab](https://gitlab.mpi-sws.org/cld/ml/clockwork/-/tree/osdi_2020_ae) |
+| [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/conference/osdi20/presentation/gujarati) <br> **Distinguished Artifact Award** | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Gitlab](https://gitlab.mpi-sws.org/cld/ml/clockwork-results/-/tree/osdi_2020_ae) [Gitlab](https://gitlab.mpi-sws.org/cld/ml/clockwork/-/tree/osdi_2020_ae) |
 | [Storage Systems are Distributed Systems (So Verify Them That Way!)](https://www.usenix.org/conference/osdi20/presentation/hance) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/secure-foundations/veribetrkv-osdi2020) |
 | [Pegasus: Tolerating Skewed Workloads in Distributed Storage with In-Network Coherence Directories](https://www.usenix.org/conference/osdi20/presentation/li-jialin) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/NUS-Systems-Lab/pegasus.git) |
 | [Byzantine Ordered Consensus without Byzantine Oligarchy](https://www.usenix.org/conference/osdi20/presentation/zhang-yunhao) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/yhzhang0128/osdi20-artifact-evaluation) |
