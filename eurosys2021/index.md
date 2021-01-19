@@ -30,8 +30,14 @@ Guidelines for Artifact Submission
 While the EuroSys paper reviewing process is double-blind, AE is single-blind, since it takes place after the paper is already accepted.
 Therefore, submitted artifacts do not need to be anonymized.
 
-When submitting your artifact, please specify which of the three badges you are applying for.
+When submitting your artifact, please specify which of the [three badges](badges.html) you are applying for.
 For the Artifact Functional and Results Reproduced badges, AEC members will attempt to use your artifact to run the experiments described in your paper.
+
+A complete artifact package must contain:
+
+- the accepted version of your Eurosys paper
+- the artifact itself
+- instructions!
 
 Please strive to package your artifact in a way that makes it easy for AEC members to use and evaluate.
 In particular, it should be made as self-contained as possible by bundling all required dependencies.
@@ -46,6 +52,15 @@ If you hope to qualify for the “[results reproduced](badges.html)” badge, pl
 AEC members may contact authors during the evaluation period, for example to ask for help if they are unable to get the artifact to work, and authors are asked to be responsive to such requests.
 However, your goal as an author should be to present and document your artifact in a way that AEC members can use it and complete the evaluation successfully with minimal (and ideally no) interaction.
 To ensure that your instructions are complete, we suggest that you run through them on a fresh machine (or VM) prior to submission, following exactly the instructions you have provided.
+
+Importantly, make your **claims** about your artifacts concrete.  This is
+especially important if you think that these claims differ from the
+expectations set up by your paper.  The AEC is still going to evaluate your
+artifacts relative to your paper, but your explanation can help to set
+expectations up front, especially in cases that might frustrate the evaluators
+without prior notice.  For example, tell the AEC about difficulties they might
+encounter in using the artifact, or its maturity relative to the content of the
+paper.
 
 Important Dates
 ---------------
@@ -76,3 +91,14 @@ Artifact Evaluation Committee
 
 EuroSys 2021 Artifact Evaluation is run by the [Artifact Evaluation Committee](committee.html) (AEC).
 For any questions, please [contact the AEC chairs](mailto:aec-2021@eurosys.org).
+
+Further Advice
+--------------
+
+There are several sources of good advice about preparing artifacts for
+evaluation.  These two are particularly noteworthy:
+
+* [HOWTO for AEC
+  Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit)
+  by Dan Borowy, Charlie Cursinger, Emma Tosch, John Vilk, and Emery Berger
+* [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/) by Rohan Padhye
