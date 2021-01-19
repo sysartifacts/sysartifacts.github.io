@@ -84,7 +84,9 @@ All deadline times are **23:59 hrs [UTC](https://www.timeanddate.com/worldclock/
 Submission site
 ---------------
 
-We will use HotCRP to handle artifact submissions; details will be posted here later.
+If your paper is accepted to EuroSys 2021, please
+[submit your artifact via HotCRP](https://eurosys21ae.hotcrp.com/).
+Please do not use this link if you do not have an accepted paper at EuroSys 2021.
 
 Artifact Evaluation Committee
 -----------------------------
