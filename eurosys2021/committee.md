@@ -31,11 +31,10 @@ You can reach us at [aec-2021@eurosys.org](mailto:aec-2021@eurosys.org) with any
 * Walid A. Hanafy, University of Massachusetts Amherst
 * Emad Heydari Beni, KU Leuven
 * Tao Hou, University of South Florida
-* Zhenghao Hu, NYU
 * Daniel Hugenroth, University of Cambridge
 * Al Amjad Tawfiq Isstaif, University of Cambridge
 * Matthijs Jansen, Vrije Universiteit Amsterdam
-* Seyyed Ahmad Javadi, University of Cambridge
+* Seyyed Ahmad Javadi, Amirkabir University of Technology
 * Chris Jensen, University of Cambridge
 * Weiwei Jia, New Jersey Institute of Technology
 * Iacovos G. Kolokasis, University of Crete & ICS-FORTH
