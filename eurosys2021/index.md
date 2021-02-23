@@ -70,13 +70,15 @@ For papers accepted without revision:
 * Author notification date: 20 January 2021
 * Artifact submission deadline: 23 January 2021
 * Artifact notification date: 23 March 2021
-* Camera-ready deadline: 26 March 2021
+* ~~Camera-ready deadline: 26 March 2021~~
 
 For papers accepted after a revision stage:
 
 * Author notification date: 3 March 2021
 * Artifact submission deadline: 6 March 2021
 * Artifact notification date: 30 March 2021
+
+For all papers:
 * Camera-ready deadline: 2 April 2021
 
 All deadline times are **23:59 hrs [UTC](https://www.timeanddate.com/worldclock/timezone/utc)**.
