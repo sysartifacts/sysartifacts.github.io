@@ -24,6 +24,8 @@ conferences:
       ae:
         - year: 2020
           location: osdi2020
+        - year: 2021
+          location: osdi2021
     - name: SOSP
       ae:
         - year: 2019

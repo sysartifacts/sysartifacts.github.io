@@ -20,6 +20,20 @@ osdi2020toc:
     - title: 'Report'
       url: osdi2020/report.html
 
+osdi2021toc:
+    - title: 'Artifact Evaluation'
+      url: osdi2021/index.html
+    - title: 'Call for Artifacts'
+      url: osdi2021/call.html
+    - title: 'Organizers'
+      url: osdi2021/organizers.html
+    - title: 'Badges'
+      url: osdi2021/badges.html
+    - title: 'Results'
+      url: osdi2021/results.html
+    - title: 'Report'
+      url: osdi2021/report.html
+
 eurosys2021toc:
   - title: 'Call for Artifacts'
     url: eurosys2021/index.html
