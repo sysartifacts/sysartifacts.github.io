@@ -54,7 +54,8 @@ List of papers with awarded badges
   </td>
   <td>
     Characterizing, Exploiting, and Detecting DMA Code Injection Vulnerabilities in the Presence of an IOMMU<br>
-    <a href="https://github.com/Markuze/mmo-static">https://github.com/Markuze/mmo-static</a>
+    <a href="https://github.com/Markuze/mmo-static">https://github.com/Markuze/mmo-static</a> and
+    <a href="https://github.com/Markuze/dma-kasan">https://github.com/Markuze/dma-kasan</a>
   </td>
 </tr>
 <tr>
