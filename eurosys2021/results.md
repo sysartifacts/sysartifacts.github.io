@@ -187,7 +187,8 @@ List of papers with awarded badges
   </td>
   <td>
     Confidential Computing for OpenPOWER<br>
-    <a href="https://github.com/mvle/eurosys2021_PEF_OpenPOWER">https://github.com/mvle/eurosys2021_PEF_OpenPOWER</a>
+    <a href="https://github.com/mvle/eurosys2021_PEF_OpenPOWER">https://github.com/mvle/eurosys2021_PEF_OpenPOWER</a> and
+    <a href="https://github.com/open-power/ultravisor/wiki/How-to-build-and-run-Secure-VM-using-Ultravisor-on-a-OpenPOWER-machine">https://github.com/open-power/ultravisor/wiki/How-to-build-and-run-Secure-VM-using-Ultravisor-on-a-OpenPOWER-machine</a>
   </td>
 </tr>
 <tr>
