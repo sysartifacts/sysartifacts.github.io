@@ -121,6 +121,17 @@ List of papers with awarded badges
     <img style="width:60px; height:60px" src="/images/acm_reproduced_1.1.png" alt="Results Reproduced badge">
   </td>
   <td>
+    rkt-io: A Direct I/O Stack for Shielded Execution<br>
+    <a href="https://github.com/Mic92/rkt-io">https://github.com/Mic92/rkt-io</a>
+  </td>
+</tr>
+<tr>
+  <td nowrap>
+    <img style="width:60px; height:60px" src="/images/acm_available_1.1.png" alt="Artifacts Available badge">
+    <img style="width:60px; height:60px" src="/images/acm_functional_1.1.png" alt="Artifacts Functional badge">
+    <img style="width:60px; height:60px" src="/images/acm_reproduced_1.1.png" alt="Results Reproduced badge">
+  </td>
+  <td>
     Seastar: Vertex-Centric Programming for Graph Neural Networks<br>
     <a href="https://github.com/ydwu4/seastar-paper-version">https://github.com/ydwu4/seastar-paper-version</a>
   </td>
@@ -167,17 +178,6 @@ List of papers with awarded badges
   <td>
     Unikraft: Fast, Specialized Unikernels the Easy Way<br>
     <a href="https://github.com/unikraft/eurosys21-artifacts">https://github.com/unikraft/eurosys21-artifacts</a>
-  </td>
-</tr>
-<tr>
-  <td nowrap>
-    <img style="width:60px; height:60px" src="/images/acm_available_1.1.png" alt="Artifacts Available badge">
-    <img style="width:60px; height:60px" src="/images/acm_functional_1.1.png" alt="Artifacts Functional badge">
-    <img style="width:60px; height:60px" src="/images/acm_reproduced_1.1.png" alt="Results Reproduced badge">
-  </td>
-  <td>
-    rkt-io: A Direct I/O Stack for Shielded Execution<br>
-    <a href="https://github.com/Mic92/rkt-io">https://github.com/Mic92/rkt-io</a>
   </td>
 </tr>
 <tr>
