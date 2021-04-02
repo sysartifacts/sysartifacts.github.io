@@ -88,7 +88,7 @@ List of papers with awarded badges
     <img style="width:60px; height:60px" src="/images/acm_reproduced_1.1.png" alt="Results Reproduced badge">
   </td>
   <td>
-    Finding Unsafe Heterogeneous Configuration in Cloud Systems<br>
+    Finding Heterogeneous-Unsafe Configuration Parameters in Cloud Systems<br>
     <a href="https://github.com/StarThinking/ZebraConf">https://github.com/StarThinking/ZebraConf</a>
   </td>
 </tr>
