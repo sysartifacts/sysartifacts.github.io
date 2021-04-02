@@ -13,10 +13,9 @@ material underlying the paper’s contributions.
 
 The EuroSys 2021 Artifact Evaluation Committee (AEC) received a total of 22 artifact submissions
 (58% of the 38 accepted papers). Each submission was independently evaluated by at least 2 AEC
-members. At the end of the process, the AEC awarded a total of 21 Artifacts Available badges, 18
-Artifacts Functional badges, and 14 Results Reproduced badges, as detailed below. In some cases,
-authors did not request all of the badges; the evaluations only included those badges requested by
-authors.
+members; the evaluations only included those badges requested by authors.
+At the end of the process, the AEC awarded a total of 21 Artifacts Available badges, 18
+Artifacts Functional badges, and 14 Results Reproduced badges, as detailed below.
 
 
 List of papers with awarded badges
