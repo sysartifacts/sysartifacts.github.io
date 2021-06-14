@@ -8,8 +8,10 @@ sidebar:
 
 ## Artifact Evaluation co-Chairs
 
-* [TBD](#) (University of TBD)
+* [Robert Ricci](https://ricci.io) (University of Utah)
+* [Ivo Jiminez](https://ivotron.me) (UC Santa Cruz, CROSS, University of Sonora)
+* [Dan Ports](https://drkp.net) (Microsoft Research, University of Washington)
 
 ## Artifact Evaluation Committee
 
-* TBD
+We are accepting nomationations for the AEC (including self-nominations). If you're interested in joining the AEC, fill out the form at [TBD](TBD) by TBD, 2021
