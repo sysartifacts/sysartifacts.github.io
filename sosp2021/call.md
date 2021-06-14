@@ -3,6 +3,6 @@ layout: single
 title: Call for Artifacts
 sidebar:
 sidebar:
-    title: 'Conf year'
-    nav: confyeartoc
+    title: 'SOSP 2021'
+    nav: sosp2021toc
 ---

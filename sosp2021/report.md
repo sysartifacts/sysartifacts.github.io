@@ -2,8 +2,8 @@
 layout: single
 title: Report
 sidebar:
-    title: 'Conf year'
-    nav: confyeartoc
+    title: 'SOSP 2021'
+    nav: sosp2021toc
 ---
 
 We will publish our experience in as a small report.

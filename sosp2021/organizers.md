@@ -2,8 +2,8 @@
 layout: single
 title: Organizers
 sidebar:
-    title: 'Conf year'
-    nav: confyeartoc
+    title: 'SOSP 2021'
+    nav: sosp2021toc
 ---
 
 ## Artifact Evaluation co-Chairs
