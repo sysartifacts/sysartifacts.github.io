@@ -21,7 +21,14 @@ Questions about the process can be directed to osdi20aec@usenix.org.
 
 ## Important Dates
 
-* TBD
+*All AEC deadlines are at 6 PM EDT*
+
+- Notification for paper authors: **Monday, August 9, 2021**
+- Artifact intent registration deadline: **Friday, August 13, 2021**
+- Artifact submission deadline: **Friday, August 20, 2021**
+- Kick-the-tires response period: **Monday, August 23–Friday, September 3, 2021**
+- Artifact decisions announced: **Wednesday, September 22, 2021**
+- SOSP final papers deadline: **Monday, September 27, 2021**
 
 *Note*: For an artifact to be considered, at least one contact author for the submission must be reachable via email and respond to questions in a timely manner during the evaluation period.
 
