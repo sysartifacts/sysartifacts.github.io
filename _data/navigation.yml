@@ -34,6 +34,20 @@ osdi2021toc:
     - title: 'Report'
       url: osdi2021/report.html
 
+sosp2021toc:
+    - title: 'Evaluation'
+      url: sosp2021/index.html
+    - title: 'Call for Artifacts'
+      url: sosp2021/call.html
+    - title: 'Organizers'
+      url: sosp2021/organizers.html
+    - title: 'Badges'
+      url: sosp2021/badges.html
+    - title: 'Results'
+      url: sosp2021/results.html
+    - title: 'Report'
+      url: sosp2021/report.html
+
 eurosys2021toc:
   - title: 'Call for Artifacts'
     url: eurosys2021/index.html
