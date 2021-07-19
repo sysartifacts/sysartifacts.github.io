@@ -15,12 +15,14 @@ sidebar:
 * 20 Results Reproduced
 
 **Distinguished Artifact Award**:
-TBD
+
+* **"Oort: Efficient Federated Learning
+via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury (University of Michigan)
 
 | Paper title | Awarded Badges | Available at |
 |:-----------:|:--------------:|:------------:|
 | [Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes](https://www.usenix.org/conference/osdi21/presentation/wang-qing) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/thustorage/osdi21ae) |
-| [Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/SymbioticLab/Kuiper) |
+| [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/SymbioticLab/Kuiper) |
 | [NrOS: Effective Replication and Sharing in an Operating System](https://www.usenix.org/conference/osdi21/presentation/bhardwaj) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://nrkernel.systems/book/benchmarking/ArtifactEvaluation.html) |
 | [Optimizing storage performance with calibrated interrupts](https://www.usenix.org/conference/osdi21/presentation/tai) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/amytai/cinterrupts-osdi) |
 | [The nanoPU: A Nanosecond Network Stack for Datacenters](https://www.usenix.org/conference/osdi21/presentation/ibanez) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/l-nic/chipyard/tree/nanoPU-artifact-v1.0) |
