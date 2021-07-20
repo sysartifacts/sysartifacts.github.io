@@ -53,7 +53,7 @@ Each paper sets up certain expectations and claims of its artifacts based on its
 
 ## Process
 
-Authors will be invited to submit their artifacts after their papers have been accepted for publication at SOSP. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the SOSP Program Committee. See the [guidelines for packaging artifacts](TBD) later in this document.
+Authors will be invited to submit their artifacts after their papers have been accepted for publication at SOSP. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the SOSP Program Committee. See the [guidelines for packaging artifacts](#packaging-artifacts) later in this document.
 
 At artifact-submission time, a submitter will choose the criteria by which their artifacts will be evaluated. The criteria correspond to three separate badges that can be awarded to a paper, as defined by the [ACM Artifact Review and Badging policy v1.1](https://www.acm.org/publications/policies/artifact-review-and-badging-current).  An artifact can meet the criteria of one, two, or all three of the following badges:
 
@@ -79,13 +79,13 @@ Artifact evaluation is "single blind." The identities of artifact authors will b
 
 To maintain the anonymity of artifact evaluators, the authors of artifacts should not embed any analytics or other tracking in the websites for their artifacts for the duration of the artifact-evaluation period. If you cannot control this, do not access this data. This is important to maintain the confidentiality of the evaluators. In cases where tracing is unavoidable, authors should notify the AEC chairs in advance so that AEC members can take adequate safeguards.
 
-## (Submitting an Aritfact)
+## Submitting an Artifact
 
 ### Registration and Submission
 
 Submitting the artifacts associated with your accepted SOSP paper is a two-step process.
 
-1. *Registration:* By the artifact registration deadline, submit the abstract and PDF of your accepted SOSP paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the [artifact submission site]().
+1. *Registration:* By the artifact registration deadline, submit the abstract and PDF of your accepted SOSP paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact submission site; *the URL for this submission site will be posted in this space shortly* 
 2. *Submission:* By the artifact submission deadline, provide a stable URL or (if that is not possible) upload an archive of your artifacts. If the URL is access-protected, provide the credentials needed to access it. Select the criteria/badges that the AEC should consider while evaluating your artifacts. You will not be able to change the URL, archive, or badge selections after the artifact submission deadline. Finally, for your artifact to be considered, check the "ready for review" box before the submission deadline.
 
 The AEC recommends that you create a single web page at a stable URL that contains your artifact package. The AEC may contact you with questions about your artifacts if your submitted materials are unclear.
@@ -99,8 +99,6 @@ A complete artifact package must contain:
 * the accepted version of your SOSP paper
 * the artifact itself
 * instructions
-
-
 
 Your artifact package must include an obvious "README" that describes your artifact and provides a road map for evaluation. The README should contain or point to suitable instructions and documentation, to save committee members the burden of reverse-engineering the authors' intentions. (A tool without a quick tutorial is generally very difficult to use. Similarly, a dataset is useless without some explanation on how to browse the data.) For software artifacts, the README should—at a minimum—provide instructions for installing and running the software on relevant inputs. For other types of artifacts, describe your artifact and detail how to "use" it in a meaningful way.
 
@@ -130,4 +128,4 @@ There are several sources of good advice about preparing artifacts for evaluatio
 * [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Borowy, Charlie Cursinger, Emma Tosch, John Vilk, and Emery Berger
 * [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/), by Rohan Padhye
 
-If you have any questions about how best to package your artifact, contact (sosp21-aec-chairs@mpi-sws.org)[sosp21-aec-chairs@mpi-sws.org].
+If you have any questions about how best to package your artifact, contact [sosp21-aec-chairs@mpi-sws.org](sosp21-aec-chairs@mpi-sws.org).
