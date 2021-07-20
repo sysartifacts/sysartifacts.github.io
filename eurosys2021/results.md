@@ -132,7 +132,7 @@ List of papers with awarded badges
   </td>
   <td>
     Seastar: Vertex-Centric Programming for Graph Neural Networks<br>
-    <a href="https://github.com/ydwu4/seastar-paper-version">https://github.com/ydwu4/seastar-paper-version</a>
+    <a href="https://zenodo.org/record/4988602">https://zenodo.org/record/4988602</a>
   </td>
 </tr>
 <tr>
