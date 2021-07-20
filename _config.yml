@@ -30,3 +30,5 @@ conferences:
       ae:
         - year: 2019
           location: sosp2019
+        - year: 2021
+          location: sosp2021
