@@ -87,7 +87,8 @@ To maintain the anonymity of artifact evaluators, the authors of artifacts shoul
 
 Submitting the artifacts associated with your accepted SOSP paper is a two-step process.
 
-1. *Registration:* By the artifact registration deadline, submit the abstract and PDF of your accepted SOSP paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact submission site; *the URL for this submission site will be posted in this space shortly* 
+1. *Registration:* By the artifact registration deadline, submit the abstract and PDF of your accepted SOSP paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact submission site: [https://sosp21ae.hotcrp.com/](https://sosp21ae.hotcrp.com/)
+
 2. *Submission:* By the artifact submission deadline, provide a stable URL or (if that is not possible) upload an archive of your artifacts. If the URL is access-protected, provide the credentials needed to access it. Select the criteria/badges that the AEC should consider while evaluating your artifacts. You will not be able to change the URL, archive, or badge selections after the artifact submission deadline. Finally, for your artifact to be considered, check the "ready for review" box before the submission deadline.
 
 The AEC recommends that you create a single web page at a stable URL that contains your artifact package. The AEC may contact you with questions about your artifacts if your submitted materials are unclear.
