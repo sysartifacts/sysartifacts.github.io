@@ -9,10 +9,10 @@ sidebar:
 ## Artifact Evaluation co-Chairs
 
 * [Robert Ricci](https://ricci.io) (University of Utah)
-* [Ivo Jiminez](https://ivotron.me) (UC Santa Cruz, CROSS, University of Sonora)
+* [Ivo Jimenez](https://ivotron.me) (UC Santa Cruz, CROSS, University of Sonora)
 * [Dan Ports](https://drkp.net) (Microsoft Research, University of Washington)
 
-Contact the AEC charis at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chairs@mpi-sws.org).
+Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chairs@mpi-sws.org).
 
 ## Call for Self-Nominations
 
