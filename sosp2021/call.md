@@ -19,7 +19,7 @@ The artifact evaluation process will consider the availability and functionality
 
 All accepted SOSP papers are encouraged to participate in artifact evaluation. See [Submitting an Artifact](#submitting-an-artifact) for details on the submission process.
 
-Questions about the process can be directed to osdi20aec@usenix.org.
+Questions about the process can be directed to [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chairs@mpi-sws.org).
 
 ## Important Dates
 
@@ -67,9 +67,11 @@ The AEC will complete its evaluation and notify authors of the outcomes. Authors
 
 ## Artifact Details
 
-The AEC will try to accept any kind of digital artifact that authors wish to submit: software, data sets, survey results, test suites, mechanized proofs, etc. Paper proofs will not be accepted, because the AEC lacks the time and often the expertise to carefully review paper proofs. Physical objects, e.g., computer hardware, cannot be accepted due to the difficulty of making the objects available to members of the AEC. (If your artifact requires special hardware, consider if/how you can make it available to evaluators online.)
+The AEC will try to accept any kind of digital artifact that authors wish to submit: software, data sets, survey results, test suites, mechanized proofs, etc. Paper proofs will not be accepted, because the AEC lacks the time and often the expertise to carefully review paper proofs. Physical objects, e.g., computer hardware, cannot be accepted due to the difficulty of making the objects available to members of the AEC. 
 
 The submission of an artifact does not give the AEC permission to make its content public. AEC members may not publicize any part of your artifact during or after completing evaluation, nor may they retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact. Participating in artifact evaluation does not require you to later publish your artifacts (although it is encouraged).
+
+Please keep in mind that the AEC can only evaluate on hardware to which it has access; to the extent possible, make sure that your artifact can run on commonly-available hardware, or hardware in community research testbeds such as [Emulab](https://www.emulab.net), [CloudLab](https://cloudlab.us), and [Chameleon Cloud](https://www.chameleoncloud.org/). Make sure to clearly document any special hardware requirements. If your artifact cannot run on common or community hardware, consider whether there is a way to make the hardware you used remotely available to AEC members. If your artifact requires the use of a public cloud, the AEC will make every reasonable effort to evaluate it, but do keep in mind that budget constraints may be a limiting factor.
 
 Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chairs@mpi-sws.org) if you believe that your artifacts fall into this category.
 
@@ -110,7 +112,8 @@ Authors should consider one of the following methods to package the software com
 * *Virtual machine/container:* A virtual machine or Docker image containing the software application already set up with the right toolchain and intended runtime environment. For example:
     * For raw data, the VM would contain the data and the scripts used to analyze it.
     * For a mobile phone application, the VM would have a phone emulator installed.
-    * For mechanized proofs, the VM would contain the right version of the relevant theorem prover. We recommend using a format that is easy for AEC members to work with, such as OVF or Docker images. An AWS EC2 instance is also possible. 
+    * For mechanized proofs, the VM would contain the right version of the relevant theorem prover.
+    * We recommend using a format that is easy for AEC members to work with, such as OVF or Docker images. An AWS EC2 instance is also possible. 
 * *Binary installer:* Indicate exactly which platform and other run-time dependencies your artifact requires.
 * *Live instance on the web:* Ensure that it is available for the duration of the artifact evaluation process.
 * *Internet-accessible hardware:* If your artifact requires special hardware (e.g., SGX or another trusted execution environment), or if your artifact is actually a piece of hardware, please make sure that AEC members can somehow access the device. VPN-based access to the device might be an option.
@@ -120,6 +123,13 @@ Authors should consider one of the following methods to package the software com
    * The artifact requires specific hardware or software that is not generally available in a typical lab and where no access can be provided in a reasonable way.
 
 As previously described, in all cases, artifacts must be provided in a manner that is appropriate for single-blind review by members of the AEC (i.e., anonymous reviewers).
+
+There are a growing number of tools and mechanisms that are designed specifically to meet the needs of research reproducibility; authors may want to consider using such tools when appropriate. A partial list includes:
+
+* *[Popper](https://getpopper.io/):* A container-native system for automating workflow
+* *[CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html):* A mechanism for encapsulating and sharing research environments on the [CloudLab)[https://cloudlab.us] facility
+* *[Chameleon Jupyter Notebooks](https://www.chameleoncloud.org/blog/2020/10/20/tips-and-tricks-packaging-experiments-reproducibility/):* Mechanisms for sharing research run on the [Chameleon Cloud](https://www.chameleoncloud.org/) facility
+* *[Expo](http://expo.gforge.inria.fr/):* Experiment management language for use on the [Grid5000](https://www.grid5000.fr) testbed
 
 ## Further Advice
 
