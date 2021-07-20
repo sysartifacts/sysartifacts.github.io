@@ -9,13 +9,15 @@ sidebar:
 
 # SOSP '21 Call for Artifacts
 
+*We are accepting self-nominations for AEC committee members! See the [call](organizers.html#call-for-self-nominations) for details!*
+
 ## Overview
 
 A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet many of our conferences offer no formal means to submit and evaluate anything but the paper. To address this shortcoming, SOSP runs an optional artifact evaluation process.
 
 The artifact evaluation process will consider the availability and functionality of artifacts associated with their corresponding papers, along with the reproducibility of the paper's key results and claims with these artifacts. Artifact evaluation is single blind. Artifacts will be held in confidence by the evaluation committee. While the committee strongly encourages the authors of SOSP papers to make their artifacts publicly available, the artifact evaluation process is open to artifacts that are not.
 
-All accepted SOSP papers are encouraged to participate in artifact evaluation. See [Submitting an Artifact](TBD) for details on the submission process.
+All accepted SOSP papers are encouraged to participate in artifact evaluation. See [Submitting an Artifact](#submitting-an-artifact) for details on the submission process.
 
 Questions about the process can be directed to osdi20aec@usenix.org.
 
@@ -69,7 +71,7 @@ The AEC will try to accept any kind of digital artifact that authors wish to sub
 
 The submission of an artifact does not give the AEC permission to make its content public. AEC members may not publicize any part of your artifact during or after completing evaluation, nor may they retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact. Participating in artifact evaluation does not require you to later publish your artifacts (although it is encouraged).
 
-Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact [TBD](TBD) if you believe that your artifacts fall into this category.
+Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chairs@mpi-sws.org) if you believe that your artifacts fall into this category.
 
 ## Review and Anonymity
 
@@ -77,7 +79,7 @@ Artifact evaluation is "single blind." The identities of artifact authors will b
 
 To maintain the anonymity of artifact evaluators, the authors of artifacts should not embed any analytics or other tracking in the websites for their artifacts for the duration of the artifact-evaluation period. If you cannot control this, do not access this data. This is important to maintain the confidentiality of the evaluators. In cases where tracing is unavoidable, authors should notify the AEC chairs in advance so that AEC members can take adequate safeguards.
 
-## Submitting an Aritfact
+## (Submitting an Aritfact)
 
 ### Registration and Submission
 
@@ -128,4 +130,4 @@ There are several sources of good advice about preparing artifacts for evaluatio
 * [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Borowy, Charlie Cursinger, Emma Tosch, John Vilk, and Emery Berger
 * [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/), by Rohan Padhye
 
-If you have any questions about how best to package your artifact, contact TBD.
+If you have any questions about how best to package your artifact, contact (sosp21-aec-chairs@mpi-sws.org)[sosp21-aec-chairs@mpi-sws.org].
