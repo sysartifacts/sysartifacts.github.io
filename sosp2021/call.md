@@ -128,7 +128,7 @@ As previously described, in all cases, artifacts must be provided in a manner th
 There are a growing number of tools and mechanisms that are designed specifically to meet the needs of research reproducibility; authors may want to consider using such tools when appropriate. A partial list includes:
 
 * *[Popper](https://getpopper.io/):* A container-native system for automating workflow
-* *[CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html):* A mechanism for encapsulating and sharing research environments on the [CloudLab)[https://cloudlab.us] facility
+* *[CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html):* A mechanism for encapsulating and sharing research environments on the [CloudLab](https://cloudlab.us) facility
 * *[Chameleon Jupyter Notebooks](https://www.chameleoncloud.org/blog/2020/10/20/tips-and-tricks-packaging-experiments-reproducibility/):* Mechanisms for sharing research run on the [Chameleon Cloud](https://www.chameleoncloud.org/) facility
 * *[Expo](http://expo.gforge.inria.fr/):* Experiment management language for use on the [Grid5000](https://www.grid5000.fr) testbed
 
