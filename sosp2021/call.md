@@ -9,8 +9,6 @@ sidebar:
 
 # SOSP '21 Call for Artifacts
 
-*We are accepting self-nominations for AEC committee members! See the [call](organizers.html#call-for-self-nominations) for details!*
-
 ## Overview
 
 A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet many of our conferences offer no formal means to submit and evaluate anything but the paper. To address this shortcoming, SOSP runs an optional artifact evaluation process.
