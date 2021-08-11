@@ -17,6 +17,7 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 ## Artifact Evaluation Committee
  
 * Ahmed Alhassan, University of Khartoum
+* Ali Shakiba, Vali-e-Asr University of Rafsanjan
 * Ajay Brahmakshatriya, Massachusetts Institute of Technology
 * Aman Goel, University of Michigan
 * Amirhossein Sayyadabdi, University of Isfahan
@@ -28,6 +29,9 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Bogdan Alexandru Stoica, University of Chicago
 * ByeongKeon Lee, KAIST
 * Calin Iorgulescu, Oracle Labs Switzerland
+* Chenxingyu Zhao, University of Washington
+* Chufeng Du, Xiamen University
+* Daniel Tang, University of Luxembourg
 * David Ke Hong, Facebook
 * Djob Mvondo, University of Edinburgh
 * Dong Du, Shanghai Jiao Tong University
@@ -52,6 +56,7 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Jiawen Liu, University of California, Merced
 * Jiayi Meng, Purdue University
 * Jie Ren, University of California, Merced
+* Jisu Ok, KAIST
 * Joao Carreira, Purdue University
 * João Leitão, NOVA University of Lisbon
 * Joshua A. Bockenek, Virginia Tech
@@ -68,6 +73,7 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Md Ashfaqur Rahaman, University of Utah
 * Michaela Murray, Stanford University
 * Michael Giardino, ETH Zürich
+* Miguel Felipe Silva Vasconcelos, Universidade de São Paulo/Université Grenoble Alpes
 * Mingyu Li, Shanghai Jiao Tong University
 * Mohammed Hashim Mukhtar Abdalla, University Of Khartoum
 * Nirmal Prajapati, Los Alamos National Lab
@@ -111,5 +117,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Zhangyu Chen, Huazhong University of Science and Technology
 * Zhao Shixiong, The University of Hong Kong
 * Zhengwei Qi, Shanghai Jiao Tong University
+* Zhuoxuan Liu, University of the Chinese Academy of Sciences
 * Zhifeng Jiang, The Hong Kong University of Science and Technology
 * Zhihao Yao, University of California, Irvine
