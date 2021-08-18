@@ -30,7 +30,7 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * ByeongKeon Lee, KAIST
 * Calin Iorgulescu, Oracle Labs Switzerland
 * Chenxingyu Zhao, University of Washington
-* Chufeng Du, Xiamen University
+* Chunfeng Du, Xiamen University
 * Daniel Tang, University of Luxembourg
 * David Ke Hong, Facebook
 * Djob Mvondo, University of Edinburgh
