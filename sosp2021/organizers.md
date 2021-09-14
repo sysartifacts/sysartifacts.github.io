@@ -20,7 +20,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Ali Shakiba, Vali-e-Asr University of Rafsanjan
 * Ajay Brahmakshatriya, Massachusetts Institute of Technology
 * Aman Goel, University of Michigan
-* Amirhossein Sayyadabdi, University of Isfahan
 * Amit Samanta, University of Utah
 * Amoghavarsha Suresh, Facebook
 * Anish Athalye, MIT
@@ -63,7 +62,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Kaicheng Yang, Peking University
 * Kenta Ishiguro, Keio University
 * Keren Zhou, Rice University
-* Ketan Bhardwaj, Georgia Institute of Tecchnology
 * Lianmin Zheng, UC Berkeley
 * Lingfang Zeng, Zhejiang Lab
 * Luciano Remes, University of Utah
