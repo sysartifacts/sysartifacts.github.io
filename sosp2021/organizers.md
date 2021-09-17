@@ -76,7 +76,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Mohammed Hashim Mukhtar Abdalla, University Of Khartoum
 * Nirmal Prajapati, Los Alamos National Lab
 * Oleksii Oleksenko, TU Dresden
-* Osama Ahmed Mahgoub Ahmed, University of Khartoum
 * Qinghao Hu, Nanyang Technological University
 * Quanlu Zhang, Microsoft Research
 * Rodrigo Bruno, INESC-ID Lisbon / Técnico - University of Lisbon
