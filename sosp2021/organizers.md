@@ -16,8 +16,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 
 ## Artifact Evaluation Committee
  
-* Ahmed Alhassan, University of Khartoum
-* Ali Shakiba, Vali-e-Asr University of Rafsanjan
 * Ajay Brahmakshatriya, Massachusetts Institute of Technology
 * Aman Goel, University of Michigan
 * Amit Samanta, University of Utah
@@ -27,7 +25,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Ariel Szekely, MIT
 * Bogdan Alexandru Stoica, University of Chicago
 * ByeongKeon Lee, KAIST
-* Calin Iorgulescu, Oracle Labs Switzerland
 * Chenxingyu Zhao, University of Washington
 * Chunfeng Du, Xiamen University
 * Daniel Tang, University of Luxembourg
@@ -43,13 +40,11 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Hongzheng Chen, Cornell University
 * Huaicheng Li, CMU
 * Hugo Lefeuvre, The University of Manchester
-* Iacovos G. Kolokasis, University of Crete & ICS-FORTH
 * Ian Neal, University of Michigan
 * Iman Vakilinia, University of North Florida
 * Isaac Sheff, MPI-SWS
 * Jashwant RAJ Gunasekaran, Penn State/ Adobe
 * Jiacheng Ma, University of Michigan
-* Jiachen Liu, University of Michigan
 * Jiang Jianyu, The University of Hong Kong
 * Jian Zhang, Rutgers University
 * Jiawen Liu, University of California, Merced
@@ -57,7 +52,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Jie Ren, University of California, Merced
 * Jisu Ok, KAIST
 * Joao Carreira, Purdue University
-* João Leitão, NOVA University of Lisbon
 * Joshua A. Bockenek, Virginia Tech
 * Kaicheng Yang, Peking University
 * Kenta Ishiguro, Keio University
@@ -65,7 +59,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Lianmin Zheng, UC Berkeley
 * Lingfang Zeng, Zhejiang Lab
 * Luciano Remes, University of Utah
-* Matheus Barbosa, University of Sao Paulo
 * Matthew Burke, Cornell University
 * Matthew Forshaw, Newcastle University / The Alan Turing Institute
 * Md Ashfaqur Rahaman, University of Utah
@@ -73,8 +66,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Michael Giardino, ETH Zürich
 * Miguel Felipe Silva Vasconcelos, Universidade de São Paulo/Université Grenoble Alpes
 * Mingyu Li, Shanghai Jiao Tong University
-* Mohammed Hashim Mukhtar Abdalla, University Of Khartoum
-* Nirmal Prajapati, Los Alamos National Lab
 * Oleksii Oleksenko, TU Dresden
 * Qinghao Hu, Nanyang Technological University
 * Quanlu Zhang, Microsoft Research
@@ -84,7 +75,6 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Saheed Olayemi Bolarinwa, University of Technology, Vienna
 * Sergey Madaminov, Stony Brook University
 * Seung-seob Lee, Yale University
-* Shehbaz Jaffer, University of Toronto
 * Shih-Wei Li, National Taiwan University
 * Shiwu Lo, Chung-Cheng University
 * Shu (Lynn) Liu, University of Wisconsin - Madison
