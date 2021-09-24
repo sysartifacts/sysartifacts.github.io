@@ -90,7 +90,7 @@ Contact the AEC chairs at [sosp21-aec-chairs@mpi-sws.org](mailto:sosp21-aec-chai
 * Shu (Lynn) Liu, University of Wisconsin - Madison
 * Siyuan Chai, UIUC
 * Solal Pirelli, EPFL
-* Sreeja S Nair, Sorbonne University
+* Sreeja S Nair, Sorbonne University and ADLINK Technology Inc., France
 * Sruthi P C, Purdue University
 * Sudheesh Singanamalla, University of Washington
 * Tianxiang Shen, The University of Hong Kong
