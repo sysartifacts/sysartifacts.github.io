@@ -1,0 +1,189 @@
+---
+available_html: '<img src="/images/acm_available_1.1.png" alt="Artifacts Available (v1.1)" width="50px">'
+functional_html: '<img src="/images/acm_functional_1.1.png" alt="Artifacts Evaluated - Functional (v1.1)" width="50px">'
+reproduced_html: '<img src="/images/acm_reproduced_1.1.png" alt="Results Reproduced (v1.1)" width="50px">'
+artifacts:
+
+  - title: "Boki: Stateful Serverless Computing with Shared Logs"
+    github_url: "https://github.com/ut-osa/boki-benchmarks"
+    badges: Available, Functional, Reproduced
+
+  - title: "Understanding and Detecting Software Upgrade Failures in Distributed Systems"
+    github_url: "https://github.com/jwjwyoung/DUPChecker"
+    additional_urls:
+      - "https://github.com/Zhuqi1108/DUPTester"
+    jupyter_url: "https://github.com/jwjwyoung/RecentUpgradeFailureStudy"
+    vm_url: "http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY"
+    badges: Available, Functional, Reproduced
+    
+  - title: "Gradient Compression Supercharged High-Performance Data Parallel DNN Training"
+    github_url: "https://gitlab.com/hipress/hipress"
+    badges: Available, Functional, Reproduced
+
+  - title: "Verifying a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
+    github_url: "https://github.com/VeriGu/sosp-paper211-ae"
+    proof_url: "https://github.com/VeriGu/sosp-paper211-ae-proof"
+    additional_urls:
+      - "https://github.com/VeriGu/usenix-ae-linux"
+      - "https://github.com/VeriGu/vct-qemu"
+    badges: Available, Functional, Reproduced
+
+  - title: "iGUARD: In-GPU Advanced Race Detection"
+    github_url: "https://github.com/csl-iisc/iGUARD"
+    badges: Available, Functional, Reproduced
+
+  - title: "Forerunner: Constraint-based Speculative Transaction Execution for Ethereum"
+    github_url: "https://github.com/microsoft/Forerunner/"
+    badges: Available, Functional, Reproduced
+
+  - title: "Crash Consistent Non-Volatile Memory Express"
+    github_url: "https://github.com/thustorage/ccnvme"
+    badges: Available, Functional, Reproduced
+
+  - title: "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism"
+    github_url: "https://github.com/casys-kaist/LineFS"
+    badges: Available, Functional, Reproduced
+
+  - title: "When Idling is Ideal: Optimizing Tail-Latency for Highly-Dispersed Datacenter Workloads with Perséphone"
+    github_url: "https://github.com/maxdml/psp"
+    jupyter_url: "https://github.com/maxdml/psp/blob/master/sosp_aec/aec.ipynb"
+    badges: Available, Functional, Reproduced
+
+  - title: "Exploiting Nil-Externality for Fast Replicated Storage"
+    bitbucket_url: "https://bitbucket.org/aganesan4/skyros/"
+    data_url: "https://zenodo.org/record/5520021"
+    badges: Available, Functional, Reproduced
+
+  - title: "Rabia: Simplifying State-Machine Replication Through Randomization"
+    github_url: "https://github.com/haochenpan/rabia/"
+    cloudlab_url: "https://www.cloudlab.us/show-profile.php?uuid=1af34047-fb02-11eb-84f8-e4434b2381fc"
+    badges: Available, Functional, Reproduced
+
+  - title: "Coeus: A system for oblivious document ranking and retrieval"
+    github_url: "https://github.com/ishtiyaque/Coeus_artifact"
+    badges: Available, Functional, Reproduced
+
+  - title: "FragPicker: A New Defragmentation Tool for Modern Storage Devices"
+    github_url: "https://github.com/jonggyup/FragPicker"
+    badges: Available, Functional, Reproduced
+
+  - title: "J-NVM: Off-heap Persistent Objects in Java"
+    github_url: "https://github.com/jnvm-project/jnvm"
+    badges: Available, Functional, Reproduced
+
+  - title: "Basil: Breaking up BFT with ACID (transactions)"
+    github_url: "https://github.com/fsuri/SOSP21_artifact_eval"
+    cloudlab_url: "https://www.cloudlab.us/p/morty/SOSP108"
+    badges: Available, Functional, Reproduced
+
+  - title: "Scale and Performance in a Filesystem Semi-Microkernel"
+    web_url: "https://research.cs.wisc.edu/adsl/Software/uFS/"
+    github_url: "https://github.com/WiscADSL/uFS"
+    badges: Available, Functional, Replicated
+
+  - title: "HeMem: Scalable Tiered Memory Management for Big Data Applications and Real NVM"
+    bitbucket_url: "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/"
+    badges: Available, Functional, Replicated
+
+  - title: "IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage"
+    bitbucket_url: "https://github.com/huaicheng/IODA-SOSP21-AE"
+    badges: Available, Functional, Replicated
+
+  - title: "BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks"
+    github_url: "https://github.com/hku-systems/bidl"
+    badges: Available, Functional, Replicated
+
+  - title: "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale"
+    github_url: "https://github.com/sslab-gatech/Rudra-Artifacts"
+    badges: Available, Functional, Replicated
+
+  - title: "MIND: In-Network Memory Management for Disaggregated Data Centers"
+    github_url: "https://github.com/shsym/mind"
+    badges: Available, Functional, Replicated
+      
+  - title: "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy"
+    github_url: "https://github.com/karannewatia/Mycelium"
+    badges: Available, Functional, Replicated
+
+  - title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
+    github_url: "https://github.com/stanford-futuredata/POP"
+    badges: Available, Functional, Replicated
+
+  - title: "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage"
+    github_url: "https://github.com/ucbrise/snoopy"
+    badges: Available, Functional, Replicated
+
+  - title: "WineFS: a hugepage-aware file system for persistent memory that ages gracefully"
+    github_url: "https://github.com/rohankadekodi/WineFS"
+    badges: Available, Functional, Replicated
+
+  - title: "Caracal: Contention Management with Deterministic Concurrency Control"
+    github_url: "https://github.com/uoft-felis/felis"
+    badges: Available, Functional, Replicated
+
+  - title: "dSpace: Composable Abstractions for Smart Spaces"
+    github_url: "https://github.com/digi-project/sosp21-artifact"
+    badges: Available, Functional
+
+  - title: "The Aurora Single Level Store Operating System"
+    web_url: "https://rcs.uwaterloo.ca/aurora/"
+    github_url: "https://github.com/rcslab/aurora-12.1/"
+    scripts_url: "https://github.com/rcslab/aurora-bench/"
+    additional_urls:
+      - "https://github.com/rcslab/aurora/"
+    badges: Available, Functional
+
+  - title: "HEALER: Relation Learning Guided Kernel Fuzzing"
+    github_url: "https://github.com/SunHao-0/healer"
+    badges: Available, Functional
+
+  - title: "Random Walks on Huge Graphs at Cache Efficiency"
+    github_url: "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae"
+    badges: Available, Functional
+
+  - title: "Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair"
+    github_url: "https://github.com/rcstor/rcstor"
+    badges: Available, Functional
+
+  - title: "Kauri: Scalable BFT Consensus with Pipelined Tree-Based Dissemination and Aggregation"
+    github_url: "https://github.com/Raycoms/Kauri-Public"
+    badges: Available, Functional
+
+  - title: "Kangaroo: Caching Billions of Tiny Objects on Flash"
+    github_url: "https://github.com/saramcallister/Kangaroo"
+    additional_urls:
+      - "https://github.com/saramcallister/CacheLib-1"
+    badges: Available, Functional
+
+  - title: "Witcher: Systematic Crash Consistency Testing for Non-Volatile Memory Key-Value Stores"
+    github_url: "https://github.com/cosmoss-vt/witcher"
+    badges: Available, Functional
+
+  - title: "PACTree: A High Performance Persistent Range Index Using PAC Guidelines"
+    github_url: "https://github.com/cosmoss-vt/pactree"
+    badges: Available, Functional
+
+  - title: "Automated SmartNIC Offloading Insights for Network Functions"
+    github_url: "https://github.com/824728350/Clara"
+    badges: Available, Functional
+
+  - title: "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis"
+    github_url: "https://github.com/rssys/snowboard"
+    badges: Available, Functional
+
+  - title: "CLoF: A Compositional Lock Framework for Multi-level NUMA Systems"
+    badges: Functional, Reproduced
+
+  - title: "Regular Sequential Serializability and Regular Sequential Consistency"
+    github_url: "https://github.com/jmhelt/tapir/tree/spanner"
+    additional_urls:
+      - "https://github.com/princeton-sns/gryff/tree/rs"
+    badges: Available
+
+  - title: "The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter Systems"
+    github_url: "https://github.com/demikernel/demikernel"
+    cloudlab_url: "https://www.cloudlab.us/p/Demeter/testing-pair/9"
+    additional_urls:
+      - "https://github.com/demikernel/echo"
+      - "https://github.com/demikernel/demikernel/tree/osdi-legacy-code"
+    badges: Available
