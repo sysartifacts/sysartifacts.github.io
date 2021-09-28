@@ -79,47 +79,47 @@ artifacts:
   - title: "Scale and Performance in a Filesystem Semi-Microkernel"
     web_url: "https://research.cs.wisc.edu/adsl/Software/uFS/"
     github_url: "https://github.com/WiscADSL/uFS"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced 
 
   - title: "HeMem: Scalable Tiered Memory Management for Big Data Applications and Real NVM"
     bitbucket_url: "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage"
     bitbucket_url: "https://github.com/huaicheng/IODA-SOSP21-AE"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks"
     github_url: "https://github.com/hku-systems/bidl"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale"
     github_url: "https://github.com/sslab-gatech/Rudra-Artifacts"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "MIND: In-Network Memory Management for Disaggregated Data Centers"
     github_url: "https://github.com/shsym/mind"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
       
   - title: "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy"
     github_url: "https://github.com/karannewatia/Mycelium"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
     github_url: "https://github.com/stanford-futuredata/POP"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage"
     github_url: "https://github.com/ucbrise/snoopy"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "WineFS: a hugepage-aware file system for persistent memory that ages gracefully"
     github_url: "https://github.com/rohankadekodi/WineFS"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "Caracal: Contention Management with Deterministic Concurrency Control"
     github_url: "https://github.com/uoft-felis/felis"
-    badges: Available, Functional, Replicated
+    badges: Available, Functional, Reproduced
 
   - title: "dSpace: Composable Abstractions for Smart Spaces"
     github_url: "https://github.com/digi-project/sosp21-artifact"
