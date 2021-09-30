@@ -8,7 +8,7 @@ sidebar:
 
 ## Description of the Artifact
 
-The Snoopy (SOSP 2021) artifact locates at https://github.com/ucbrise/snoopy under the Apache v2 license.
+The Snoopy (SOSP 2021) artifact locates at <https://github.com/ucbrise/snoopy> under the Apache v2 license.
 
 Snoopy is a novel oblivious storage system that scales similarly to a plaintext storage system. Experiments show that Snoopy can scale out horizontally, and performs at least 10x faster than state-of-the-art oblivious systems.
 

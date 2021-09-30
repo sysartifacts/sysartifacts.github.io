@@ -8,8 +8,8 @@ sidebar:
 
 ## Description of the Artifact
 
-The artifact is available at https://github.com/cosmoss-vt/pactree,
-commit 88e6ada507b077f2b8032df3ba61b31379d36733.
+The artifact is available at <https://github.com/cosmoss-vt/pactree>,
+commit `88e6ada507b077f2b8032df3ba61b31379d36733`.
 
 In the artifact, the authors provide the source code, the documentation, and an example of the PacTree.
 
