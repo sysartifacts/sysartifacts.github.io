@@ -146,6 +146,7 @@ artifacts:
   - title: "Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair"
     github_url: "https://github.com/rcstor/rcstor"
     badges: Available, Functional
+    summary: rcstor
 
   - title: "Kauri: Scalable BFT Consensus with Pipelined Tree-Based Dissemination and Aggregation"
     github_url: "https://github.com/Raycoms/Kauri-Public"
