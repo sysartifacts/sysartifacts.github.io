@@ -47,6 +47,7 @@ sidebar:
       {%- endfor -%}
   {%- endif -%}
 | {%- if artifact.summary -%}
+    [Summary](summaries/{{ artifact.summary }}.html)
   {%- else -%}
     *To be posted*
   {%- endif -%}
