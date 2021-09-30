@@ -112,6 +112,7 @@ artifacts:
   - title: "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage"
     github_url: "https://github.com/ucbrise/snoopy"
     badges: Available, Functional, Reproduced
+    summary: snoopy
 
   - title: "WineFS: a hugepage-aware file system for persistent memory that ages gracefully"
     github_url: "https://github.com/rohankadekodi/WineFS"
