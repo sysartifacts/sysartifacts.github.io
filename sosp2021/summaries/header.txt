@@ -1,0 +1,7 @@
+---
+layout: single
+title: "Artifact Review Summary: [TITLE]"
+sidebar:
+    title: 'SOSP 2021'
+    nav: sosp2021toc
+---
