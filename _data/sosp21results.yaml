@@ -164,6 +164,7 @@ artifacts:
   - title: "PACTree: A High Performance Persistent Range Index Using PAC Guidelines"
     github_url: "https://github.com/cosmoss-vt/pactree"
     badges: Available, Functional
+    summary: pactree
 
   - title: "Automated SmartNIC Offloading Insights for Network Functions"
     github_url: "https://github.com/824728350/Clara"
