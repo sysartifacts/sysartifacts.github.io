@@ -36,6 +36,7 @@ artifacts:
   - title: "Forerunner: Constraint-based Speculative Transaction Execution for Ethereum"
     github_url: "https://github.com/microsoft/Forerunner/"
     badges: Available, Functional, Reproduced
+    summary: forerunner
 
   - title: "Crash Consistent Non-Volatile Memory Express"
     github_url: "https://github.com/thustorage/ccnvme"
