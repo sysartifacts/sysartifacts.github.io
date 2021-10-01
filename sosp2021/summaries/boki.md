@@ -30,7 +30,7 @@ Others created the EC2 instance on their own. The EC2 instance was based on the 
 
 Any of the pre-mentioned instances serves as a **controller machine** in the cluster that hosts all the serverless experiments. `config.json` in each experiment folder determines what kind of cluster should be created for the evaluation. 
 
-## Step-By-Step Instructions to Excercise the Artifact
+## Step-By-Step Instructions to Exercise the Artifact
 1. Setting up the controller machine.
 
 - For an author-provided environment, the authors granted reviewers access to the instance by acknowledging public keys. The instance had pre-installed all required packages. Therefore, no extra operations are required for evaluation.

@@ -15,7 +15,7 @@ Snoopy is a novel oblivious storage system that scales similarly to a plaintext 
 This artifact includes all the necessary instructions for building and installing Snoopy locally. The authors also have provided highly automatic scripts for reproducing the experimental results on Azure. A good feature of these scripts is that they can generate side-by-side figures for readers to compare the reproduced results and the paper's results with a lot of ease.
 
 
-## Envrionment(s) Used for Testing
+## Environment(s) Used for Testing
 
 Snoopy can be built and run locally using a 64-bit machine/VM running Ubuntu 18.04 LTS. Since the experiments require multiple machines for testing with scalability, it is recommended to use the cloud resources, such as the Azure clusters used by the authors.
 
@@ -30,7 +30,7 @@ For the ease of reproducing the paper results, the authors provide an Azure clie
 Note that although the techniques used in Snoopy do not depend on Azure, its current implementation uses [OpenEnclave](https://github.com/openenclave/openenclave), which relies on Azure's provisioned remote attestation.
 
 
-## Step-By-Step Instructions to Excercise the Artifact
+## Step-By-Step Instructions to Exercise the Artifact
 
 An evaluator can easily follow the authors' instructions on how to provision the Azure VMs, generate the baseline numbers, perform the experiments, obtain the results, and finally shut down the provisioned VMs. These steps provided by the authors are clear and concise.
 
