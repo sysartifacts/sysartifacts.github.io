@@ -45,6 +45,7 @@ artifacts:
   - title: "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism"
     github_url: "https://github.com/casys-kaist/LineFS"
     badges: Available, Functional, Reproduced
+    summary: "linefs"
 
   - title: "When Idling is Ideal: Optimizing Tail-Latency for Highly-Dispersed Datacenter Workloads with Perséphone"
     github_url: "https://github.com/maxdml/psp"
