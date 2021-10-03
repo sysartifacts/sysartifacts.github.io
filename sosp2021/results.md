@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Results
+classes: wide
 sidebar:
     title: 'SOSP 2021'
     nav: sosp2021toc
