@@ -140,6 +140,7 @@ artifacts:
   - title: "HEALER: Relation Learning Guided Kernel Fuzzing"
     github_url: "https://github.com/SunHao-0/healer"
     badges: Available, Functional
+    summary: "healer"
 
   - title: "Random Walks on Huge Graphs at Cache Efficiency"
     github_url: "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae"
