@@ -177,6 +177,7 @@ artifacts:
   - title: "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis"
     github_url: "https://github.com/rssys/snowboard"
     badges: Available, Functional
+    summary: snowboard
 
   - title: "CLoF: A Compositional Lock Framework for Multi-level NUMA Systems"
     badges: Functional, Reproduced
