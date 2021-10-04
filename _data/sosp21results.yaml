@@ -32,6 +32,7 @@ artifacts:
   - title: "iGUARD: In-GPU Advanced Race Detection"
     github_url: "https://github.com/csl-iisc/iGUARD"
     badges: Available, Functional, Reproduced
+    summary: iguard
 
   - title: "Forerunner: Constraint-based Speculative Transaction Execution for Ethereum"
     github_url: "https://github.com/microsoft/Forerunner/"
