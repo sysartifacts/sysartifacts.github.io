@@ -10,9 +10,10 @@ artifacts:
     summary: boki
 
   - title: "Understanding and Detecting Software Upgrade Failures in Distributed Systems"
-    github_url: "https://github.com/jwjwyoung/DUPChecker"
+    github_url: "https://github.com/zlab-purdue/ds-upgrade"
     additional_urls:
-      - "https://github.com/Zhuqi1108/DUPTester"
+      - "https://github.com/jwjwyoung/DUPChecker"
+      - "https://gitlab.dsrg.utoronto.ca/zhuqi/DUPTester"
     jupyter_url: "https://github.com/jwjwyoung/RecentUpgradeFailureStudy"
     vm_url: "http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY"
     badges: Available, Functional, Reproduced
