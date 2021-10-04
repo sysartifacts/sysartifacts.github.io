@@ -61,6 +61,7 @@ artifacts:
     github_url: "https://github.com/haochenpan/rabia/"
     cloudlab_url: "https://www.cloudlab.us/show-profile.php?uuid=1af34047-fb02-11eb-84f8-e4434b2381fc"
     badges: Available, Functional, Reproduced
+    summary: rabia
 
   - title: "Coeus: A system for oblivious document ranking and retrieval"
     github_url: "https://github.com/ishtiyaque/Coeus_artifact"
