@@ -167,6 +167,7 @@ artifacts:
   - title: "Witcher: Systematic Crash Consistency Testing for Non-Volatile Memory Key-Value Stores"
     github_url: "https://github.com/cosmoss-vt/witcher"
     badges: Available, Functional
+    summary: witcher
 
   - title: "PACTree: A High Performance Persistent Range Index Using PAC Guidelines"
     github_url: "https://github.com/cosmoss-vt/pactree"
