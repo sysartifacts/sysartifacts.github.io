@@ -17,6 +17,7 @@ artifacts:
     jupyter_url: "https://github.com/jwjwyoung/RecentUpgradeFailureStudy"
     vm_url: "http://nas.dsrg.utoronto.ca:8080/share.cgi?ssid=0Sa7AQ1&fbclid=IwAR2XxgwGi34aP7m-LgnevZBrN4PBW9KRcnTItEtWTNX0s2XpUVP2m3PZykY"
     badges: Available, Functional, Reproduced
+    summary: duptester
     
   - title: "Gradient Compression Supercharged High-Performance Data Parallel DNN Training"
     github_url: "https://gitlab.com/hipress/hipress"
