@@ -103,6 +103,7 @@ artifacts:
   - title: "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale"
     github_url: "https://github.com/sslab-gatech/Rudra-Artifacts"
     badges: Available, Functional, Reproduced
+    summary: rudra
 
   - title: "MIND: In-Network Memory Management for Disaggregated Data Centers"
     github_url: "https://github.com/shsym/mind"
