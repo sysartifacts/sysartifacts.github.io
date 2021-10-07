@@ -107,6 +107,7 @@ artifacts:
   - title: "MIND: In-Network Memory Management for Disaggregated Data Centers"
     github_url: "https://github.com/shsym/mind"
     badges: Available, Functional, Reproduced
+    summary: mind
       
   - title: "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy"
     github_url: "https://github.com/karannewatia/Mycelium"
