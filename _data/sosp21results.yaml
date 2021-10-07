@@ -133,6 +133,7 @@ artifacts:
   - title: "dSpace: Composable Abstractions for Smart Spaces"
     github_url: "https://github.com/digi-project/sosp21-artifact"
     badges: Available, Functional
+    summary: dspace
 
   - title: "The Aurora Single Level Store Operating System"
     web_url: "https://rcs.uwaterloo.ca/aurora/"
