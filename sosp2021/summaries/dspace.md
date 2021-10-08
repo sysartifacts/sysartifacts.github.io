@@ -53,8 +53,7 @@ Special notes to excercise the artifact:
 - To run benchmarks, do not forget modify the `REPO` in `benchmarks/digis/Makefile` (if you use your own docker repo)
 - In mocks/lamp/deploy/cr.yaml, the value for brightness should be map like `intent: 0.8`, and the value for power should be `intent: "off"`
 - Use old version of kopf, i.e., `pip install kopf==0.28.3`
-
-
+- In benchmarks/digis/measure/deploy/cr.yaml, should use "name: \{\{ .Values.name \}\}" instead of name: "\\\{\\\{ .Values.name \\\}\\\}"
 
 ## How The Artifact Supports The Paper
 
