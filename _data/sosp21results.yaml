@@ -182,6 +182,7 @@ artifacts:
   - title: "Automated SmartNIC Offloading Insights for Network Functions"
     github_url: "https://github.com/824728350/Clara"
     badges: Available, Functional
+    summary: clara
 
   - title: "Snowboard: Finding Kernel Concurrency Bugs through Systematic Inter-thread Communication Analysis"
     github_url: "https://github.com/rssys/snowboard"
