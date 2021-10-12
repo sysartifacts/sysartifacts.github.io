@@ -169,6 +169,7 @@ artifacts:
     additional_urls:
       - "https://github.com/saramcallister/CacheLib-1"
     badges: Available, Functional
+    summary: kangaroo
 
   - title: "Witcher: Systematic Crash Consistency Testing for Non-Volatile Memory Key-Value Stores"
     github_url: "https://github.com/cosmoss-vt/witcher"
