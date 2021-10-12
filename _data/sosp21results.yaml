@@ -44,6 +44,7 @@ artifacts:
   - title: "Crash Consistent Non-Volatile Memory Express"
     github_url: "https://github.com/thustorage/ccnvme"
     badges: Available, Functional, Reproduced
+    summary: ccnvme
 
   - title: "LineFS: Efficient SmartNIC Offload of a Distributed File System with Pipeline Parallelism"
     github_url: "https://github.com/casys-kaist/LineFS"
