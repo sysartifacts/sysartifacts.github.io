@@ -131,7 +131,10 @@ artifacts:
 
   - title: "Caracal: Contention Management with Deterministic Concurrency Control"
     github_url: "https://github.com/uoft-felis/felis"
+    additional_urls:
+       - "https://github.com/uoft-felis/felis-controller"
     badges: Available, Functional, Reproduced
+    summary: caracal
 
   - title: "dSpace: Composable Abstractions for Smart Spaces"
     github_url: "https://github.com/digi-project/sosp21-artifact"
