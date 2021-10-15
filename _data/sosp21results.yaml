@@ -70,6 +70,7 @@ artifacts:
   - title: "Coeus: A system for oblivious document ranking and retrieval"
     github_url: "https://github.com/ishtiyaque/Coeus_artifact"
     badges: Available, Functional, Reproduced
+    summary: coeus
 
   - title: "FragPicker: A New Defragmentation Tool for Modern Storage Devices"
     github_url: "https://github.com/jonggyup/FragPicker"
