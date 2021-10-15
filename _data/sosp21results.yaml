@@ -197,6 +197,7 @@ artifacts:
 
   - title: "CLoF: A Compositional Lock Framework for Multi-level NUMA Systems"
     badges: Functional, Reproduced
+    summary: clof
 
   - title: "Regular Sequential Serializability and Regular Sequential Consistency"
     github_url: "https://github.com/jmhelt/tapir/tree/spanner"
