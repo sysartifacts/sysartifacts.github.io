@@ -150,6 +150,7 @@ artifacts:
     additional_urls:
       - "https://github.com/rcslab/aurora/"
     badges: Available, Functional
+    summary: aurora
 
   - title: "HEALER: Relation Learning Guided Kernel Fuzzing"
     github_url: "https://github.com/SunHao-0/healer"
