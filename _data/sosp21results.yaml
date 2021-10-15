@@ -30,6 +30,7 @@ artifacts:
       - "https://github.com/VeriGu/usenix-ae-linux"
       - "https://github.com/VeriGu/vct-qemu"
     badges: Available, Functional, Reproduced
+    summary: verigu
 
   - title: "iGUARD: In-GPU Advanced Race Detection"
     github_url: "https://github.com/csl-iisc/iGUARD"
