@@ -90,6 +90,7 @@ artifacts:
     web_url: "https://research.cs.wisc.edu/adsl/Software/uFS/"
     github_url: "https://github.com/WiscADSL/uFS"
     badges: Available, Functional, Reproduced 
+    summary: ufs
 
   - title: "HeMem: Scalable Tiered Memory Management for Big Data Applications and Real NVM"
     bitbucket_url: "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/"
