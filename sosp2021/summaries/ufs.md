@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Artifact Review Summary: "Scale and Performance in a Filesystem Semi-Microkernel"
+title: "Artifact Review Summary: Scale and Performance in a Filesystem Semi-Microkernel"
 sidebar:
     title: 'SOSP 2021'
     nav: sosp2021toc
