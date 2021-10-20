@@ -161,6 +161,7 @@ artifacts:
   - title: "Random Walks on Huge Graphs at Cache Efficiency"
     github_url: "https://github.com/flashmobwalk/flashmob/tree/sosp21-ae"
     badges: Available, Functional
+    summary: flashmob
 
   - title: "Geometric Partitioning: Explore the Boundary of Optimal Erasure Code Repair"
     github_url: "https://github.com/rcstor/rcstor"
