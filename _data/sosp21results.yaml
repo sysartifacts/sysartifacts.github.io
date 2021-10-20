@@ -207,6 +207,7 @@ artifacts:
     additional_urls:
       - "https://github.com/princeton-sns/gryff/tree/rs"
     badges: Available
+    summary: rss-rsc
 
   - title: "The Demikernel Library OS Architecture for Microsecond, Kernel-Bypass Datacenter Systems"
     github_url: "https://github.com/demikernel/demikernel"
