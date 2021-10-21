@@ -81,6 +81,7 @@ artifacts:
   - title: "J-NVM: Off-heap Persistent Objects in Java"
     github_url: "https://github.com/jnvm-project/jnvm"
     badges: Available, Functional, Reproduced
+    summary: jnvm
 
   - title: "Basil: Breaking up BFT with ACID (transactions)"
     github_url: "https://github.com/fsuri/SOSP21_artifact_eval"
