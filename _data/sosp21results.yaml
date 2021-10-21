@@ -219,3 +219,4 @@ artifacts:
       - "https://github.com/demikernel/echo"
       - "https://github.com/demikernel/demikernel/tree/osdi-legacy-code"
     badges: Available
+    summary: demikernel
