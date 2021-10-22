@@ -123,6 +123,7 @@ artifacts:
   - title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
     github_url: "https://github.com/stanford-futuredata/POP"
     badges: Available, Functional, Reproduced
+    summary: pop
 
   - title: "Snoopy: Surpassing the Scalability Bottleneck of Oblivious Storage"
     github_url: "https://github.com/ucbrise/snoopy"
