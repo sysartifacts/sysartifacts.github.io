@@ -97,6 +97,7 @@ artifacts:
   - title: "HeMem: Scalable Tiered Memory Management for Big Data Applications and Real NVM"
     bitbucket_url: "https://bitbucket.org/ajaustin/hemem/src/sosp-submission/"
     badges: Available, Functional, Reproduced
+    summary: hemem
 
   - title: "IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage"
     bitbucket_url: "https://github.com/huaicheng/IODA-SOSP21-AE"
