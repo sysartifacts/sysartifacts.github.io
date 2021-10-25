@@ -25,6 +25,7 @@ artifacts:
   - title: "Gradient Compression Supercharged High-Performance Data Parallel DNN Training"
     github_url: "https://gitlab.com/hipress/hipress"
     badges: Available, Functional, Reproduced
+    summary: hipress
     doi: "10.1145/3477132.3483553"
 
   - title: "Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
