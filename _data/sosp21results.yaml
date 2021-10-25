@@ -27,7 +27,7 @@ artifacts:
     badges: Available, Functional, Reproduced
     doi: "10.1145/3477132.3483553"
 
-  - title: "Verifying a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
+  - title: "Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
     github_url: "https://github.com/VeriGu/sosp-paper211-ae"
     proof_url: "https://github.com/VeriGu/sosp-paper211-ae-proof"
     additional_urls:

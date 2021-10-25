@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Artifact Review Summary: [Verifying a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
+title: "Artifact Review Summary: Formal Verification of a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware"
 sidebar:
     title: 'SOSP 2021'
     nav: sosp2021toc
