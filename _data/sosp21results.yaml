@@ -124,7 +124,6 @@ artifacts:
     bitbucket_url: "https://github.com/huaicheng/IODA-SOSP21-AE"
     additional_urls:
       - "https://asciinema.org/a/431726"
-
     badges: Available, Functional, Reproduced
     summary: ioda
     doi: "10.1145/3477132.3483573"
@@ -132,6 +131,7 @@ artifacts:
   - title: "BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks"
     github_url: "https://github.com/hku-systems/bidl"
     badges: Available, Functional, Reproduced
+    summary: bidl
     doi: "10.1145/3477132.3483574"
 
   - title: "Rudra: Finding Memory Safety Bugs in Rust at the Ecosystem Scale"
@@ -148,6 +148,7 @@ artifacts:
       
   - title: "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy"
     github_url: "https://github.com/karannewatia/Mycelium"
+    summary: mycelium
     badges: Available, Functional, Reproduced
     summary: mycelium
     doi: "10.1145/3477132.3483585"
