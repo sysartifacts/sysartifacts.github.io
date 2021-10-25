@@ -120,7 +120,11 @@ artifacts:
 
   - title: "IODA: A Host/Device Co-Design for Strong Predictability Contract on Modern Flash Storage"
     bitbucket_url: "https://github.com/huaicheng/IODA-SOSP21-AE"
+    additional_urls:
+      - "https://asciinema.org/a/431726"
+
     badges: Available, Functional, Reproduced
+    summary: ioda
     doi: "10.1145/3477132.3483573"
 
   - title: "BIDL: A High-throughput, Low-latency Permissioned Blockchain Framework for Datacenter Networks"
