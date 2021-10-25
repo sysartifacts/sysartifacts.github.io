@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 This paper presents three key artifacts listed all under <https://github.com/zlab-purdue/ds-upgrade>:

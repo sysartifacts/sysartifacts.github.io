@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 # Description of the Artifact
 The paper proposes FlashMob, a modern CPU cache optimized implementation of the random walk algorithm. The key idea is to exploit the data locality through careful partitioning, rearranging, and batching of operations commonly present within the graph while performing random walks.  FlashMob achieves an order of magnitude overall performance improvement over existing systems like GraphVite and KightKing on 5 real-world graph datasets with 2 random walk algorithms- node2vec and deepwalk.
 

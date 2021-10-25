@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 This paper introduces the _semi-microkernel_ architecture for storage systems -- aka a "filesystem as a process", and evaluates it using a user-level filesystem called uFS, which consists of a server built atop Intel's SPDK system, and a client library linked into applications that communicates with the server via IPC.

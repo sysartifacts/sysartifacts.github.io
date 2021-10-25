@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact contained the CLoF source code, benchmarks and dependencies, and scripts to reproduce Figures 1, 2, 3, 8, 9, and Table 1 from the paper.

@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact is hosted in the [Github repo](https://github.com/shsym/mind), and it can reproduce figures 6, 7, 8, 9 in the paper. The artifact includes the following:

@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The Snoopy (SOSP 2021) artifact locates at <https://github.com/ucbrise/snoopy> under the Apache v2 license.

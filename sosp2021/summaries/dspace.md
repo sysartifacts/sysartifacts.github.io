@@ -5,7 +5,8 @@ sidebar:
     title: 'SOSP 2021'
     nav: sosp2021toc
 ---
- 
+
+{% include_relative _result-header.html %}
 
 ## Description of the Artifact
 

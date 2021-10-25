@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 RCStor is open-sourced at <https://github.com/rcstor/rcstor>
 

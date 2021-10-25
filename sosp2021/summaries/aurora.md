@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 Aurora homepage is available at <https://rcs.uwaterloo.ca/aurora/>
