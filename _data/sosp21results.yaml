@@ -73,6 +73,7 @@ artifacts:
     bitbucket_url: "https://bitbucket.org/aganesan4/skyros/"
     data_url: "https://zenodo.org/record/5520021"
     badges: Available, Functional, Reproduced
+    summary: skyros
     doi: "10.1145/3477132.3483543"
 
   - title: "Rabia: Simplifying State-Machine Replication Through Randomization"
