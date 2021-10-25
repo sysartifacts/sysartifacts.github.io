@@ -24,6 +24,8 @@ sidebar:
       <td>
         {% if artifact.url %}
           [{{artifact.title}}]({{artifact.url}})
+        {% elsif artifact.doi %}
+          <a href="{{site.data.sosp21results.baseurl}}{{artifact.doi}}">{{artifact.title}}</a>
         {% else %}
           {{ artifact.title }}
         {% endif %}
