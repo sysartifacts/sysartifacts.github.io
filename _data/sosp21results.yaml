@@ -104,6 +104,7 @@ artifacts:
     github_url: "https://github.com/fsuri/SOSP21_artifact_eval"
     cloudlab_url: "https://www.cloudlab.us/p/morty/SOSP108"
     badges: Available, Functional, Reproduced
+    summary: basil
     doi: "10.1145/3477132.3483552"
 
   - title: "Scale and Performance in a Filesystem Semi-Microkernel"
