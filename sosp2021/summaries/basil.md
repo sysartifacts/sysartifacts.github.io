@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The github repo contains a prototype implementation of Basil, a replicated Byzantine Fault Tolerant key-value store offering interactive transactions and sharding. The prototype uses cryptographically secure hash functions and signatures for all replicas, but does not sign client requests on any of the evaluated prototype systems. The prototype simulates Byzantine Clients failing via Stalling or Equivocation, and is robust to both. The authors had provided details steps to install all tool dependencies and necessary environment setup, script to execute results and compare against related approaches.

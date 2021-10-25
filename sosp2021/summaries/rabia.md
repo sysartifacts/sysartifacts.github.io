@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 Links: [Artifact Location](https://github.com/haochenpan/rabia/), [Artifact Readme](https://github.com/haochenpan/rabia/blob/main/SOSP21_%20Artifact%20Evaluation_Instructions.pdf)

@@ -5,6 +5,9 @@ sidebar:
     title: 'SOSP 2021'
     nav: sosp2021toc
 ---
+
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The submitted artifact is a fork of an open-source implementation of Viewstamped Replication that implements Skyros. It also includes instructions and scripts for running the experiments from the paper on an AWS cluster.

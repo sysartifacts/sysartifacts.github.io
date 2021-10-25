@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact for the paper "Verifying a Multiprocessor Hypervisor on Arm Relaxed Memory Hardware" consists of the following repositories on GitHub:

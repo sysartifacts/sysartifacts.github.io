@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 This artifact contains several microbenchmarks for separated system components, including homomorphic encryption, zero-knowledge proof, onion routing, and committee election. This artifact does not provide an end-to-end implementation of Mycelium, but this is coherent with the evaluation setup in the paper. The artifact provides graph scripts to directly generate the figures in the paper.

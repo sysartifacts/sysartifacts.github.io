@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact is located in <https://github.com/ut-osa/boki-benchmarks>. The correct version of the artifact is in the `main` branch. According to the authors, this repository includes source code of evaluation workloads of Boki, and scripts for running experiments. It includes all materials for the artifact evaluation of the SOSP '21 paper `Boki: Stateful Serverless Computing with Shared Logs`.

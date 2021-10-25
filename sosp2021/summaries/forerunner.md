@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact includes Forerunner source code (forked from go-ethereum), scripts, and Ethereum data. The source code is available at <https://github.com/microsoft/Forerunner>. The execution script is available at <https://github.com/microsoft/Forerunner/tree/master/evaluation/executionScripts>, and the evaluation script is available at <https://github.com/microsoft/Forerunner/tree/master/evaluation/perfScripts>. The authors also provide Ethereum workload data from 03/12/2021 to 03/22/2021, which can be downloaded from <https://github.com/microsoft/Forerunner/blob/master/evaluation/Introduction%20of%20Evaluation.md>. 

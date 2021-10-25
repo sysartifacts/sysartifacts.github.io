@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact consists of the two GitHub links to the systems that demonstrate *Regular Sequential Serializability* and *Regular Sequential Consistency*:

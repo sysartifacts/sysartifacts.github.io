@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The code of the project is publicly available on github, as well as the instructions for running the experiments (in their cluster or to configure your local environment).

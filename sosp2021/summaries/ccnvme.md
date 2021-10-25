@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The [artifact](https://github.com/thustorage/ccnvme) includes a detailed [guide](https://github.com/thustorage/ccnvme/blob/main/README.md) to building an experimental environment including

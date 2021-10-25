@@ -6,6 +6,8 @@ sidebar:
     nav: sosp2021toc
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 HeMem is implemented as a userland library in Linux. Performance is evaluated using GUPS microbenchmarks as well as three application benchmarks (TPC-C on Silo, FlexKVS key value store, and GapBS a graph processing suite).
