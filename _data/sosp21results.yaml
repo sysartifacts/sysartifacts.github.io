@@ -216,6 +216,7 @@ artifacts:
   - title: "Kauri: Scalable BFT Consensus with Pipelined Tree-Based Dissemination and Aggregation"
     github_url: "https://github.com/Raycoms/Kauri-Public"
     badges: Available, Functional
+    summary: kauri
     doi: "10.1145/3477132.3483584"
 
   - title: "Kangaroo: Caching Billions of Tiny Objects on Flash"
