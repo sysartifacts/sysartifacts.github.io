@@ -149,6 +149,7 @@ artifacts:
   - title: "Mycelium: Large-Scale Distributed Graph Queries with Differential Privacy"
     github_url: "https://github.com/karannewatia/Mycelium"
     badges: Available, Functional, Reproduced
+    summary: mycelium
     doi: "10.1145/3477132.3483585"
 
   - title: "Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP"
