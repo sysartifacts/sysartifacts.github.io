@@ -1,0 +1,69 @@
+<div>
+{% for artifact in site.data.sosp21results.artifacts %}
+    {% if artifact.summary and page.name contains artifact.summary %}
+        <h2>Artifact Details</h2>
+        <ul>
+          <li>
+            {% if artifact.url %}
+              <a href="{{artifact.url}}">Paper</a>
+            {% elsif artifact.doi %}
+              <a href="{{site.data.sosp21results.baseurl}}{{artifact.doi}}">Paper in ACM Digital Library</a>
+            {% endif %}
+          </li>
+          {% if artifact.web_url %}
+            <li><a href="{{artifact.web_url}}">Web</a></li>
+          {% endif %} {% if artifact.github_url %}
+            <li><a href="{{artifact.github_url}}">GitHub</a></li>
+          {% endif %} {% if artifact.bitbucket_url %}
+            <li><a href="{{artifact.bitbucket_url}}">Bitbucket</a></li>
+          {% endif %} {% if artifact.data_url %}
+            <li><a href="{{artifact.data_url}}">Data</a></li>
+          {% endif %} {% if artifact.jupyter_url %}
+            <li><a href="{{artifact.jupyter_url}}">Jupyter&nbsp;Notebook</a></li>
+          {% endif %} {% if artifact.proof_url %}
+            <li><a href="{{artifact.proof_url}}">Proofs</a></li>
+          {% endif %} {% if artifact.vm_url %}
+            <li><a href="{{artifact.vm_url}}">VM&nbsp;Image</a></li>
+          {% endif %} {% if artifact.cloudlab_url %}
+            <li><a href="{{artifact.cloudlab_url}}">CloudLab&nbsp;Profile</a></li>
+          {% endif %} {% if artifact.scripts_url %}
+            <li><a href="{{artifact.scripts_url}}">Scripts</a></li>
+          {% endif %} {% if artifact.additional_urls %}
+            {% for url in artifact.additional_urls %}
+              <li><a href="{{url}}">Additional&nbsp;Resources</a></li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+
+        <h2>Badges Awarded</h2>
+        <table>
+          <thead>
+            <tr>
+              {% if artifact.badges contains "Available" %}
+                <td>Artifact Available</td>
+              {% endif %}
+              {% if artifact.badges contains "Functional" %}
+                <td>Artifact Functional</td>
+              {% endif %}
+              {% if artifact.badges contains "Reproduced" %}
+                <td>Results Reproduced</td>
+              {% endif %}
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              {% if artifact.badges contains "Available" %}
+                <td align="center">{{ site.data.sosp21results.available_html }}</td>
+              {% endif %}
+              {% if artifact.badges contains "Functional" %}
+                <td align="center">{{ site.data.sosp21results.functional_html }}</td>
+              {% endif %}
+              {% if artifact.badges contains "Reproduced" %}
+                <td align="center">{{ site.data.sosp21results.reproduced_html }}</td>
+              {% endif %}
+            </tr>
+          </tbody>
+        </table>
+    {% endif %}
+{% endfor %}
+</div>
