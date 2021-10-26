@@ -92,6 +92,7 @@ artifacts:
   - title: "FragPicker: A New Defragmentation Tool for Modern Storage Devices"
     github_url: "https://github.com/jonggyup/FragPicker"
     badges: Available, Functional, Reproduced
+    summary: fragpicker
     doi: "10.1145/3477132.3483593"
 
   - title: "J-NVM: Off-heap Persistent Objects in Java"
