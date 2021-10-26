@@ -139,6 +139,7 @@ artifacts:
     github_url: "https://github.com/sslab-gatech/Rudra-Artifacts"
     badges: Available, Functional, Reproduced
     summary: rudra
+    award: yes
     doi: "10.1145/3477132.3483570"
 
   - title: "MIND: In-Network Memory Management for Disaggregated Data Centers"

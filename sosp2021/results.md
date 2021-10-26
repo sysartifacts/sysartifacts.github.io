@@ -46,7 +46,9 @@ sidebar:
         {% endif %}
       </td>
       <td>
-        {% if artifact.web_url %}
+        {% if artifact.award %}
+          <b>Distinguished&nbsp;Artifact</b><br>
+        {% endif %} {% if artifact.web_url %}
           <a href="{{artifact.web_url}}">Web</a><br>
         {% endif %} {% if artifact.github_url %}
           <a href="{{artifact.github_url}}">GitHub</a><br>

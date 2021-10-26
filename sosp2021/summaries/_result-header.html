@@ -64,6 +64,10 @@
             </tr>
           </tbody>
         </table>
+        {% if artifact.award %}
+        <h2>Award</h2>
+        <b><i>Winner of the SOSP 2021 Distinguished Artifact Award</i></b>
+        {% endif %}
     {% endif %}
 {% endfor %}
 </div>
