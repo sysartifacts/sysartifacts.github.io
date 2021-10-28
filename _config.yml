@@ -20,6 +20,8 @@ conferences:
       ae:
         - year: 2021
           location: eurosys2021
+        - year: 2022
+          location: eurosys2022
     - name: OSDI
       ae:
         - year: 2020

@@ -1,0 +1,24 @@
+---
+available_html: '<img src="/images/acm_available_1.1.png" alt="Artifacts Available (v1.1)" width="50px">'
+functional_html: '<img src="/images/acm_functional_1.1.png" alt="Artifacts Evaluated - Functional (v1.1)" width="50px">'
+reproduced_html: '<img src="/images/acm_reproduced_1.1.png" alt="Results Reproduced (v1.1)" width="50px">'
+baseurl: "https://dl.acm.org/doi/"
+artifacts:
+
+# Sample
+#  - title: ""
+#    github_url: ""
+#    additional_urls:
+#      - "URL"
+#    jupyter_url: "URL"
+#    vm_url: ""
+#    proof_url: ""
+#    web_url: ""
+#    bitbucket_url: ""
+#    data_url: ""
+#    cloudlab_url: ""
+#    scripts_url: ""
+#    badges: Available, Functional, Reproduced
+#    summary: filename
+#    doi: "10.1145/####.###"
+#    award: "yes/no"
