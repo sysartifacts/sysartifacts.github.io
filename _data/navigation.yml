@@ -3,6 +3,8 @@ main:
     url: eurosys.html
   - title: OSDI
     url: osdi.html
+  - title: SC
+    url: sc.html
   - title: SOSP
     url: sosp.html
 
@@ -59,6 +61,18 @@ eurosys2021toc:
     url: eurosys2021/committee.html
   - title: 'Results'
     url: eurosys2021/results.html
+
+sc2021toc:
+- title: 'Evaluation'
+  url: sc2021/index.html
+- title: 'Call for Artifacts & Badges'
+  url: https://sc21.supercomputing.org/submit/reproducibility-initiative/ad-ae-appendix-process-badges/
+- title: 'Organizers'
+  url: sc2021/organizers.html
+- title: 'Results'
+  url: sc2021/results.html
+- title: 'Report'
+  url: sc2021/report.html
 
 confyeartoc:
   - title: 'Artifact Evaluation'
