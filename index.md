@@ -20,6 +20,6 @@ This website collects resources and results around artifact evaluation for compu
 
 ## Resources
 
-- [Badges and their criteria](/badges)
-- [Help for authors](/help-authors)
-- [Help for evaluators](/help-evaluators)
+- [Badges and their criteria](/resources/v1/badges)
+- [Help for authors](/resources/v1/help-authors)
+- [Help for evaluators](/resources/v1/help-evaluators)
