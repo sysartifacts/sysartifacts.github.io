@@ -23,3 +23,6 @@ This website collects resources and results around artifact evaluation for compu
 - [Badges and their criteria](/resources/v1/badges)
 - [Help for authors](/resources/v1/help-authors)
 - [Help for evaluators](/resources/v1/help-evaluators)
+
+_Resources were compiled by Solal Pirelli with input from (in alphabetical order)
+Anjo Vahldiek-Oberwagner, Colin Gordon, Hernan Ponce de Leon, Manuel Rigger, Mark Mansi, Romain Jacob, and Sam Grayson._
