@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Call for Artifact Evaluation Committee Members
 sidebar:
     title: 'EuroSys 2022'
@@ -7,7 +8,7 @@ sidebar:
 ---
 
 We are looking for members of the Artifact Evaluation Committee (AEC), who will
-contribute to EuroSys’ [Artifact Evaluation](call.html) (AE) process by
+contribute to EuroSys' [Artifact Evaluation](call.html) (AE) process by
 reviewing submitted artifacts. AEC membership is especially suitable for
 researchers early in their career, such as PhD students. Even as a first-year
 PhD student, you are welcome to join the AEC, provided you are working in a

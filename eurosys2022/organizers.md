@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Organizers
 sidebar:
     title: 'EuroSys 2022'
