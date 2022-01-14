@@ -77,14 +77,18 @@ sc2021toc:
 eurosys2022toc:
   - title: 'Evaluation'
     url: eurosys2022/index.html
-  - title: 'Call for Artifacts'
-    url: eurosys2022/call.html
-  - title: 'Call for AEC Members'
-    url: eurosys2022/aec-call.html
-  - title: 'Organizers'
-    url: eurosys2022/organizers.html
   - title: 'Badges'
     url: eurosys2022/badges.html
+  - title: 'Call for Artifacts'
+    url: eurosys2022/call.html
+  - title: 'Submission instructions'
+    url: eurosys2022/instructions.html
+  - title: 'Tips'
+    url: eurosys2022/tips.html
+  - title: 'Organizers'
+    url: eurosys2022/organizers.html
+  - title: 'Call for AEC Members'
+    url: eurosys2022/aec-call.html
   - title: 'Results'
     url: eurosys2022/results.html
   - title: 'Report'

@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Results
 classes: wide
+title: Results
 sidebar:
     title: 'EuroSys 2022'
     nav: eurosys2022toc
