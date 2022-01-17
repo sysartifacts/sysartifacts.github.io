@@ -38,7 +38,7 @@ must be reachable and respond to questions in a timely manner during the evaluat
 
 ## Registration and Submission
 
-Please submit your artifacts to [HotCRP](#) and follow the two-step process:
+Please submit your artifacts to [HotCRP](https://eurosys22ae.hotcrp.com/) and follow the two-step process:
 
 1. *Registration:* Register your accepted paper for artifact evaluation by providing the paper's abstract and PDF.
 
