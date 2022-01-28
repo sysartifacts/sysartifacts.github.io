@@ -3,13 +3,248 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Research Artifact Evaluation @ SOSP 2019</title>
-<link rel="stylesheet" type="text/css" href="/index_files/css-buttons.css">
-<link rel="stylesheet" type="text/css" href="/index_files/course.css">
+<style>
+/* ***********************************
+
+     notestips.com (c) copyright 2003
+     TYPE	: Stylesheet
+     TITLE	: css-buttons
+     DESC	: "Mike Golding's Buttons" in pure CSS v2.0
+     AUTHOR	: Mike Golding
+	  
+	  PLEASE LEAVE THIS NOTICE INTACT
+
+   *********************************** */
+
+/* ORIGINAL BUTTON STYLING (v1.0) - FIXED SIZE */	
+#css-buttons ul{list-style: none;margin: 0 0 10px 0;padding: 0;}   
+#css-buttons li{border: 1px solid #333; margin: 5px 0 0 20px; width:112px;}
+#css-buttons li a{color: white; text-decoration: none;}
+
+.css-button {
+display:block;
+font: 10px verdana, arial, sans-serif;
+padding: 2px 0px 2px 0px; border: 1px solid white;
+text-decoration: none; width:110px;
+background: #ccc;color: #fff;
+}
+ 
+.css-button span {
+font: bold 10px verdana, arial, sans-serif;
+padding: 2px 3px 2px 3px; color: #fff;
+}
+
+
+
+
+
+/* VARIATION BUTTON STYLING (v2.0) - SIZABLE SIZE */
+#css-buttons2 ul{list-style: none;margin: 0 0 10px 0;padding: 0;}
+#css-buttons2 li{border: 1px solid #999; margin: 5px 0 0 20px; width:9.0em;}
+head:first-child+body #css-buttons2 li{padding-right:2px;}
+#css-buttons2 li a{color: #333; text-decoration: none;}
+
+.css-button2 {
+display:block;
+font: 0.8em verdana, arial, sans-serif;
+padding: 2px 0 2px 0px; border: 1px solid white;
+text-decoration: none; width:100%;
+background: #ddd;color: #333;
+}
+
+.css-button2 span {
+font: bold 1.0em verdana, arial, sans-serif;
+padding: 2px 3px 2px 3px; color: #fff;
+}  
+
+
+
+/* BUTTON LOGO STYLING */
+.rss span{background:#f60;}
+.geo span{background:#093; font-style:italic;}
+.fun span{background:#5ACE29;}
+.res span{background:#A857E6;}
+.blogdex span{background:#b20d1c;}
+.nd6 span{background:#ffbf18; color:#e26200;}
+.nd5 span{background:#ffbf18; color:#e26200;}
+.lotus span{background:#fc0; color:#000;}
+.ibm span{background:#069;}
+.openntf span{background:#79A9D2;}
+.dominoblog span{background:#3DB6D9;}
+.domblog span{background:#FFA548;}
+.freedomblog span{background:#EC8D00; color:red;}
+.blogsphere span{background:#0066B1;}
+.mt span{background:#069;}
+.amazon span{background:#f90;color:black;font: bold 1.1em helvetica, arial, Sans-Serif;}
+.paypal span{background:#eaf7fc;color:#244873;font-style:italic;}
+.paypal2{font: bold 10px helvetica, arial, Sans-Serif;}
+.w3c span {background: #fff; color: #069; font: bold 1.1em helvetica, arial, Sans-Serif;}
+.w3c2{background: #fc6;color: black !important;}
+</style>
+<style>
+body, td, th { font: 10pt Verdana, Tahoma, Sans-Serif; color: black; }
+h1           { font-size: 16pt; }
+h2           { font-size: 13pt; }
+h3           { font-size: 11pt; }
+hr           { color: silver; height: 3px; }
+body         { background: white; }
+a            { text-decoration: none; color: chocolate; font-weight:bold; }
+a:visited    { color: chocolate; }
+a:hover      { text-decoration: underline; color: chocolate; }
+.headline    { font-size: 11pt; }
+td.design    { background-color: silver; font-size: 1pt; width: 3px; }
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+#banner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: no-repeat top center;
+	margin: 10px;
+	width: 310px; /* picture width */
+	height: 170px; /* picture height */
+}
+#header {
+	margin-left: 330px; /* picture width */
+	min-height: 170px; /* picture height */
+	position: relative;
+	border-left: 3px solid #bbb;
+	padding-left: 10px;
+	max-width: 800px;
+}
+
+#header #details {
+	max-width: 800px;
+	padding: 0;
+	padding-left: 5px;
+}
+
+#header #michlogo {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#nav {
+	position: relative;
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+	border-right: 3px solid #bbb;
+	text-align: right;
+	width: 9em;
+}
+#nav a {
+	display: block;
+	padding: 0.5em;
+	border: 1px solid #fff;
+	margin: 0;
+	margin-right: 2px;
+}
+#nav a.selected {
+	background: #eee;
+	border-color: chocolate;
+}
+#nav a:hover {
+	text-decoration: none;
+	color: chocolate;
+}
+#nav a.good:hover {
+	background: lightgray;
+	border: 1px solid #696969;
+}
+
+#content {
+	max-width: 840px;
+	padding: 0;
+	margin-left: 10em;
+	padding-left: 5px;
+	text-align: justify;
+	margin-top: 2em;
+}
+
+#abstract_box {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	z-index: 100;
+	width: 40%;
+	background: #66a;
+	color: #fff;
+	overflow: auto;
+	padding: 1em;
+	margin: 0;
+	text-align: justify;
+	visibility: hidden;
+}
+
+.alist {
+	border-spacing: 4px;
+	width: 100%;
+}
+.alist th {
+	border-right: 3px solid #bbb;
+	text-align: right;
+	padding-right: 0.7em;
+	width: 11em;
+}
+.alist td.heading {
+	border: 1px solid;
+}
+.alist td.indent1 { 
+  background-color: #cde;
+}
+.alist td.indent2 { 
+  border: 1px dashed;
+  padding-left: 2em;
+}
+.alist .empty {
+	height: 1.5em;
+}
+.alist td.paper {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.alist .hltablerow:hover {
+	background: #eee;
+	cursor: default;
+	margin-bottom: 10em;
+}
+
+#css-buttons2 { position: fixed; bottom: 0; left: 0; margin: 2px; }
+#css-buttons2 li { margin-left: 0; }
+
+.results {
+  	border: 1px solid black;
+	border-spacing: 4px;
+	border-collapse: collapse;
+	width: 85%;
+}
+.results td {
+	border: 1px solid;
+	padding: 5px;
+	border-spacing: 2px;
+	border-collapse: collapse;
+	width: 30%;
+	text-align: left;
+}
+/* hacks to get IE to screw up less than usual */
+* html #header { width: 600px; }
+* html #content { width: 800px; }
+* html #header { height: 140px; }
+* html #css-buttons2 { position: absolute; }
+* html #nav li { border: 1px solid #fff; }
+</style>
 </head>
 <body>
 
 <div id="abstract_box">x</div>
-<div id="banner" style="background-image: url(/images/rube-goldberg.jpg)"></div>
+<div id="banner" style="background-image: url({{ site.baseurl }}/sosp2019/rube-goldberg.jpg)"></div>
 <div id="header">
   <div id="details">
      <h1>Research Artifact Evaluation @ SOSP 2019</h1>
@@ -28,13 +263,13 @@
 
 <hr style="height:0px">
 <ul id="nav">
-<li><a id="home" class="good" href="/sosp2019/index.html">Home</a></li>
-<li><a id="goals" class="good" href="/sosp2019/goals.html">Goals</a></li>
-<li><a id="organizers" class="good" href="/sosp2019/organizers.html">Organizers</a></li>
-<li><a id="badging" class="good" href="/sosp2019/badges.html">ACM Badges</a></li>
-<li><a id="instructions" class="good" href="/sosp2019/instructions.html">Instructions</a></li>
-<li><a id="Results" class="good" href="/sosp2019/results.html">Results</a></li>
-<li><a id="Report" class="good" href="/sosp2019/report.html">Final Report</a></li>
+<li><a id="home" class="good" href="{{ site.baseurl }}/sosp2019/index.html">Home</a></li>
+<li><a id="goals" class="good" href="{{ site.baseurl }}/sosp2019/goals.html">Goals</a></li>
+<li><a id="organizers" class="good" href="{{ site.baseurl }}/sosp2019/organizers.html">Organizers</a></li>
+<li><a id="badging" class="good" href="{{ site.baseurl }}/sosp2019/badges.html">ACM Badges</a></li>
+<li><a id="instructions" class="good" href="{{ site.baseurl }}/sosp2019/instructions.html">Instructions</a></li>
+<li><a id="Results" class="good" href="{{ site.baseurl }}/sosp2019/results.html">Results</a></li>
+<li><a id="Report" class="good" href="{{ site.baseurl }}/sosp2019/report.html">Final Report</a></li>
 </ul>
 
 <div id="content">

@@ -1,0 +1,48 @@
+{% comment %} Modified version of the minimal-mistakes original, which is Copyright (c) 2013-2020 Michael Rose and contributors and released under the MIT license {% endcomment %}
+
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+
+{% comment %} This is the modified part: use site.conferences and some trickery instead of an explicit site.data.navigation.main {% endcomment %}
+{% for conf in site.conferences %}
+  {% assign conf_depth = conf.path | split:"/" | size %}
+  {% if conf_depth == 2 %}
+    {% assign conf_folder = conf.path | remove: conf.ext %}
+    {% if page.path contains conf_folder %}
+      {% assign this_conf = conf.title %}
+      {% assign this_year = page.path | remove:conf_folder | split:"/" | first %}
+    {% endif %}
+    <li class="masthead__menu-item">
+      <a href="{{ conf.url | relative_url }}"{% if link.description %} title="{{ conf.title }}"{% endif %}>{{ conf.title }}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
