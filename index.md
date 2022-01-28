@@ -1,16 +1,29 @@
 ---
-layout: single
 title: Systems Research Artifacts
 ---
-Goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
+
+The goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
 usable software systems as well as to validate the results of the accepted papers.
 
 This website collects resources and results around artifact evaluation for computer systems conferences.
 
 ## Conference Artifact Evaluations
 
-{% assign sorted_conferences = site.conferences | sort: 'name' %}
-{% for c in sorted_conferences %}
-**{{c.name}}**: {% assign sorted_ae = c.ae | sort: 'year' | reverse %}
-[{{sorted_ae[0].year}}]({{sorted_ae[0].location}}){% for ae in sorted_ae offset:1 %}, [{{ae.year}}]({{ae.location}}){% endfor %}
+{% for p in site.conferences %}
+  {% assign depth = p.path | split:"/" | size %}
+  {% if depth == 2 %}
+
+  {% assign conf_base_path = p.path | remove:p.ext %}
+  {% assign years = site.conferences | where_exp:"conf","conf.path contains p.slug" | where_exp:"conf","conf != p" | group_by_exp:"conf","conf.path | remove:conf.slug | remove:conf.ext" | sort:"name" | reverse %}
+
+**{{ p.title }}**:
+{% for year in years %}
+  {%- assign year_depth = year.name | split:"/" | size -%}
+  {%- if year_depth == 2 -%}
+  {%- assign year_number = year.name | remove:conf_base_path | remove:"/" -%}
+    [{{ year_number }}]({{ conf_base_path | remove:"_conferences" | append:year_number | relative_url }})&nbsp;
+  {%- endif -%}
+{% endfor %}
+
+  {% endif %}
 {% endfor %}

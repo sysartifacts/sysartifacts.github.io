@@ -1,40 +1,24 @@
 repository: 'sysartifacts/sysartifacts.github.io'
 url: "https://sysartifacts.github.io"
+
 markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
-- jekyll-redirect-from # see https://docs.github.com/en/enterprise/2.13/user/articles/redirects-on-github-pages
-- jekyll-include-cache
-exclude:
-- Gemfile
-- Gemfile.lock
-remote_theme: "mmistakes/minimal-mistakes@4.19.3"
+  - jekyll-redirect-from # see https://docs.github.com/en/enterprise/2.13/user/articles/redirects-on-github-pages
+  - jekyll-include-cache # required by the minimal-mistakes theme
 
-description: Systems Research Artifacts
-
-# variables, accessible via site.xxx in the templates
-# NB: --watch will not pick up changes here, so jekyll must be restarted
 title: Systems Research Artifacts # Can we find a better name?
 
-conferences:
-    - name: EuroSys
-      ae:
-        - year: 2021
-          location: eurosys2021
-        - year: 2022
-          location: eurosys2022
-    - name: OSDI
-      ae:
-        - year: 2020
-          location: osdi2020
-        - year: 2021
-          location: osdi2021
-    - name: SC
-      ae:
-        - year: 2021
-          location: sc2021
-    - name: SOSP
-      ae:
-        - year: 2019
-          location: sosp2019
-        - year: 2021
-          location: sosp2021
+# Make stuff in _conferences accessible from /
+collections:
+  conferences:
+    output: true
+    permalink: /:path
+
+# Apply the default layout to all files (= empty path)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      classes: "wide"

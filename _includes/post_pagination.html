@@ -1,0 +1,19 @@
+{% comment %} Instead of prev/next, we hijack this to provide years for conference pages {% endcomment %}<!DOCTYPE html>
+
+{% assign page_folder = page.path | remove:page.slug | remove:page.ext %}
+{% assign page_depth = page.path | split:"/" | size %}
+
+{% if page.path contains "_conferences" and page_depth == 2 %}
+  <h2>Artifact Evaluations</h2>
+  <ul>
+    {% assign conf_base_path = page.path | remove:page.ext %}
+    {% assign years = site.conferences | where_exp:"conf","conf.path contains page.slug" | where_exp:"conf","conf != page" | group_by_exp:"conf","conf.path | remove:conf.slug | remove:conf.ext" | sort_by:"slug" | reverse %}
+    {% for year in years %}
+      {% assign year_depth = year.name | split:"/" | size %}
+      {% if year_depth == 2 %}
+        {% assign year_number = year.name | remove:conf_base_path | remove:"/" %}
+        <li><a href="{{ page.url | append:year_number | relative_url }}">{{ year_number }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}

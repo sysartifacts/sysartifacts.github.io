@@ -1,0 +1,37 @@
+{% comment %} Override the sidebar, loosely based on the original one to keep the CSS working, which is Copyright (c) 2013-2020 Michael Rose and contributors and released under the MIT license {% endcomment %}
+
+{% assign page_folder = page.path | remove:page.slug | remove:page.ext %}
+{% assign page_depth = page.path | split:"/" | size %}
+
+{% if page.path contains "_conferences" and page_depth == 3 %}
+  {% assign this_conf = "" %}
+  {% assign this_year = "" %}
+  {% for conf in site.conferences %}
+    {% assign conf_depth = conf.path | split:"/" | size %}
+    {% if conf_depth == 2 %}
+      {% assign conf_folder = conf.path | remove: conf.ext %}
+      {% if page.path contains conf_folder %}
+        {% assign this_conf = conf.title %}
+        {% assign this_year = page.path | remove:conf_folder | split:"/" | first %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <div class="sidebar sticky">
+    <nav class="nav__list">
+      <h3 class="nav__title" style="padding-left: 0;">{{ this_conf }} {{ this_year }}</h3>
+      <input id="ac-toc" name="accordion-toc" type="checkbox" />
+      <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+      <ul class="nav__items">
+        {% assign ordered_conferences = site.conferences | sort: "order" %}
+        {% for conf in ordered_conferences %}
+          {% assign conf_depth = conf.path | split:"/" | size %}
+          {% if conf.path contains page_folder and conf_depth == 3 %}
+            <li>
+              <a href="{{ conf.url | relative_url }}"><span class="nav__sub-title">{{ conf.title }}</span></a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+{% endif %}
