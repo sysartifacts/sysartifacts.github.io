@@ -4,14 +4,14 @@ The [sysartifacts website](https://sysartifacts.github.io/) hosts the artifact e
 While initially for SOSP'19, the website was generalized to also host the AEs for other systems conferences.
 As part of the generalization we changed from static HTML pages to a Jekyll-rendered site.
 This process is integrated into GitHub Pages.
-This repository includes the sources for Jekyll to render the html pages.
+This repository includes the sources for Jekyll to render the HTML pages.
 
 
-## Contributing to Sysartifacts
+## Contributing
 
-Please fork the [github repository](https://github.com/sysartifacts/sysartifacts.github.io),
+Please fork the [GitHub repository](https://github.com/sysartifacts/sysartifacts.github.io),
 make your changes, and submit them via a pull request.
-In the PR please describe your changes and any reasons for the change.
+In the PR please describe your changes and any reasons for the changes.
 Once reviewed it will be merged and available on the sysartifacts website.
 
 
@@ -25,7 +25,7 @@ This will lead to creating `atc.html` when rendered.
 Adapt this page to your conference name by changing the title and text (e.g. change `OSDI` to `ATC`).
 
 
-## Adding another Artifact Evaluation year to an existing Conference
+## Adding another year to an existing conference
 
 Start from an existing conference year such as `eurosys2022`, by
 copy-pasting its existing folder in `_conferences` to your new folder.
