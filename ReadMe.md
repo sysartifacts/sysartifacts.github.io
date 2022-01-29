@@ -14,6 +14,10 @@ make your changes, and submit them via a pull request.
 In the PR please describe your changes and any reasons for the changes.
 Once reviewed it will be merged and available on the sysartifacts website.
 
+You have two options to preview changes: configure your forked repository on GitHub to use your
+branch for GitHub Pages and view it at `your_username.github.io/sysartifacts.github.io`,
+or install Jekyll and Bundler locally then run `bundle exec jekyll serve` at the root of the repository.
+
 
 ## Adding an additional conference
 
