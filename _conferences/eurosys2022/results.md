@@ -7,6 +7,7 @@ functional_img: "acm_functional_1.1.png"
 functional_name: "Artifacts Evaluated - Functional (v1.1)"
 reproduced_img: "acm_reproduced_1.1.png"
 reproduced_name: "Results Reproduced (v1.1)"
+award_name: EuroSys 2022 Distinguished Artifact Award
 
 artifacts:
 
@@ -207,7 +208,6 @@ artifacts:
     paper_url: "10.1145/3492321.3524272"
     artifact_url: "10.5281/zenodo.6374411"
     repository_url: "https://github.com/DivyanshuSaxena/Medes"
-    summary: "example_summary"
 ---
 
 <table>

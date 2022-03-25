@@ -1,15 +1,27 @@
+{% comment %}
+
+This magic works as long as the "title" attribute of each summary page exactly matches the corresponding paper title in the "results" page metadata.
+You do not need to modify anything on this page when porting to a new conference unless you wish to change this template.
+
+{% endcomment %}
+
+{% assign url_parts = page.url | split: "/" %}
+{% assign results_url = url_parts[1] | append: "/results" | prepend: "/" %}
+{% assign data = site.conferences | where:"url",results_url | first %}
+
 <div>
-{% assign data = data %}
   {% for artifact in data.artifacts %}
-    {% if artifact.summary and page.title contains artifact.summary %}
+    {% if artifact.title == page.title %}
         <h2>Artifact Details</h2>
         <ul>
           {% if artifact.award %}
-            <li><b>Distinguished&nbsp;Artifact</b><br></li>
-          {% endif %} {% if artifact.artifact_url %}
-            <li><a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a><br></li>
-          {% endif %} {% if artifact.repository_url %}
-            <li><a href="{{artifact.repository_url}}" target="_blank">Repository</a><br></li>
+            <li><b>Winner of the {{ data.award_name }}</b></li>
+          {% endif %}
+          {% if artifact.artifact_url %}
+            <li><a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a></li>
+          {% endif %}
+          {% if artifact.repository_url %}
+            <li><a href="{{artifact.repository_url}}" target="_blank">Repository</a></li>
           {% endif %}
         </ul>
 
@@ -42,10 +54,6 @@
             </tr>
           </tbody>
         </table>
-        {% if artifact.award %}
-        <h2>Award</h2>
-        <b><i>Winner of the EuroSys 2022 Distinguished Artifact Award</i></b>
-        {% endif %}
     {% endif %}
 {% endfor %}
 </div>
