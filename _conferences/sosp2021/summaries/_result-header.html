@@ -1,4 +1,13 @@
-{% assign data = site.conferences | where:"url","/sosp2021/results" | first %}
+{% comment %}
+
+This magic works as long as the "summary" attribute of each summary page exactly matches the corresponding paper summary tag in the "results" page metadata.
+(EuroSys'22 used a simpler scheme with the title of both, removing the need for an extra tag; you probably want to start from that if you're deploying a new conference page)
+
+{% endcomment %}
+
+{% assign url_parts = page.url | split: "/" %}
+{% assign results_url = url_parts[1] | append: "/results" | prepend: "/" %}
+{% assign data = site.conferences | where:"url",results_url | first %}
 
 <div>
 {% for artifact in data.artifacts %}
