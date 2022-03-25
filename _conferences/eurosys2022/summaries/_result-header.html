@@ -1,37 +1,15 @@
 <div>
-{% for artifact in site.data.eurosys22results.artifacts %}
-    {% if artifact.summary and page.name contains artifact.summary %}
+{% assign data = data %}
+  {% for artifact in data.artifacts %}
+    {% if artifact.summary and page.title contains artifact.summary %}
         <h2>Artifact Details</h2>
         <ul>
-          <li>
-            {% if artifact.url %}
-              <a href="{{artifact.url}}">Paper</a>
-            {% elsif artifact.doi %}
-              <a href="{{site.data.sosp21results.baseurl}}{{artifact.doi}}">Paper in ACM Digital Library</a>
-            {% endif %}
-          </li>
-          {% if artifact.web_url %}
-            <li><a href="{{artifact.web_url}}">Web</a></li>
-          {% endif %} {% if artifact.github_url %}
-            <li><a href="{{artifact.github_url}}">GitHub</a></li>
-          {% endif %} {% if artifact.bitbucket_url %}
-            <li><a href="{{artifact.bitbucket_url}}">Bitbucket</a></li>
-          {% endif %} {% if artifact.data_url %}
-            <li><a href="{{artifact.data_url}}">Data</a></li>
-          {% endif %} {% if artifact.jupyter_url %}
-            <li><a href="{{artifact.jupyter_url}}">Jupyter&nbsp;Notebook</a></li>
-          {% endif %} {% if artifact.proof_url %}
-            <li><a href="{{artifact.proof_url}}">Proofs</a></li>
-          {% endif %} {% if artifact.vm_url %}
-            <li><a href="{{artifact.vm_url}}">VM&nbsp;Image</a></li>
-          {% endif %} {% if artifact.cloudlab_url %}
-            <li><a href="{{artifact.cloudlab_url}}">CloudLab&nbsp;Profile</a></li>
-          {% endif %} {% if artifact.scripts_url %}
-            <li><a href="{{artifact.scripts_url}}">Scripts</a></li>
-          {% endif %} {% if artifact.additional_urls %}
-            {% for url in artifact.additional_urls %}
-              <li><a href="{{url}}">Additional&nbsp;Resources</a></li>
-            {% endfor %}
+          {% if artifact.award %}
+            <li><b>Distinguished&nbsp;Artifact</b><br></li>
+          {% endif %} {% if artifact.artifact_url %}
+            <li><a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a><br></li>
+          {% endif %} {% if artifact.repository_url %}
+            <li><a href="{{artifact.repository_url}}" target="_blank">Repository</a><br></li>
           {% endif %}
         </ul>
 
@@ -39,27 +17,27 @@
         <table>
           <thead>
             <tr>
-              {% if artifact.badges contains "Available" %}
+              {% if artifact.badges contains "available" %}
                 <td>Artifact Available</td>
               {% endif %}
-              {% if artifact.badges contains "Functional" %}
+              {% if artifact.badges contains "functional" %}
                 <td>Artifact Functional</td>
               {% endif %}
-              {% if artifact.badges contains "Reproduced" %}
+              {% if artifact.badges contains "reproduced" %}
                 <td>Results Reproduced</td>
               {% endif %}
             </tr>
           </thead>
           <tbody>
             <tr>
-              {% if artifact.badges contains "Available" %}
-                <td align="center">{{ site.data.sosp21results.available_html }}</td>
+              {% if artifact.badges contains "available" %}
+                <td align="center"><img src="{{ site.baseurl }}/images/{{ data.available_img }}" alt="{{ data.available_name }}" width="50px"></td>
               {% endif %}
-              {% if artifact.badges contains "Functional" %}
-                <td align="center">{{ site.data.sosp21results.functional_html }}</td>
+              {% if artifact.badges contains "functional" %}
+                <td align="center"><img src="{{ site.baseurl }}/images/{{ data.functional_img }}" alt="{{ data.functional_name }}" width="50px"></td>
               {% endif %}
-              {% if artifact.badges contains "Reproduced" %}
-                <td align="center">{{ site.data.sosp21results.reproduced_html }}</td>
+              {% if artifact.badges contains "reproduced" %}
+                <td align="center"><img src="{{ site.baseurl }}/images/{{ data.reproduced_img }}" alt="{{ data.reproduced_name }}" width="50px"></td>
               {% endif %}
             </tr>
           </tbody>
