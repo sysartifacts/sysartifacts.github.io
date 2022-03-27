@@ -114,11 +114,17 @@ You will work with the authors to produce your review, as this is a cooperative 
 Authors are a resource you can use, exclusively through HotCRP, if you have trouble with an artifact or
 if you need more details about specific portions of an artifact.
 
+There is an example review at the end of this guide.
+
 First, (re-)read the [page on badges](badges).
 The checklists are particularly important: artifacts that meet these requirements should get the corresponding badges,
 while artifacts that do not should either justify why or not get the badges.
 If an artifact does not satisfy a checklist but the authors provide a good reason as to why they should get the badge anyway,
 use your judgment based on the definitions of the badges.
+Remember that the Artifacts Functional and Results Reproduced badges require not only running the code but also auditing it to ensure that
+(for Artifacts Functional) the code is documented and understandable, and (for Results Reproduced) the code actually does what the paper states it does.
+Merely reproducing similar output as the paper, such as performance metrics, is not enough, the artifact must actually do what it claims to do.
+You are not expected to understand every single line of code, but you should be confident that the artifact overall matches the paper's description.
 
 **Most of your time should be spent auditing artifacts, not debugging them**.
 If you run into issues such as missing dependencies, try to quickly work around them,
@@ -133,6 +139,8 @@ instead, ask the authors to automate this, or even write a script yourself if yo
 
 Once you are finished evaluating an artifact, fill in the review form and submit it.
 Your review must explain in detail why the artifact should or should not get each of the badges that the authors requested.
+You can also include additional suggestions for the authors to improve their artifacts if you have any.
+
 **Note that unlike most reviewing processes, artifact evaluation reviews are immediately sent to authors**,
 so make sure your review is polished before you submit it.
 
@@ -146,7 +154,6 @@ If you think a review is well done, don't hesitate to add a positive vote!
 If you think a review could use improvement, you can leave a negative vote and a reviewer discussion comment explaining your thoughts.
 
 ## Information about academic clouds
-
 
 All reviewers must understand the infrastructure requirements of their artifacts, to determine whether their own infrastructure is enough
 (if they have access to comparable hardware), or, if it is not, whether they can use an academic cloud offering or,
@@ -181,3 +188,51 @@ Networks include both Ethernet (up to 100Gbit) and Inifiband. The full list of C
 
 Join Cloudlab EuroSys22 AE project: https://www.cloudlab.us/signup.php?pid=AE-Eurosys-22
 Cloudlab Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=2517s
+
+
+## Example review
+
+We provide here an example review for a fictitious artifact/paper.
+This review started by copy-pasting each point from the badge checklists, then modifying the text to suit the artifact and
+starting each point with one of ✔ (= yes), ❌ (= no), or ⚠ (= yes, but has issues). For the "Results Reproduced" badges,
+if results differ from the original in any way it's good to explain how, even if the badge should be awarded.
+Remember that on HotCRP you can use Markdown for headings, lists, tables, and so on.
+
+### Artifact Available
+
+- ✔ The artifact is available on a public GitHub repository
+- ✔ The artifact has a "read me" file with a reference to the paper
+- ⚠ The artifact does not have a license that allows use for comparison purposes; this is not necessary but it would be good to have
+
+I suggest awarding the badge.
+
+### Artifact Functional
+
+- ❌ The artifact 's "read me" file is missing some information:
+  - ✔ It has a description
+  - ✔ It has compilation and running instructions
+  - ✔ It has usage instructions to run experiments
+  - ❌ It does not have a list of supported environments
+  - ❌ It does not have configuration instructions to select the client and server IPs
+  - ❌ It does not have instructions for a "minimal working example", only for full experiments on 12 machines
+- ✔ The code is well documented at both the module and class level, good job!
+- ⚠ The artifact contains all major parts described in the paper;
+     it would be good if it included the extra experiments mentioned in the paper's Limitations section as well, but this is not mandatory
+
+I hope authors can fix the issues mentioned above so that the Artifact Functional badge can be awarded.
+
+### Results Reproduced
+
+I considered the 3 claims as per the artifact appendix, except for claim #3 in which I used a different configuration file after our discussion with the authors.
+All experiments were carried out on CloudLab using the authors' profile.
+I obtained all software from the artifact's GitHub repository, commit abc0def.
+
+- ✔ The artifact has a "read me" file that documents:
+  - ✔ The exact environment the authors used
+  - ✔ The exact commands to run to reproduce each claim from the paper
+  - ⚠ The time used per claim, but not the disk space which would be nice to indicate since it is multiple GBs
+  - ✔ The scripts to reproduce claims are very well documented and correspond to what the paper states
+
+For claim 2, I obtained 4400 ops/s for the artifact and 3500 ops/s for the baseline, which is a bit lower for the artifact than what the paper claims.
+However, the key part of the claim is that the artifact is at least as fast as the baseline, not an absolute performance number, so I believe this is fine.
+I suggest awarding the badge.
