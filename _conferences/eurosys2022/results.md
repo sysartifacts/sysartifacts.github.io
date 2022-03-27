@@ -62,7 +62,6 @@ artifacts:
   - title: "KASLR in the age of MicroVMs"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519578"
-    artifact_url: ""
     repository_url: "https://github.com/bencw12/in-monitor-rando-benchmarking"
 
   - title: "OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems"
@@ -124,6 +123,11 @@ artifacts:
     paper_url: "10.1145/3492321.3519577"
     artifact_url: "10.5281/zenodo.6345733"
     repository_url: "https://github.com/StarsThu2016/LiteReconfig_AE"
+
+  - title: "DAMYSUS: Streamlined BFT Consensus Leveraging Trusted Components"
+    badges: "available,functional,reproduced"
+    paper_url: "10.1145/3492321.3519568"
+    repository_url: "https://github.com/vrahli/damysus"
 
   - title: "Optimizing the Interval-centric Distributed Computing Model for Temporal Graph Algorithms"
     badges: "available,functional"
@@ -203,12 +207,15 @@ artifacts:
     artifact_url: "10.5281/zenodo.6374411"
     repository_url: "https://github.com/DivyanshuSaxena/Medes"
 
-  - title: "Memory Deduplication for Serverless Computing with Medes"
-    badges: "available"
-    paper_url: "10.1145/3492321.3524272"
-    artifact_url: "10.5281/zenodo.6374411"
-    repository_url: "https://github.com/DivyanshuSaxena/Medes"
 ---
+
+**Submissions**: 33 out of 45 (73% of accepted papers)
+
+**Evaluation Results**:
+
+* 33 Artifact Available
+* 27 Artifact Functional
+* 20 Results Reproduced
 
 <table>
   <thead>
@@ -231,17 +238,17 @@ artifacts:
           {{ artifact.title }}
         {% endif %}
       </td>
-      <td>
+      <td width="62px">
         {% if artifact.badges contains "available" %}
           <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px">
         {% endif %}
       </td>
-      <td>
+      <td width="62px">
         {% if artifact.badges contains "functional" %}
           <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px">
         {% endif %}
       </td>
-      <td>
+      <td width="62px">
         {% if artifact.badges contains "reproduced" %}
           <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px">
         {% endif %}
