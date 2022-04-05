@@ -7,8 +7,8 @@ We are happy to report on the success of the EuroSys'22 artifact evaluation proc
 Once again, accepted papers could apply for [ACM badges](https://www.acm.org/publications/policies/artifact-review-and-badging-current) certifying
 that their artifacts are available to the public, that their code is functional for others to use, and that their results can be reproduced with their artifacts.
 
-The committee received 33 artifact submissions and awarded 33 "Artifacts Available" badges, 79% of the 42 papers; 27 "Artifacts Functional" badges, 64%;
-and 20 "Results Reproduced" badges, 48%. This is a considerable improvement over EuroSys'21 when those percentages were 55%, 47%, and 37% respectively.
+The committee received 33 artifact submissions and awarded 33 "Artifacts Available" badges, 73% of the 45 papers; 27 "Artifacts Functional" badges, 60%;
+and 20 "Results Reproduced" badges, 44%. This is a considerable improvement over EuroSys'21 when those percentages were 55%, 47%, and 37% respectively.
 Not all artifacts applied for the functional and reproduced badges.
 
 The 65 evaluators in the committee wrote 116 reviews and ~1,000 comments, totaling ~120,000 words.
