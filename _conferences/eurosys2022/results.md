@@ -7,7 +7,6 @@ functional_img: "acm_functional_1.1.png"
 functional_name: "Artifacts Evaluated - Functional (v1.1)"
 reproduced_img: "acm_reproduced_1.1.png"
 reproduced_name: "Results Reproduced (v1.1)"
-award_name: EuroSys 2022 Distinguished Artifact Award
 
 artifacts:
 
@@ -31,6 +30,7 @@ artifacts:
 
   - title: "SafePM: A Sanitizer for Persistent Memory"
     badges: "available,functional,reproduced"
+    award: "Distinguished Artifact Honorable Mention"
     paper_url: "10.1145/3492321.3519574"
     artifact_url: "10.5281/zenodo.6338745"
     repository_url: "https://github.com/mstniy/safepm"
@@ -84,6 +84,7 @@ artifacts:
 
   - title: "Isolating at the Hardware Limit with Virtines"
     badges: "available,functional,reproduced"
+    award: "Distinguished Artifact"
     paper_url: "10.1145/3492321.3519553"
     artifact_url: "10.5281/zenodo.6350453"
     repository_url: "https://github.com/virtines/wasp"
@@ -96,12 +97,14 @@ artifacts:
 
   - title: "GNNLab: A Factored System for Sample-based GNN Training over GPUs"
     badges: "available,functional,reproduced"
+    award: "Distinguished Artifact Honorable Mention"
     paper_url: "10.1145/3492321.3519557"
     artifact_url: "10.5281/zenodo.6347456"
     repository_url: "https://github.com/SJTU-IPADS/fgnn-artifacts/tree/0abc7182"
 
   - title: "VMSH: Hypervisor-agnostic Guest Overlays for VMs"
     badges: "available,functional,reproduced"
+    award: "Distinguished Artifact Honorable Mention"
     paper_url: "10.1145/3492321.3519589"
     artifact_url: "10.5281/zenodo.6337102"
     repository_url: "https://github.com/Mic92/vmsh"
@@ -255,7 +258,7 @@ artifacts:
       </td>
       <td>
         {% if artifact.award %}
-          <b>Distinguished&nbsp;Artifact</b><br>
+          <b>{{ artifact.award }}</b><br>
         {% endif %} {% if artifact.artifact_url %}
           <a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
         {% endif %} {% if artifact.repository_url %}
