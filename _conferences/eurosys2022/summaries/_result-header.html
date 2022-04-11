@@ -15,7 +15,7 @@ You do not need to modify anything on this page when porting to a new conference
         <h2>Artifact Details</h2>
         <ul>
           {% if artifact.award %}
-            <li><b>Winner of the {{ data.award_name }}</b></li>
+            <li><b>Winner of the {{ artifact.award }}</b></li>
           {% endif %}
           {% if artifact.artifact_url %}
             <li><a href="https://doi.org/{{artifact.artifact_url}}" target="_blank">Artifact</a></li>
