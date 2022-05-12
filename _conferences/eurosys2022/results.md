@@ -15,12 +15,14 @@ artifacts:
     paper_url: "10.1145/3492321.3519585"
     artifact_url: "10.5281/zenodo.6344960"
     repository_url: "https://gitlab.inria.fr/nest-public/nest-artifact"
+    summary: "nest"
 
   - title: "Improving Scalability of Database Systems by Reshaping User Parallel I/O"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519570"
     artifact_url: "10.5281/zenodo.6336004"
     repository_url: "https://github.com/NingBellWind/AppleS_Artifact"
+    summary: "reshapeio"
 
   - title: "A New Benchmark Harness for Systematic and Robust Evaluation of Streaming State Stores"
     badges: "available,functional,reproduced"
@@ -34,24 +36,28 @@ artifacts:
     paper_url: "10.1145/3492321.3519574"
     artifact_url: "10.5281/zenodo.6338745"
     repository_url: "https://github.com/mstniy/safepm"
+    summary: "safepm"
 
   - title: "Building an Efficient Key-Value Store in a Flexible Address Space"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519555"
     artifact_url: "10.5281/zenodo.6345713"
     repository_url: "https://github.com/flexible-address-space/eurosys22-artifact"
+    summary: "flexibleaddrspace"
 
   - title: "BetrFS: A Compleat File System for Commodity SSDs"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519571"
     artifact_url: "10.5281/zenodo.6345303"
     repository_url: "https://github.com/oscarlab/betrfs"
+    summary: "betrfs"
 
   - title: "PKRU-Safe: Automatically Locking Down the Heap Between Safe and Unsafe Languages"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519582"
     artifact_url: "10.5281/zenodo.6336301"
     repository_url: "https://github.com/securesystemslab/PKRU-Safe"
+    summary: "pkrusafe"
 
   - title: "Rolis: a software approach to efficiently replicating multi-core transactions"
     badges: "available,functional,reproduced"
@@ -63,24 +69,28 @@ artifacts:
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519578"
     repository_url: "https://github.com/bencw12/in-monitor-rando-benchmarking"
+    summary: "kaslrvm"
 
   - title: "OPEC: Operation-based Security Isolation for Bare-metal Embedded Systems"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519573"
     artifact_url: "10.5281/zenodo.6336200"
     repository_url: "https://github.com/XiaZhouZero/OPEC"
+    summary: "opec"
 
-  - title: "Jiffy: Statistical Multiplexing for Disaggregated Memory full strip note"
+  - title: "Jiffy: Elastic Far-Memory for Stateful Serverless Analytics."
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519587"
     artifact_url: "10.5281/zenodo.6349596"
     repository_url: "https://github.com/resource-disaggregation/jiffy-artifact"
+    summary: "jiffy"
 
   - title: "D3: A Dynamic Deadline-Driven Approach for Building Autonomous Vehicles"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519576"
     artifact_url: "10.5281/zenodo.6345350"
     repository_url: "https://github.com/erdos-project/erdos"
+    summary: "d3"
 
   - title: "Isolating at the Hardware Limit with Virtines"
     badges: "available,functional,reproduced"
@@ -88,6 +98,7 @@ artifacts:
     paper_url: "10.1145/3492321.3519553"
     artifact_url: "10.5281/zenodo.6350453"
     repository_url: "https://github.com/virtines/wasp"
+    summary: "virtines"
 
   - title: "Unicorn: Reasoning about Configurable System Performance through the lens of Causality"
     badges: "available,functional,reproduced"
@@ -101,6 +112,7 @@ artifacts:
     paper_url: "10.1145/3492321.3519557"
     artifact_url: "10.5281/zenodo.6347456"
     repository_url: "https://github.com/SJTU-IPADS/fgnn-artifacts/tree/0abc7182"
+    summary: "gnnlab"
 
   - title: "VMSH: Hypervisor-agnostic Guest Overlays for VMs"
     badges: "available,functional,reproduced"
@@ -108,29 +120,34 @@ artifacts:
     paper_url: "10.1145/3492321.3519589"
     artifact_url: "10.5281/zenodo.6337102"
     repository_url: "https://github.com/Mic92/vmsh"
+    summary: "vmsh"
 
   - title: "Kite: Lightweight Critical Service Domains full strip note"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519586"
     artifact_url: "10.5281/zenodo.6348174"
     repository_url: ""
+    summary: "kite"
 
   - title: "Characterizing the Performance of Intel Optane Persistent Memory -- A Close Look at its On-DIMM Buffering"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519556"
     artifact_url: "10.5281/zenodo.6342303"
     repository_url: "https://github.com/lingfenghsiang/Persistent-Memory-Study"
+    summary: "optane"
 
   - title: "LiteReconfig: Cost and Content Aware Reconfiguration of Video Object Detection Systems for Mobile GPUs"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519577"
     artifact_url: "10.5281/zenodo.6345733"
     repository_url: "https://github.com/StarsThu2016/LiteReconfig_AE"
+    summary: "litereconfig"
 
   - title: "DAMYSUS: Streamlined BFT Consensus Leveraging Trusted Components"
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519568"
     repository_url: "https://github.com/vrahli/damysus"
+    summary: "damysus"
 
   - title: "Optimizing the Interval-centric Distributed Computing Model for Temporal Graph Algorithms"
     badges: "available,functional"
@@ -268,10 +285,6 @@ artifacts:
       <td>
         {% if artifact.summary %}
           <a href="summaries/{{ artifact.summary }}.html">Summary</a>
-        {% else %}
-          {% if artifact.badges contains "reproduced"%}
-            <em>To be posted</em>
-          {% endif %}
         {% endif %}
       </td>
     </tr>
