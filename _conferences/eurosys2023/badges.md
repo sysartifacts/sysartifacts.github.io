@@ -18,7 +18,8 @@ which are defined in the [ACM Artifact Review and Badging policy v1.1](https://w
 ## Checklists
 
 Unfortunately, artifacts sometimes miss badges because they were not tested on a clean setup, or not documented enough, or because running experiments is too error-prone due to complex manual steps.
-Below we provide checklists for authors to minimize the risk of an artifact unnecessarily missing a badge. The checklists are borrowed from the AE process of EuroSys 2022.
+Below we provide checklists for authors to minimize the risk of an artifact unnecessarily missing a badge.
+These were prepared by the EuroSys'22 AE organizers.
 
 
 ### Artifact Available
