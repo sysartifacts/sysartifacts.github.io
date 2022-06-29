@@ -15,7 +15,7 @@ For authors, publishing an artifact can impact how easily peers can build on it,
 The AE process of EuroSys recognizes authors who invest effort to make their work reusable and reproducible by others, helping the community quickly validate and compare alternative approaches.
 This includes authors’ efforts to make their artifact publicly available, documenting and packaging their work in a way that facilitates reuse, and structuring experiments such that they can be repeated and the results reproduced by other researchers.
 
-AE is optional at EuroSys 2023.
-Authors of accepted papers have the option of submitting their artifacts shortly after the notification of their acceptance, although authors are warmly encouraged to prepare their artifacts in advance.
+AE is ***optional*** at EuroSys 2023.
+Authors of accepted papers have the option of submitting their artifacts shortly after the notification of their acceptance, although authors are encouraged to prepare their artifacts in advance.
 Each artifact is reviewed by the Artifact Evaluation Committee (AEC) between the author notification and the camera-ready deadline.
 A paper whose artifacts have passed the artifact evaluation process includes an appendix that details the artifacts and is recognized by one or more [badges](badges) that appear on the paper's first page.
