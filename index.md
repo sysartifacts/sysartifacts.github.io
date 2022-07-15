@@ -9,7 +9,7 @@ This website collects artifact evaluation results for computer systems conferenc
 
 This website also collects resources for artifact evaluation:
 - [Guide for AE chairs](chair-guide.md)
-- ... your contribution is welcome!
+- ... your contribution is welcome, [submit a pull request](https://github.com/sysartifacts/sysartifacts.github.io)!
 
 
 ## Conference Artifact Evaluations
