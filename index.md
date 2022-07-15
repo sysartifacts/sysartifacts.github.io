@@ -32,3 +32,6 @@ This website also collects resources for artifact evaluation:
 
   {% endif %}
 {% endfor %}
+
+<!-- cannot change the footer template because it's computed only once for all pages -->
+<style>#footer { display: none }</style>
