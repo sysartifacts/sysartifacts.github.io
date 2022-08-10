@@ -3,9 +3,9 @@ title: Call for Artifacts
 order: 20
 ---
 
-All papers accepted at an EuroSys'23 submission round are encouraged to participate in the artifact evaluation process.
+All papers accepted at an EuroSys'23 submission round are *encouraged to participate in the artifact evaluation* process.
 
-Artifacts must be consistent with the paper, as complete as possible, documented well, and easy to reuse.
+Artifacts must be consistent with the paper, as complete as possible, documented reasonably well, and easy to reuse.
 These ideals are implemented through three [badges](badges) that can be awarded to each paper: available, functional, and reproduced.
 The goal of the AEC is to help authors achieve these goals and to award badges to the artifacts that meet the criteria.
 
@@ -31,7 +31,7 @@ Questions about artifact evaluation can be directed to [aec-2023@eurosys.org](ma
 - Artifact decisions announced: **Tuesday, March 14, 2023**
 - Camera-ready deadline: **Wednesday, March 15, 2023**
 
-For an artifact to be considered, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period.
+For an artifact to be considered, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
 
 ## Registration and Submission
@@ -47,19 +47,19 @@ Please submit your artifacts to the AE HotCRP portal and follow the two-step pro
 The effort that you put into packaging your artifacts has a direct impact on the committee's ability to make well-informed decisions.
 Please package your artifacts with care to make it as straightforward and easy as possible for the AEC to understand and evaluate their quality.
 
-*Note*: If you need permission from your org's legal or IT department to publish your artifact or give evaluators access to custom hardware, submit that request as soon as possible, otherwise evaluators may not have enough time to audit your artifact.
+*Note*: If you need permission from your organization's legal or IT department to publish your artifact or give evaluators access to custom hardware, submit that request as soon as possible, otherwise evaluators may not have sufficient time to audit your artifact.
 
 
 ## Process
 
-Authors are invited to submit artifacts after their papers have been accepted.
+Authors are invited to submit artifacts right after their papers have been accepted.
 
 Artifacts can be submitted only in the AE time frame associated with the paper submission round (e.g., an artifact for a paper accepted in the Spring submission round cannot be submitted to the EuroSys AE Fall round).
 
-Because the time between paper acceptance and artifact submission is short, the AEC chairs warmly encourage authors to start preparing artifacts while their papers are still under review.
+Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing artifacts while their papers are still under review.
 
 At artifact submission time, authors choose which [badges](badges) they want to obtain: available, functional, and reproduced.
-Artifacts can meet the criteria of one, two, or all three of the badges.
+Artifacts can meet the criteria of one, two, or all three of the badges and will be awarded zero to three badges after evaluation.
 
 After the artifact submission deadline, artifact evaluators will evaluate each artifact, using the corresponding paper and artifact appendix as guides.
 Evaluators may communicate with authors (through HotCRP to maintain anonymity) to resolve minor issues and ask clarifying questions *throughout the whole evaluation process*.
@@ -93,7 +93,7 @@ To ensure that your instructions are complete, we suggest that you run through t
 
 ## Review and Anonymity
 
-Artifact evaluation is "single blind": the identities of artifact authors will be known to evaluators,
+Artifact evaluation is "***single blind***": the identities of artifact authors will be known to evaluators,
 but authors will not know which evaluators have reviewed their artifacts.
 
 To maintain the anonymity of evaluators, artifact authors should not embed analytics or other tracking tools in the websites for their artifacts for the duration of the artifact evaluation period.
