@@ -36,7 +36,7 @@ For an artifact to be considered, at least one contact author for the submission
 
 ## Registration and Submission
 
-*Note: A link to the HotCRP portal for the current round will added in due time.*
+*Link to HotCRP portal (Spring round):* [https://eurosys23ae-spring.hotcrp.com/](https://eurosys23ae-spring.hotcrp.com/)
 
 Please submit your artifacts to the AE HotCRP portal and follow the two-step process:
 
@@ -74,14 +74,21 @@ Artifacts can be software, data sets, survey results, test suites, mechanized pr
 
 Paper proofs are not accepted, as evaluators lack the time and often the expertise to carefully review them.
 Physical objects, such as computer hardware, cannot be accepted due to the difficulty of making them available to evaluators.
-To the extent possible, artifacts should be able to run on commonly-available hardware, or hardware in community research testbeds
+To the extent possible, artifacts should be able to run on commonly-available hardware. Alternatively, please contact the AEC chairs beforehand if you wish to have your artifact evaluated on hardware in community research testbeds
 such as [Emulab](https://www.emulab.net), [CloudLab](https://cloudlab.us), and [Chameleon Cloud](https://www.chameleoncloud.org/).
+
+When submitting your artifact, please specify which of the [three badges](badges) you are applying for.
+For the *Artifact Functional* and *Results Reproduced* badges, AEC members will attempt to use your artifact to run the experiments described in your paper.
 
 Submitting an artifact for evaluation does not give the AEC permission to make its contents public or to retain any part of it after evaluation.
 Thus, authors are free to include proprietary models, data files, or code in artifacts.
 Participating in artifact evaluation does not require the public release of artifacts, though it is highly encouraged.
 
-*Detailed submission instructions including the HotCRP link will be provided shortly.*
+Detailed artifact packaging instructions are available [here](packaging).
+
+AEC members may contact authors during the evaluation period, for example to ask for help if they are unable to get the artifact to work, and authors are asked to be responsive to such requests.
+However, your goal as an author should be to present and document your artifact in a way that AEC members can use it and complete the evaluation successfully with minimal (and ideally no) interaction.
+To ensure that your instructions are complete, we suggest that you run through them on a fresh setup prior to submission, following exactly the instructions you have provided.
 
 
 ## Review and Anonymity
