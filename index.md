@@ -1,11 +1,9 @@
 ---
-title: Systems Research Artifacts
 ---
 
-The goal of artifact evaluation (AE) is to recognize the authors who have put in the effort to release
-usable software systems as well as to validate the results of the accepted papers.
-
-This website collects resources and results around artifact evaluation for computer systems conferences.
+This website collects artifact evaluation results for computer systems
+conferences. The goal of artifact evaluation (AE) is to recognize the effort to
+release usable software systems and validate the results of papers.
 
 ## Conference Artifact Evaluations
 
@@ -27,3 +25,12 @@ This website collects resources and results around artifact evaluation for compu
 
   {% endif %}
 {% endfor %}
+
+## Contribute to Sysartifacts
+
+Additional resources for artifact evaluation:
+- [Guide for AE chairs](chair-guide.md)
+- ... your contribution is welcome, [submit a pull request](https://github.com/sysartifacts/sysartifacts.github.io)!
+
+<!-- cannot change the footer template because it's computed only once for all pages -->
+<style>#footer { display: none }</style>

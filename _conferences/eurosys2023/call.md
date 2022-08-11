@@ -31,8 +31,8 @@ Questions about artifact evaluation can be directed to [aec-2023@eurosys.org](ma
 - Artifact decisions announced: **Tuesday, March 14, 2023**
 - Camera-ready deadline: **Wednesday, March 15, 2023**
 
-For an artifact to be considered, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
+For an artifact to be considered, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
 ## Registration and Submission
 
@@ -48,7 +48,6 @@ The effort that you put into packaging your artifacts has a direct impact on the
 Please package your artifacts with care to make it as straightforward and easy as possible for the AEC to understand and evaluate their quality.
 
 *Note*: If you need permission from your organization's legal or IT department to publish your artifact or give evaluators access to custom hardware, submit that request as soon as possible, otherwise evaluators may not have sufficient time to audit your artifact.
-
 
 ## Process
 
@@ -93,8 +92,7 @@ To ensure that your instructions are complete, we suggest that you run through t
 
 ## Review and Anonymity
 
-Artifact evaluation is "***single blind***": the identities of artifact authors will be known to evaluators,
-but authors will not know which evaluators have reviewed their artifacts.
+Artifact evaluation is "***single blind***": the identities of artifact authors will be known to evaluators, but authors will not know which evaluators have reviewed their artifacts.
 
 To maintain the anonymity of evaluators, artifact authors should not embed analytics or other tracking tools in the websites for their artifacts for the duration of the artifact evaluation period.
 If you cannot control this, please do not access this data.

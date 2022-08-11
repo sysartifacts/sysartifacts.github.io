@@ -21,11 +21,13 @@ Unfortunately, artifacts sometimes miss badges because they were not tested on a
 Below we provide checklists for authors to minimize the risk of an artifact unnecessarily missing a badge.
 
 
+
 ### Artifact Available
 
 - The artifact is available on a public website with a specific version such as a git commit
 - The artifact has a "read me" file with a reference to the paper
 - The artifact has an associated license and ideally one that at least allows use for comparison purposes
+
 
 Artifacts must meet these criteria _at the time of evaluation_.
 Promises of future availability, such as artifacts "temporarily" gated behind credentials given to evaluators, are not enough.
