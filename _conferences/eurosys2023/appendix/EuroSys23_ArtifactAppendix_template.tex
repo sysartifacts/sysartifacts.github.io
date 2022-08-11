@@ -1,0 +1,97 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Artifact Appendix Template for EuroSys'23 AE
+%
+% this document has a maximum length of 2 pages.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+\section{Artifact Appendix} 
+\textit{This artifact appendix is meant to be a self-contained document which describes a roadmap for the evaluation of your artifact. It should include a clear description of the hardware, software, and configuration requirements as well as the major claims made by your paper and how to reproduce each claim through your artifact. Linking the claims of your paper to the artifact is a necessary step that ultimately allows artifact evaluators to reproduce your results. Towards that end, you should explicitly list down items (e.g., results, plots, tables) from the paper and cross-reference those with the experiments to be reproduced with your artifact.}\\
+\textit{Please fill all the mandatory sections, keeping their titles and organization but removing the current illustrative content, and remove the optional sections \ref{sec:reuse} and \ref{sec:gnotes} where those do not apply to your artifact.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Abstract}
+{\em [Mandatory]} 
+{\em Provide a short description of your artifact.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Description \& Requirements}
+
+\textit{[Mandatory] This section should list all the information necessary to recreate the same experimental setup you have used to run your artifact. This includes at least a persistent link to a publicly accessible archival repository where all the artifact's main components (software, data-sets, documentation, etc.) can be accessed and, where this apply, the minimal hardware and software requirements to run your artifact. It is also very good practice to list and describe in this section benchmarks where those are part of, or simply have been used to produce results with, your artifact.}
+
+\subsubsection{How to access}\\
+\textit{Describe here how to access your artifact. In case of a public repository, you should provide a persistent link to it. In case of a private repository, you should provide instructions on how to access it and where that access will be limited to the duration of this evaluation, that should be clearly indicated.\\}
+% Note: This evaluation do not mandate the use of specific public repositories, so institutional repositories, or open commercial repositories are acceptable. In any case, repositories used to archive the artifact should have a declared plan to enable permanent accessibility.
+
+\subsubsection{Hardware dependencies}\\
+\textit{[Simply write "None." where this does not apply to your artifact.]}
+
+\subsubsection{Software dependencies}\\ 
+\textit{[Simply write "None." where this does not apply to your artifact.]}
+
+\subsubsection{Benchmarks} 
+\textit{Describe here any data (e.g., data-sets, models, workloads, etc.) required by the experiments with this artifact reported in your paper.} \textit{[Simply write "None." where this does not apply to your artifact.]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Set-up}
+
+{\em [Mandatory]} \textit{This section should include all the installation and configuration steps required to prepare the environment to be used for the evaluation of your artifact.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Evaluation workflow\footnote{
+Submission, reviewing and badging methodology followed for the evaluation of this artifact can be found at \url{https://sysartifacts.github.io/eurosys2023/}.}}
+{\em [Mandatory]} \textit{This section should include all the operational steps and experiments which must be performed to evaluate your artifact is functional and to validate your paper's key results and claims. For that purpose, we ask you to use the two following subsections and cross-reference the items therein as explained next.}
+
+\subsubsection{Major Claims}
+\textit{Enumerate here the major claims (Cx) made in your paper. Follows an example:}\\
+
+\begin{itemize}
+    \item \textit{(C1): System\_name achieves the same accuracy of the state-of-the-art systems for a task X while saving 2x storage resources. This is proven by the experiment (E1) described in [refer to your paper's sections] whose results are illustrated/reported in [refer to your paper's plots, tables, sections or the sort].}
+    \item \textit{(C2): System\_name has been used to uncover new bugs in the Y software. This is proven by the experiments (E2) and (E3) in [ibid].}
+\end{itemize}
+
+\subsubsection{Experiments}
+\textit{Link explicitly the description of your experiments to the items you have provided in the previous subsection about Major Claims. We also highly encourage you to provide your estimates of human- and compute-time for each of the listed experiments. Follows an example:}
+~\\
+
+\textit{Experiment (E1): [Optional Name] [30 human-minutes + 1 compute-hour]: provide a short explanation of the experiment and expected results.}\\\\
+\textit{[How to]}\\
+\textit{Describe thoroughly the steps to perform the experiment and to collect and organize the results as expected from your paper. We encourage you to use the following structure with three main blocks for the description of your experiment.} \\
+~\\
+\textit{[Preparation]}
+\textit{Describe in this block the steps required to prepare and configure the environment for this experiment.}\\
+~\\
+\textit{[Execution]}
+\textit{Describe in this block the steps to run this experiment.}\\
+~\\
+\textit{[Results]}
+\textit{Describe in this block the steps required to collect and interpret the results for this experiment.}\\
+~\\
+\textit{In all of the above blocks, we also recommend you to provide precise indications about the expected outcome for each of the steps.}
+
+
+~\\
+
+\textit{Experiment (E2): [Optional Name] [1 human-hour + 3 compute-hour]: provide a short explanation of the experiment and expected results.}\\\\
+\textit{[How to]} \textit{ibid.}
+~\\
+
+\textit{Experiment (E3): [Optional Name] [10 human-minutes + 30 compute-minutes]: provide a short explanation of the experiment and expected results.}\\\\
+\textit{[How to]} \textit{ibid.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Notes on Reusability}
+\label{sec:reuse}
+{\em [Optional]}
+\textit{This section is meant to optionally share additional information on how to use your artifact beyond the research presented in your paper. In fact, a broader objective of an artifact evaluation is to help you make your research reusable by others.\\
+You can include in this section any sort of instruction that you believe it would help others re-use your artifact, like, for example, scaling down/up certain components of your artifact, working on different kinds of input or data-set, customizing the behavior of or replacing a specific module or an algorithm, etc.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{General Notes}
+\label{sec:gnotes}
+%\subsection{Notes}
+{\em [Optional]}
+\textit{This section is meant to allow you to include any further important notes that may not fall within any of the previous categories. We kindly encourage you to remove this section where this sort of content may not be strictly needed rather than filling it with unnecessary or redundant information.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
