@@ -3,26 +3,26 @@ title: Call for Artifacts
 order: 10
 ---
 
-Reposted call for artifacts from the [USENIX OSDI website](https://www.usenix.org/conference/osdi22/call-for-artifacts).
+Reposted call for artifacts from the [USENIX ATC website](https://www.usenix.org/conference/atc22/call-for-artifacts).
 
 ## Overview
 
-A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself. Last year, [84% of accepted OSDI papers](https://sysartifacts.github.io/osdi2021/call) participated in the artifact evaluation process. Based on last year's success, OSDI '22 will continue to run an optional artifact evaluation process combined with USENIX ATC '22.
+A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself. Last year, [84% of accepted OSDI papers](https://sysartifacts.github.io/osdi2021/call) participated in the artifact evaluation process. Based on the success of the OSDI '21 Artifact Evaluation last year, this year USENIX ATC will run an optional artifact evaluation process for the first time, in combination with OSDI.
 
 The artifact evaluation process will consider the availability and functionality of artifacts associated with their corresponding papers, along with the reproducibility of the paper's key results and claims with these artifacts. Artifact evaluation is single-blind. Artifacts will be held in confidence by the evaluation committee.
 
-All (conditionally) accepted OSDI papers are encouraged to participate in artifact evaluation. Because the time between paper acceptance and artifact submission is short, we strongly encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [Submitting an Artifact](https://www.usenix.org/conference/osdi22/call-for-artifacts#submitting) section for details on the submission process.
+All (conditionally) accepted OSDI papers are encouraged to participate in artifact evaluation. Because the time between paper acceptance and artifact submission is short, we strongly encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [Submitting an Artifact](https://www.usenix.org/conference/atc22/call-for-artifacts#submitting) section for details on the submission process.
 
 Questions about the process can be directed to [osdiatc22aec@usenix.org](mailto:osdiatc22aec@usenix.org).
 
 ## Important Dates
 
-- Notification for paper authors: **Friday, March 25, 2022**
-- Artifact registration deadline: **Friday, April 8, 2022, 8:59 pm PDT**
-- Artifact submission deadline: **Friday, April 15, 2022, 8:59 pm PDT**
-- Kick-the-tires response period: **Monday, April 25–Tuesday, May 3, 2022**
-- Artifact decisions announced: **Wednesday, May 25, 2022**
-- OSDI final papers deadline: **Wednesday, June 1, 2022**
+- Notification for paper authors: **Friday, April 29, 2022**
+- Artifact registration deadline: **Tuesday, May 10, 2022, 8:59 pm PDT**
+- Artifact submission deadline: **Thursday, May 12, 2022, 8:59 pm PDT**
+- Kick-the-tires response period: **Thursday, May 19–Friday, May 20, 2022**
+- Artifact decisions announced: **Tuesday, June 7, 2022**
+- OSDI final papers deadline: **Thursday, June 9, 2022**
 
 **Note:** For an artifact to be considered, at least one contact author for the submission must be reachable via email and respond to questions in a timely manner during the kick-the-tires period.
 
@@ -45,7 +45,7 @@ Each paper sets up certain expectations and claims of its artifacts based on its
 
 ## Process
 
-Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [guidelines for packaging artifacts](https://www.usenix.org/conference/osdi22/call-for-artifacts#packaging) later in this document.
+Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [guidelines for packaging artifacts](https://www.usenix.org/conference/atc22/call-for-artifacts#packaging) later in this document.
 
 At artifact-submission time, a submitter will choose the criteria by which their artifacts will be evaluated. The criteria correspond to three separate badges that can be awarded to a paper. An artifact can meet the criteria of one, two, or all three of the following badges:
 
@@ -68,6 +68,7 @@ After the artifact submission deadline, members of the AEC will download each ar
 The AEC will complete its evaluation and notify authors of the outcomes. Authors can use the time between notification and the final paper deadline to incorporate feedback and artifact details into the final versions of their papers. This is intended to allow authors to include the feedback from the AEC, at their option.
 
 When the AEC judges that an artifact meets the criteria for one or more of the badges listed above, those badges will appear on the final version of the associated paper. In addition, the authors of the paper will be encouraged to add an **Artifact Appendix** of up to two pages to their publication. The goal of the appendix is to describe and document the artifact in a standard format. The template for the appendix is available [here](https://www.usenix.org/sites/default/files/conference-files/osdi22_ae_appendix_template.zip).
+
 ## Artifact Details
 
 The AEC will try to accept any kind of digital artifact that authors wish to submit: software, data sets, survey results, test suites, mechanized proofs, etc. Paper proofs will not be accepted, because the AEC lacks the time and often the expertise to carefully review paper proofs. Physical objects, e.g., computer hardware, cannot be accepted due to the difficulty of making the objects available to members of the AEC. (If your artifact requires special hardware, consider if/how you can make it available to evaluators online.)
@@ -90,7 +91,7 @@ To maintain the anonymity of artifact evaluators, the authors of artifacts shoul
 
 Submitting the artifacts associated with your accepted OSDI paper is a two-step process.
 
-1. **Registration:** By the artifact registration deadline, submit the abstract and PDF of your accepted USENIX OSDI paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact [submission site](https://osdi22ae.usenix.hotcrp.com/).
+1. **Registration:** By the artifact registration deadline, submit the abstract and PDF of your accepted USENIX OSDI paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact [submission site](https://atc22ae.usenix.hotcrp.com/).
 2. **Submission:** By the artifact submission deadline, provide a stable URL or (if that is not possible) upload an archive of your artifacts. If the URL is access-protected, provide the credentials needed to access it. Select the criteria/badges that the AEC should consider while evaluating your artifacts. You will not be able to change the URL, archive, or badge selections after the artifact submission deadline. Finally, for your artifact to be considered, check the "ready for review" box before the submission deadline.
 
 The AEC recommends that you create a single web page at a stable URL that contains your artifact package. The AEC may contact you with questions about your artifacts if your submitted materials are unclear.
@@ -103,8 +104,6 @@ The review process is structured in two phases:
 2. **Full evaluation:** After the kick-the-tires phase, reviewers will fully evaluate the artifact.
 
 ### Packaging Artifacts
-
-
 
 The goal of the Artifact Evaluation Committee is to judge whether the artifacts that you submit conform to the expectations set by your paper in the context of the criteria associated with the badges you have selected. The effort that you put into packaging your artifacts has a direct impact on the committee's ability to make well-informed decisions. Please package your artifacts with care to make it as straightforward and easy as possible for the AEC to understand and evaluate their quality.
 
@@ -157,4 +156,4 @@ If you have any questions about how best to package your artifact, contact [osdi
 
 ### Acknowledgements
 
-The AE process at OSDI '22 is a continuation of the AE process at OSDI '21 and was inspired by multiple other conferences, such as USENIX Security, SOSP, and several SIGPLAN conferences. See [artifact-eval.org](https://artifact-eval.org/) for the origins of the AE process, and [sysartifacts.github.io](https://sysartifacts.github.io/) for the previous AE processes held in systems.
+The AE process at USENIX ATC '22 was inspired by multiple other conferences, such as USENIX Security, SOSP, OSDI, and several SIGPLAN conferences. See [artifact-eval.org](https://artifact-eval.org/) for the origins of the AE process, and [sysartifacts.github.io](https://sysartifacts.github.io/) for the previous AE processes held in systems.
