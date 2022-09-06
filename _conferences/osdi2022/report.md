@@ -3,33 +3,31 @@ title: Report
 order: 50
 ---
 
-We are happy to report about the OSDI'21 artifact evaluation process. This is the second time that OSDI conducted such a process and we hope to keep improving it so that artifact evaluation will become more common in our community's conferences.
+We are happy to report about the OSDI '22 artifact evaluation process. This is the third time that OSDI conducted such a process and we hope to keep improving it so that artifact evaluation will become more common in our community's conferences. This year, the OSDI '22 artifact evaluation process is combined with USENIX ATC '22. The combined artifact evaluation committee consists of 118 artifact reviewers from academia and industry. 
 
 ## Process
-We continued to use the three-badge approach (vs. the single-badge approach) from OSDI'20 to evaluation and these three badges include:
+We continued to use the three-badge approach (vs. the single-badge approach) from OSDI '21 evaluation and these three badges include:
 
 - **Artifacts Available**: To earn this badge, the AEC must judge that the artifacts associated with the paper have been made available for retrieval, permanently and publicly.
 - **Artifacts Functional**: To earn this badge, the AEC must judge that the artifacts conform to the expectations set by the paper in terms of functionality, usability, and relevance.
 - **Results Reproduced**: To earn this badge, the AEC must judge that they can use the submitted artifacts to obtain the main results presented in the paper.
 
 ## Evaluation
-We had 28 reviewers and we assigned 2 or 3 artifacts for each reviewer so that each artifact was evaluated by 3 reviewers. The evaluation process had two key phases: the kick-the-tires phase and the in-depth evaluation phase. During the kick-the-tires phase, reviewers made a quick first pass over all assignments to identify and report obvious problems and communicated them with the authors. After the kick-the-tires phase, reviewers evaluated each assignment thoroughly and wrote detailed reviews. Finally, reviewers coordinated and communicated with fellow AEC members and decided which badges should be awarded to each artifact.
+In the evaluation process, each artifact was evaluated by 3 reviewers. The evaluation process had two key phases: the kick-the-tires phase and the in-depth evaluation phase. During the kick-the-tires phase, reviewers made a quick first pass over all assignments to identify and report obvious problems and communicated them with the authors. After the kick-the-tires phase, reviewers evaluated each assignment thoroughly and wrote detailed reviews. Finally, reviewers coordinated and communicated with fellow AEC members and decided which badges should be awarded to each artifact. 
 
 ## Results
-OSDI'21 accepted 31 papers and 26 papers participated in the AE, a significant increase in the participate ratio: 84%, compared to OSDI'20 (70%) and SOSP'19 (61%).
-Of the 26 submitted artifacts:
-- 26 artifacts received the Artifacts Available badge (100%).
-- 23 artifacts received the Artifacts Functional badge (88%).
-- 20 artifacts received the Results Reproduced badge (77%).
+OSDI '22 accepted 49 papers and 35 papers participated in the AE. Of the 35 submitted artifacts: 
+- 33 artifacts received the Artifacts Available badge (94%).
+- 31 artifacts received the Artifacts Functional badge (88%).
+- 27 artifacts received the Results Reproduced badge (77%).
 
 ## Key Takeaways
-**CloudLab Resources**: Our experience showed that CloudLab (https://cloudlab.us/) can effectively facilitate the evaluation process. We suggest future AEC chairs prepare and make CloudLab resources available from the beginning of the evaluation process.
+Our experience shows that after the kick-the-tires response period, reviewers can still encounter technical problems that obstruct their evaluation. We suggest future AEC chairs extend the kick-the-tires response period and encourage more interaction between reviewers and authors during the period. 
 
-**Usage of Screencasts**: Some artifacts could only be evaluated based on the screencasts due to various constraints. This posed a few challenges around identifying a consistent standard for evaluating screencasts. We suggest future AEC chairs provide clear guidance on screencasts to authors and announce ahead of time whether they count for different badges.
+Finally, we deeply thank the authors and the AEC committee for all their efforts in making the OSDI '22 artifact evaluation possible. 
 
-Finally, we deeply thank the authors and the AEC committee for all their efforts in making the OSDI '21 AE possible, especially during a pandemic.
+Anuj Kalia, Microsoft <br>
+Neeraja J. Yadwadkar, University of Texas at Austin <br>
+Chengyu Zhang, ETH Zurich <br>
+OSDI '22 Artifact Evaluation Committee Co-chairs
 
-Guyue (Grace) Liu, *Carnegie Mellon University*<br>
-Manuel Rigger, *ETH Zürich*<br>
-Lalith Suresh, *VMware Research*<br>
-OSDI'21 Artifact Evaluation Committee Co-chairs<br>

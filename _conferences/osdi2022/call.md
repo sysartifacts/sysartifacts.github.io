@@ -17,12 +17,12 @@ Questions about the process can be directed to [osdiatc22aec@usenix.org](mailto:
 
 ## Important Dates
 
-- Notification for paper authors: **Tuesday, March 16, 2021**
-- Artifact registration deadline: **Friday, March 26, 2021, 3:00 pm PDT**
-- Artifact submission deadline: **Friday, April 2, 2021, 3:00 pm PDT**
-- Kick-the-tires response period: **Tuesday, April 13–Friday, April 23, 2021**
-- Artifact decisions announced: **Tuesday, May 18, 2021**
-- OSDI final papers deadline: **Tuesday, May 25, 2021**
+- Notification for paper authors: **Friday, March 25, 2022**
+- Artifact registration deadline: **Friday, April 8, 2022, 8:59 pm PDT**
+- Artifact submission deadline: **Friday, April 15, 2022, 8:59 pm PDT**
+- Kick-the-tires response period: **Monday, April 25–Tuesday, May 3, 2022**
+- Artifact decisions announced: **Wednesday, May 25, 2022**
+- OSDI final papers deadline: **Wednesday, June 1, 2022**
 
 **Note:** For an artifact to be considered, at least one contact author for the submission must be reachable via email and respond to questions in a timely manner during the kick-the-tires period.
 
@@ -45,7 +45,7 @@ Each paper sets up certain expectations and claims of its artifacts based on its
 
 ## Process
 
-Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [guidelines for packaging artifacts](https://www.usenix.org/conference/osdi21/call-for-artifacts#packaging) later in this document.
+Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee. See the [guidelines for packaging artifacts](https://www.usenix.org/conference/osdi22/call-for-artifacts#packaging) later in this document.
 
 At artifact-submission time, a submitter will choose the criteria by which their artifacts will be evaluated. The criteria correspond to three separate badges that can be awarded to a paper. An artifact can meet the criteria of one, two, or all three of the following badges:
 
@@ -75,7 +75,7 @@ The AEC will try to accept any kind of digital artifact that authors wish to sub
 
 The submission of an artifact does not give the AEC permission to make its content public. AEC members may not publicize any part of your artifact during or after completing evaluation, nor may they retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc., in your artifact. Participating in artifact evaluation does not require you to later publish your artifacts (although it is encouraged).
 
-Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact [osdi21aec@usenix.org](mailto:osdi21aec@usenix.org) if you believe that your artifacts fall into this category.
+Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact [osdiatc22aec@usenix.org](mailto:osdiatc22aec@usenix.org) if you believe that your artifacts fall into this category.
 
 ## Review and Anonymity
 
@@ -91,7 +91,7 @@ To maintain the anonymity of artifact evaluators, the authors of artifacts shoul
 
 Submitting the artifacts associated with your accepted OSDI paper is a two-step process.
 
-1. **Registration:** By the artifact registration deadline, submit the abstract and PDF of your accepted USENIX OSDI paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact [submission site](https://osdi21ae.usenix.hotcrp.com/).
+1. **Registration:** By the artifact registration deadline, submit the abstract and PDF of your accepted USENIX OSDI paper, as well as topics, conflicts, and any "optional bidding instructions" for potential evaluators via the artifact [submission site](https://osdi22ae.usenix.hotcrp.com/).
 2. **Submission:** By the artifact submission deadline, provide a stable URL or (if that is not possible) upload an archive of your artifacts. If the URL is access-protected, provide the credentials needed to access it. Select the criteria/badges that the AEC should consider while evaluating your artifacts. You will not be able to change the URL, archive, or badge selections after the artifact submission deadline. Finally, for your artifact to be considered, check the "ready for review" box before the submission deadline.
 
 The AEC recommends that you create a single web page at a stable URL that contains your artifact package. The AEC may contact you with questions about your artifacts if your submitted materials are unclear.
@@ -154,8 +154,8 @@ There are several sources of good advice about preparing artifacts for evaluatio
 - [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger
 - [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/), by Rohan Padhye
 
-If you have any questions about how best to package your artifact, contact [osdi21aec@usenix.org](mailto:osdi21aec@usenix.org).
+If you have any questions about how best to package your artifact, contact [osdiatc22aec@usenix.org](mailto:osdiatc22aec@usenix.org).
 
 ### Acknowledgements
 
-The AE process at OSDI '21 is a continuation of the AE process at OSDI '20 and was inspired by multiple other conferences, such as USENIX Security, SOSP, and several SIGPLAN conferences. See artifact-eval.org for the origins of the AE process, and [sysartifacts.github.io](https://sysartifacts.github.io/) for the previous AE processes held in systems.
+The AE process at OSDI '22 is a continuation of the AE process at OSDI '21 and was inspired by multiple other conferences, such as USENIX Security, SOSP, and several SIGPLAN conferences. See [artifact-eval.org](https://artifact-eval.org/) for the origins of the AE process, and [sysartifacts.github.io](https://sysartifacts.github.io/) for the previous AE processes held in systems.
