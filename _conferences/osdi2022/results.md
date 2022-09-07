@@ -3,6 +3,57 @@ title: Results
 order: 40
 ---
 
+
+<style>
+table th:first-of-type {
+    width: 60%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(2) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(3) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+table td {
+    padding:0.25em;
+}
+
+span#aa {
+    background-color:#f15c24;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#af {
+    background-color:#1274bb;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#rr {
+    background-color:#6c4099;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+</style>
+
 **Submissions**: 35 (71% of accepted papers)
 
 **Evaluation Results**:
@@ -20,8 +71,8 @@ order: 40
 | [Achieving μs-scale Preemption for Concurrent GPU-accelerated DNN Inferences]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/SJTU-IPADS/reef-artifacts) |
 | [BlackBox: Secure Containers on Untrusted Operating Systems using Arm Virtualization Hardware]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br> | [Github](https://github.com/columbia/osdi22-paper162-ae) |
 | [Trinity: Desirable Mobile Emulation through Graphics Projection]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/TrinityEmulator/TrinityEmulator) |
-| [TriCache: A User-Transparent Block Cache Enabling High-Performance Out-of-Core Processing with In-Memory Programs]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/thu-pacman/TriCache) |     
-| [FAERY: An FPGA-accelerated Embedding-based Retrieval System]() |<span id="af">FUNCTIONAL</span> | |     
+| [TriCache: A User-Transparent Block Cache Enabling High-Performance Out-of-Core Processing with In-Memory Programs]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/thu-pacman/TriCache) |
+| [FAERY: An FPGA-accelerated Embedding-based Retrieval System]() |<span id="af">FUNCTIONAL</span> | |
 | [Coffers: Capability-Based Isolation and Sharing for Microservices]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><span id="rr">REPRODUCED</span> | [Github](https://github.com/lsds/intravisor) |
 | [zIO: Accelerating IO-Intensive Applications with Transparent Zero-Copy IO]() | <span id="aa">AVAILABLE</span> | [Github](https://github.com/tstamler/zIO) |
 | [UPGRADVISOR: Early Adopting Dependency Updates Using Production Traces]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://figshare.com/s/69057b2bf22e0aa8a645) |

@@ -3,6 +3,57 @@ title: Results
 order: 40
 ---
 
+
+<style>
+table th:first-of-type {
+    width: 60%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(2) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(3) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+table td {
+    padding:0.25em;
+}
+
+span#aa {
+    background-color:#f15c24;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#af {
+    background-color:#1274bb;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#rr {
+    background-color:#6c4099;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+</style>
+
 **Submissions**: 52 (81% of accepted papers)
 
 **Evaluation Results**:
@@ -48,7 +99,7 @@ order: 40
 | [Towards Latency Awareness for Content Delivery Network Caching]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/GYan58/la-cache-atc22) |
 | [HyperEnclave: An Open and Cross-platform Trusted Execution Environment]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/HyperEnclave/atc22-ae) |
 | [Privbox: Faster System Calls Through Sandboxed Privileged Execution]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/privbox/devenv) |
-| [Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/lzjzx1122/Pagurus) |     
+| [Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/lzjzx1122/Pagurus) |
 | [SoftTRR: Protect Page Tables against Rowhammer Attacks using Software-only Target Row Refresh]() | <span id="aa">AVAILABLE</span> | [figshare](https://doi.org/10.6084/m9.figshare.19721692) |
 | [Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/princeton-sns/specreds) |
 | [CoVA: Exploiting Compressed-Domain Analysis to Accelerate Video Analytics]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/casys-kaist/CoVA) |
