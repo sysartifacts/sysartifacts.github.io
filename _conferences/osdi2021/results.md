@@ -3,6 +3,56 @@ title: Results
 order: 40
 ---
 
+<style>
+table th:first-of-type {
+    width: 60%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(2) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+table th:nth-of-type(3) {
+    width: 20%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+table td {
+    padding:0.25em;
+}
+
+span#aa {
+    background-color:#f15c24;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#af {
+    background-color:#1274bb;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+span#rr {
+    background-color:#6c4099;
+    color:#FFFFFF;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    width:100%;
+}
+
+</style>
+
 **Submissions**: 26 (84% of accepted papers)
 
 **Evaluation Results**:
