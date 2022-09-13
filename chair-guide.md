@@ -5,7 +5,7 @@ This guide is for you!
 This guide provides a detailed list of tasks grouped by deadline.
 Some tasks can be done earlier than their corresponding deadline, such as preparing a feedback form early.
 
-The goal if this guide is to enable you to spend your time trying out new things and improving the process, rather than reinventing each wheel as you discover the need for it.
+The goal of this guide is to enable you to spend your time trying out new things and improving the process, rather than reinventing each wheel as you discover the need for it.
 And once you do improve things, submit a pull request to this guide so others can benefit from those improvements!
 
 At the end of this guide are email templates for some of the tasks.
