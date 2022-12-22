@@ -24,6 +24,8 @@ We expect that evaluations can be done on your own computer (any moderately rece
 How to Apply
 ------------
 
-If you are interested in taking part in the AEC, please complete [this online form](https://docs.google.com/forms/d/1amD2x6WvsWAdQLZoTcQlMLQT_d2mhp0VuOrB4gAt7zU/). Deadline: **31 July 2022**.
+~~If you are interested in taking part in the AEC, please complete [this online form](https://docs.google.com/forms/d/1amD2x6WvsWAdQLZoTcQlMLQT_d2mhp0VuOrB4gAt7zU/). Deadline: **31 July 2022**.~~
+
+We re-opened self-nominations for the Fall submission deadline. If interested, please complete [this form](https://docs.google.com/forms/d/e/1FAIpQLSeVQaM6NAQH7kK-nwyWvpej9Fwf4OM3G9brC-3G8VZVBYvMNA/viewform) by **January 13, 2023**.
 
 You can reach us at [aec-2023@eurosys.org](mailto:aec-2023@eurosys.org) with any questions.
