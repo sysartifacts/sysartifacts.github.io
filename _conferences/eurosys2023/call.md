@@ -36,7 +36,8 @@ For an artifact to be considered, at least one contact author for the submission
 
 ## Registration and Submission
 
-*Link to HotCRP portal (Spring round):* [https://eurosys23ae-spring.hotcrp.com/](https://eurosys23ae-spring.hotcrp.com/)
+*Link to HotCRP portal - Spring round:* [https://eurosys23ae-spring.hotcrp.com/](https://eurosys23ae-spring.hotcrp.com/)
+*Link to HotCRP portal - Fall round:* [https://eurosys23ae-fall.hotcrp.com/](https://eurosys23ae-fall.hotcrp.com/)
 
 Please submit your artifacts to the AE HotCRP portal and follow the two-step process:
 
@@ -73,8 +74,7 @@ Artifacts can be software, data sets, survey results, test suites, mechanized pr
 
 Paper proofs are not accepted, as evaluators lack the time and often the expertise to carefully review them.
 Physical objects, such as computer hardware, cannot be accepted due to the difficulty of making them available to evaluators.
-To the extent possible, artifacts should be able to run on commonly-available hardware. Alternatively, please contact the AEC chairs beforehand if you wish to have your artifact evaluated on hardware in community research testbeds
-such as [Emulab](https://www.emulab.net), [CloudLab](https://cloudlab.us), and [Chameleon Cloud](https://www.chameleoncloud.org/).
+To the extent possible, artifacts should be able to run on **commodity hardware** (i.e., laptop/desktop-like systems). If this requirement cannot be met, please contact the AEC chairs beforehand to accommodate access to special hardware (e.g., your own) for the evaluators.
 
 When submitting your artifact, please specify which of the [three badges](badges) you are applying for.
 For the *Artifact Functional* and *Results Reproduced* badges, AEC members will attempt to use your artifact to run the experiments described in your paper.
