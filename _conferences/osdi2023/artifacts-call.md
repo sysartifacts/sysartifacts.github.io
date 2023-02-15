@@ -78,6 +78,8 @@ To earn this badge, the AEC must judge that they can use the submitted artifacts
 In short, is it possible for the AEC to independently repeat the experiments and obtain results that support the claims made by the paper?
 The goal of this effort is not to reproduce the results exactly, but instead to generate results independently within an allowed tolerance such that the main claims of the paper are validated.
 
+### Review process
+
 After the artifact submission deadline, members of the AEC will download each artifact package, read the accepted paper, install the artifacts (where relevant), and finally evaluate the artifacts.
 AEC members may communicate with artifact authors—through HotCRP to maintain the evaluators' anonymity—to resolve minor issues and ask clarifying questions.
 Authors must respond to messages from the AEC in a timely manner for their artifacts to be effectively considered.
