@@ -1,4 +1,8 @@
-# Submitting an Artifact for Review
+---
+title: Submitting an Artifact for Review
+order: 11
+---
+
 ## Process
 Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI.
 Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee.

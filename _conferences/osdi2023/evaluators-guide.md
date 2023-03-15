@@ -1,8 +1,8 @@
----
+<!-- ---
 title: Evaluator guide
 draft: true
 order: 45
----
+--- -->
 
 **This document is a guide through the artifact evaluation process for evaluators**, and is heavily inspired by [Eurosys' 22 Evaluator Guide](https://sysartifacts.github.io/eurosys2022/guide)
 
