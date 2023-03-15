@@ -3,8 +3,6 @@ title: Call for Artifacts
 order: 10
 ---
 
-Reposted call for artifacts from the [USENIX OSDI website]().
-
 ## Overview
 A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. 
 In some cases, the quality of these artifacts is as important as that of the document itself. 
