@@ -6,7 +6,7 @@ order: 11
 ## Process
 Authors will be invited to submit their artifacts after their papers have been (conditionally) accepted for publication at OSDI.
 Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the OSDI Program Committee.
-See the [guidelines for packaging artifacts](https://sysartifacts.github.io/osdi2023/) later in this document.
+See the [guidelines for packaging artifacts](https://sysartifacts.github.io/osdi2023/author-submission-guide#submitting-an-artifact).
 
 At artifact-submission time, a submitter will choose the criteria by which their artifacts will be evaluated.
 The criteria correspond to three separate badges that can be awarded to a paper. An artifact can meet the criteria of one, two, or all three of the following badges:
