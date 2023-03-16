@@ -21,6 +21,8 @@ For evaluations that do not require large computing resources or special hardwar
 You will not be asked to pay for any computing resources out of your own pocket.
 
 ## How to Apply
-If you are interested in becoming a part of the AEC, please complete this online form.
-Deadline: Thursday **30th March, Anywhere on Earth**
-You can reach us at **chair email** with any questions.
+If you are interested in becoming a part of the AEC, please complete the [online self-nomination form](https://forms.gle/1xKd8ZrJTsFJcvmGA).
+
+Deadline: Thursday **14th April, Anywhere on Earth**
+
+You can reach us at [osdi23aec@usenix.org](mailto:osdi23aec@usenix.org) with any questions.

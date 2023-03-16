@@ -11,4 +11,4 @@ order: 20
 
 ## Artifact Evaluation Committee
 
-You? - [Self Nomination Form](https://forms.gle/oZnnXwr3HWTg36B99)
+You? - [Self Nomination Form](https://forms.gle/1xKd8ZrJTsFJcvmGA)
