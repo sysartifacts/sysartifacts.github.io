@@ -20,7 +20,7 @@ Questions about the process can be directed to [osdiatc23aec@usenix.org](mailto:
 
 ## Important Dates
 - Notification for paper authors: **Friday, April 28th, 2023**
-- Artifact submission deadline: **Friday, May 12th, 2023, AOE**
+- Artifact submission deadline: **Friday, May 10th, 2023, AOE**
 - Kick-the-tires response period: **Monday, May 15th – Monday, May 22nd, 2023**
 - Artifact decisions announced: **Thursday, June 1st, 2023**
 - USENIX ATC final papers deadline: **Thursday, June 8th, 2023**
