@@ -14,9 +14,9 @@ Artifact evaluation is single-blind. Artifacts will be held in confidence by the
 
 All (conditionally) accepted USENIX ATC papers are encouraged to participate in artifact evaluation.
 Because the time between paper acceptance and artifact submission is short, we strongly encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the USENIX ATC Program Committee.
-See the [Submitting an Artifact](https://www.usenix.org/conference/USENIX ATC23/call-for-artifacts#submitting) section for details on the submission process.
+See the [Submitting an Artifact](https://sysartifacts.github.io/atc2023/author-submission-guide#submitting) section for details on the submission process.
 
-Questions about the process can be directed to [USENIX ATCatc23aec@usenix.org](mailto:USENIX ATCatc23aec@usenix.org).
+Questions about the process can be directed to [osdiatc23aec@usenix.org](mailto:Uosdiatc23aec@usenix.org).
 
 ## Important Dates
 - Notification for paper authors: **Friday, April 28th, 2023**
