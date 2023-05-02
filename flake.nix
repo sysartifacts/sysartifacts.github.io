@@ -9,7 +9,7 @@
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
 
-        # The build environment
+    # This is the environment used to run jekyll in; it reads gemset.nix in the current directory
     env = pkgs.bundlerEnv {
       name = "sysartifacts.github.io";
       ruby = pkgs.ruby;
@@ -30,7 +30,7 @@
     };
   in {
     apps.${system} = {
-      default = simple_script "serve" [] ''
+      default = simple_script "serve" [env] ''
         echo "Bundler env: ${env}"
         ${env}/bin/bundler exec -- jekyll serve --trace
       '';
@@ -44,10 +44,6 @@
         export BUNDLE_NO_INSTALL=true
         export BUNDLE_FORCE_RUBY_PLATFORM=true
 
-        
-        bundler update
-        bundler lock
-        bundler package
         bundix --magic
         rm -rf vendor
       '';
