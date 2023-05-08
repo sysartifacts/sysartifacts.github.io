@@ -137,4 +137,4 @@ There are several sources of good advice about preparing artifacts for evaluatio
 - [HOWTO for AEC Submitters](https://docs.google.com/document/d/1pqzPtLVIvwLwJsZwCb2r7yzWMaifudHe1Xvn42T4CcA/edit), by Dan Barowy, Charlie Curtsinger, Emma Tosch, John Vilk, and Emery Berger
 - [Artifact Evaluation: Tips for Authors](https://blog.padhye.org/Artifact-Evaluation-Tips-for-Authors/), by Rohan Padhye
 
-If you have any questions about how best to package your artifact, contact [osdiatc22aec@usenix.org](mailto:osdiatc22aec@usenix.org).
+If you have any questions about how best to package your artifact, contact [osdiatc23aec@usenix.org](mailto:osdiatc23aec@usenix.org).
