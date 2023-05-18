@@ -38,3 +38,9 @@ The folder name must be the exact conference name followed by the year such as `
 Pages are in Kramdown ([cheat sheet](https://kramdown.gettalong.org/quickref.html)).
 
 To change the order of items in the left sidebar, change the `order` property in the front matter.
+
+## Developing with nix
+
+Run `nix run` in this directory to start jekyll in "serve" mode
+
+The `gemset.nix` file is not automatically synced with `Gemfile.lock`; run `nix run .#generate` to re-generate it if the lockfile has been updated
