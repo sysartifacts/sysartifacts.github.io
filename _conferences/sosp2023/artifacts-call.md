@@ -21,7 +21,7 @@ You can contact the [AEC chairs](https://sysartifacts.github.io/sosp2023/organiz
 - Notification for paper authors: **Sunday, July 16, 2023**
 - Artifact intent registration deadline: **Friday, July 21, 2023**
 - Artifact submission deadline: **Friday, July 28, 2023**
-- Kick-the-tires response period: **Wednesday, August 2–Friday, August 11, 2023**
+- Kick-the-tires response period: **Wednesday, August 2 – Friday, August 11, 2023**
 - Artifact decisions announced: **Friday, September 1, 2023**
 - SOSP final papers deadline: **Wednesday, September 6, 2023**
 

@@ -24,15 +24,15 @@ table th:nth-of-type(2) {
 
 Unfortunately, artifacts sometimes miss badges because they were not tested on a clean setup, or not documented enough, or because running experiments is too error-prone due to complex manual steps. Below we provide checklists for authors to minimize the risk of an artifact unnecessarily missing a badge.
 
-## Artifact Available
+### Artifact Available
 
 - The artifact is available on a public website with a specific version such as a git commit.
-- The artifact has a “readme” file with a reference to the paper.
+- The artifact has a “read me” file with a reference to the paper.
 - The artifact has an associated license and ideally one that at least allows use for comparison purposes.
 
 Artifacts must meet these criteria *at the time of evaluation*. Promises of future availability, such as artifacts “temporarily” gated behind credentials given to evaluators, are not enough.
 
-## Artifact Evaluated - Functional
+### Artifact Evaluated - Functional
 
 - The artifact has a “read me” file with high-level documentation:
   - A description, such as which folders correspond to code, benchmarks, data, …
@@ -46,7 +46,7 @@ Artifacts must meet these criteria *at the time of evaluation*. Promises of futu
 - If the artifact includes a container/VM, it must also contain a script to create it from scratch
 Artifacts must be usable on other machines than the authors’, though they may require hardware such as specific network cards. Information such as IP addresses must not be hardcoded.
 
-## Results Reproduced
+### Results Reproduced
 
 - The artifact has a “read me” file that documents:
   - The exact environment the authors used, including OS version and any special hardware.
