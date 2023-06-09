@@ -10,7 +10,7 @@ A scientific paper consists of a constellation of artifacts that extend beyond t
 The artifact evaluation process will consider the availability and functionality of artifacts associated with their corresponding papers, along with the reproducibility of the paper’s key results and claims with these artifacts. Artifact evaluation is single blind. Artifacts will be held in confidence by the evaluation committee. While the committee strongly encourages the authors of SOSP papers to make their artifacts publicly available, the artifact evaluation process is open to artifacts that are not.
 
 All accepted SOSP papers are encouraged to participate in artifact evaluation. 
-See [Submitting an Artifact](https://sysartifacts.github.io/sosp2023/call#submitting-an-artifact) for details on the submission process.
+See [Submitting an Artifact](https://sysartifacts.github.io/sosp2023/artifacts-call#submitting-an-artifact) for details on the submission process.
 
 You can contact the [AEC chairs](https://sysartifacts.github.io/sosp2023/organizers) for any questions.
 
@@ -46,7 +46,7 @@ Each paper sets up certain expectations and claims of its artifacts based on its
 
 ## Process
 
-Authors will be invited to submit their artifacts after their papers have been accepted for publication at SOSP. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the SOSP Program Committee. See the [guidelines for packaging artifacts later in this document](https://sysartifacts.github.io/sosp2023/call#packaging-artifacts).
+Authors will be invited to submit their artifacts after their papers have been accepted for publication at SOSP. Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing their artifacts for evaluation while their papers are still under consideration by the SOSP Program Committee. See the [guidelines for packaging artifacts later in this document](https://sysartifacts.github.io/sosp2023/artifacts-call#packaging-artifacts).
 
 At artifact-submission time, a submitter will choose the criteria by which their artifacts will be evaluated. The criteria correspond to three separate badges that can be awarded to a paper, as defined by the [ACM Artifact Review and Badging policy v1.1](https://www.acm.org/publications/policies/artifact-review-and-badging-current). An artifact can meet the criteria of one, two, or all three of the following badges:
 
@@ -69,6 +69,12 @@ Artifact evaluation is “single blind.” The identities of artifact authors wi
 To maintain the anonymity of artifact evaluators, the authors of artifacts should not embed any analytics or other tracking in the websites for their artifacts for the duration of the artifact-evaluation period. If you cannot control this, do not access this data. This is important to maintain the confidentiality of the evaluators. In cases where tracing is unavoidable, authors should notify the AEC chairs in advance so that AEC members can take adequate safeguards.
 
 ## Submitting an Artifact
+
+### Registration and Submission
+
+TBD
+
+### Packaging Artifacts
 
 TBD
 
