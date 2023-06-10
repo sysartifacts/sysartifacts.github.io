@@ -3,7 +3,7 @@ title: Call for AEC Members
 order: 20
 ---
 
-We are looking for members of the Artifact Evaluation Committee (AEC), who will contribute to [SOSP’23 Artifact Evaluation (AE)](https://sysartifacts.github.io/sosp2023/artifacts-call) process by reviewing submitted artifacts. AEC membership is especially suitable for researchers early in their career, such as PhD students. Even as a first-year PhD student, you are welcome to join the AEC, provided you are working in a topic area covered by [SOSP](https://sosp2023.mpi-sws.org/cfp.html) (such as operating systems, file and storage systems, distributed systems, cloud computing, and other areas of computer systems research). You can be located anywhere in the world as all committee discussions will happen online.
+We are looking for members of the Artifact Evaluation Committee (AEC), who will contribute to [SOSP’23 Artifact Evaluation (AE)](artifacts-call) process by reviewing submitted artifacts. AEC membership is especially suitable for researchers early in their career, such as PhD students. Even as a first-year PhD student, you are welcome to join the AEC, provided you are working in a topic area covered by [SOSP](https://sosp2023.mpi-sws.org/cfp.html) (such as operating systems, file and storage systems, distributed systems, cloud computing, and other areas of computer systems research). You can be located anywhere in the world as all committee discussions will happen online.
 
 As an AEC member, you will not only help promote the reproducibility of experimental results in systems research, but also get to familiarize yourself with research papers just accepted for publication at SOSP 2023 and explore their artifacts. For a given artifact, you may be asked to evaluate its public availability, functionality, and/or ability to reproduce the results from the paper. You will be able to discuss with other AEC members and anonymously interact with the authors as necessary, for instance if you are unable to get the artifact to work as expected. Finally, you will provide a review for the artifact to give constructive feedback to its authors, discuss the artifact with fellow reviewers, and help award the paper artifact evaluation badges.
 
@@ -17,4 +17,4 @@ If you are interested in taking part in the AEC, please complete this [online se
 
 Deadline: **July 6, 2023, Anywhere on Earth**
 
-You can contact the [AEC chairs](https://sysartifacts.github.io/sosp2023/organizers) for any questions.
+You can contact the [AEC chairs](organizers) for any questions.
