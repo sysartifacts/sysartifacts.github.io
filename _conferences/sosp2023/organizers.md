@@ -9,7 +9,7 @@ order: 30
 - [Matthew Burke](https://matthelb.com), Databricks
 - [Jiayi Meng](https://www.cs.purdue.edu/homes/meng72/), Purdue University
 
-You can contact the [AEC chairs](organizers) for any questions.
+Contact the AEC chairs at [sosp23-aec-chairs@mpi-sws.org](mailto:sosp23-aec-chairs@mpi-sws.org).
 
 ## Artifact Evaluation Committee
 
