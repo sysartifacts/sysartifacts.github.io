@@ -5,7 +5,9 @@ order: 10
 
 ## Overview
 
-A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself, yet many of our conferences offer no formal means to submit and evaluate anything but the paper. To address this shortcoming, SOSP runs an optional artifact evaluation process. 
+A scientific paper consists of a constellation of artifacts that extend beyond the document itself: software, hardware, evaluation data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on. In some cases, the quality of these artifacts is as important as that of the document itself.
+Based on the success of the artifact evaluation from SOSP’21 and SOSP’19, SOSP’23 will continue to run an **optional** artifact evaluation process.
+All papers accepted at SOSP’23 are encouraged to participate in the artifact evaluation process.
 
 The artifact evaluation process will consider the availability and functionality of artifacts associated with their corresponding papers, along with the reproducibility of the paper’s key results and claims with these artifacts. Artifact evaluation is single blind. Artifacts will be held in confidence by the evaluation committee. While the committee strongly encourages the authors of SOSP papers to make their artifacts publicly available, the artifact evaluation process is open to artifacts that are not.
 
