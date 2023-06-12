@@ -13,7 +13,7 @@ The artifact evaluation process will consider the availability and functionality
 All accepted SOSP papers are encouraged to participate in artifact evaluation. 
 See [Submitting an Artifact](#submitting-an-artifact) for details on the submission process.
 
-You can contact the [AEC chairs](organizers) for any questions.
+Questions about the process can be directed to [sosp23-aec-chairs@mpi-sws.org](mailto:sosp23-aec-chairs@mpi-sws.org).
 
 ## Important Dates
 
