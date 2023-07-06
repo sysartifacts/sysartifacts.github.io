@@ -3,3 +3,5 @@
 .jekyll-cache
 .jekyll-metadata
 .DS_Store
+.swp
+.swo
