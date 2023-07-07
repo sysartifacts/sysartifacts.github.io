@@ -11,28 +11,9 @@ The goal of the AEC is to help authors achieve these goals and to award badges t
 
 Questions about artifact evaluation can be directed to [aec-2024@eurosys.org](mailto:aec-2024@eurosys.org).
 
-## Important Dates
-
-*All AEC deadlines are Anywhere on Earth (AoE).*
-
-#### Papers accepted in the EuroSys'24 Spring round
-- Acceptance notification to paper authors: **Wednesday, Aug 10, 2022**
-- Artifact intent registration deadline: **Tuesday, Aug, 16, 2022**
-- Artifact submission deadline: **Tuesday, Aug 23, 2022**
-- Kick-the-tires response period: **Wednesday, Aug 24 - Tuesday, Sep 6, 2023**
-- Artifact decisions announced: **Tuesday, Oct 4, 2022**
-- Camera-ready deadline: **Wednesday, Oct 5, 2022**
-
-#### Papers accepted in the EuroSys'24 Fall round
-- Acceptance notification to paper authors: **Wednesday, Jan 18, 2023**
-- Artifact intent registration deadline: **Tuesday, Jan 24, 2023**
-- Artifact submission deadline: **Tuesday, Jan 31, 2023**
-- Kick-the-tires response period: **Wednesday, Feb 1 - Tuesday, Feb 14, 2023**
-- Artifact decisions announced: **Tuesday, March 14, 2023**
-- Camera-ready deadline: **Wednesday, March 15, 2023**
-
-
 For an artifact to be considered for the AEC process, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
+
+Check the dates [here](dates)
 
 ## Registration and Submission
 
