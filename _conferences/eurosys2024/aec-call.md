@@ -24,7 +24,7 @@ We expect that evaluations can be done on your own computer (any moderately rece
 How to Apply
 ------------
 
-If you are interested in taking part in the AEC, please complete [this online form](https://docs.google.com/forms/d/1amD2x6WvsWAdQLZoTcQlMLQT_d2mhp0VuOrB4gAt7zU/). 
+If you are interested in taking part in the AEC, please complete [this online form](XXX). 
 before the [deadline](dates). 
 
 
