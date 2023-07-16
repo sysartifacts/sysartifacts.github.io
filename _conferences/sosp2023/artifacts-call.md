@@ -124,7 +124,7 @@ A detailed screencast of the tool along with the results, especially if one of t
 As previously described, in all cases, artifacts must be provided in a manner that is appropriate for single-blind review by members of the AEC (i.e., anonymous reviewers).
 
 There are a growing number of tools and mechanisms that are designed specifically to meet the needs of research reproducibility; authors may want to consider using such tools when appropriate. A partial list includes:
-- CloudLab Profiles: A mechanism for encapsulating and sharing research environments on the CloudLab facility.
+- [CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html): A mechanism for encapsulating and sharing research environments on the CloudLab facility.
 
 
 
