@@ -61,7 +61,14 @@ The AEC will complete its evaluation and notify authors of the outcomes. Authors
 
 ## Artifact Details
 
-TBD
+The AEC will try to accept any kind of digital artifact that authors wish to submit: software, data sets, survey results, test suites, mechanized proofs, etc. Paper proofs will not be accepted, because the AEC lacks the time and often the expertise to carefully review paper proofs. Physical objects, e.g., computer hardware, cannot be accepted due to the difficulty of making the objects available to members of the AEC.
+
+The submission of an artifact does not give the AEC permission to make its content public. AEC members may not publicize any part of your artifact during or after completing evaluation, nor may they retain any part of it after evaluation. Thus, you are free to include models, data files, proprietary binaries, etc. in your artifact. Participating in artifact evaluation does not require you to later publish your artifacts (although it is encouraged).
+
+Please keep in mind that the AEC can only evaluate on hardware to which it has access; to the extent possible, make sure that your artifact can run on commonly-available hardware, or hardware in community research testbeds such as [CloudLab](https://cloudlab.us/). Make sure to clearly document any special hardware requirements. If your artifact cannot run on common or community hardware, consider whether there is a way to make the hardware you used remotely available to AEC members. If your artifact requires the use of a public cloud, the AEC will make every reasonable effort to evaluate it, but do keep in mind that budget constraints may be a limiting factor.
+
+Some artifacts may attempt to perform malicious or destructive operations by design. These cases should be boldly and explicitly flagged in detail in the README so the AEC can take appropriate precautions before installing and running these artifacts. Please contact AEC chairs if you believe that your artifacts fall into this category.
+
 
 ## Review and Anonymity
 
@@ -73,11 +80,54 @@ To maintain the anonymity of artifact evaluators, the authors of artifacts shoul
 
 ### Registration and Submission
 
-TBD
+Submitting the artifacts associated with your accepted SOSP paper is a two-step process.
+
+1. *Registration:* By the artifact registration deadline, submit the abstract and PDF of your accepted SOSP paper, as well as topics, conflicts, and any “optional bidding instructions” for potential evaluators via the artifact submission site: [https://sosp23ae.hotcrp.com/](https://sosp23ae.hotcrp.com/)
+
+2. *Submission:* By the artifact submission deadline, provide a stable URL or (if that is not possible) upload an archive of your artifacts. If the URL is access-protected, provide the credentials needed to access it. Select the criteria/badges that the AEC should consider while evaluating your artifacts. You will not be able to change the URL, archive, or badge selections after the artifact submission deadline. Finally, for your artifact to be considered, check the “ready for review” box before the submission deadline.
+
+
+The AEC recommends that you create a single web page at a stable URL that contains your artifact package. The AEC may contact you with questions about your artifacts if your submitted materials are unclear.
 
 ### Packaging Artifacts
 
-TBD
+The goal of the Artifact Evaluation Committee is to judge whether the artifacts that you submit conform to the expectations set by your paper in the context of the criteria associated with the badges you have selected. The effort that you put into packaging your artifacts has a direct impact on the committee’s ability to make well-informed decisions. Please package your artifacts with care to make it as straightforward and easy as possible for the AEC to understand and evaluate their quality.
+
+A complete artifact package must contain:
+
+- the accepted version of your SOSP paper
+- the artifact itself
+- instructions
+
+Your artifact package must include an obvious “README” that describes your artifact and provides a road map for evaluation. The README should contain or point to suitable instructions and documentation, to save committee members the burden of reverse-engineering the authors’ intentions. (A tool without a quick tutorial is generally very difficult to use. Similarly, a dataset is useless without some explanation on how to browse the data.) For software artifacts, the README should, at a minimum, provide instructions for installing and running the software on relevant inputs. For other types of artifacts, describe your artifact and detail how to “use” it in a meaningful way.
+
+Importantly, make your claims about your artifacts concrete. This is especially important if you think that these claims differ from the expectations set up by your paper. The AEC is still going to evaluate your artifacts relative to your paper, but your explanation can help to set expectations up front, especially in cases that might frustrate the evaluators without prior notice. For example, tell the AEC about difficulties they might encounter in using the artifact, or its maturity relative to the content of the paper.
+
+Authors should consider one of the following methods to package the software components of their artifacts (although the AEC is open to other reasonable formats as well):
+
+- Source code: If your artifact has few dependencies and can be installed easily on several operating systems, you may submit source code and build scripts. However, if your artifact has a long list of dependencies, please use one of the other formats below.
+- Virtual machine/container:
+A virtual machine or Docker image containing the software application already set up with the right toolchain and intended runtime environment. For example:
+  - For raw data, the VM would contain the data and the scripts used to analyze it.
+  - For a mobile phone application, the VM would have a phone emulator installed.
+  - For mechanized proofs, the VM would contain the right version of the relevant theorem prover.
+  - We recommend using a format that is easy for AEC members to work with, such as OVF or Docker images. An AWS EC2 instance is also possible.
+- Binary installer: Indicate exactly which platform and other run-time dependencies your artifact requires.
+- Live instance on the web: Ensure that it is available for the duration of the artifact evaluation process.
+- Internet-accessible hardware: If your artifact requires special hardware (e.g., SGX or another trusted execution environment), or if your artifact is actually a piece of hardware, please make sure that AEC members can somehow access the device. VPN-based access to the device might be an option.
+- Screencast:
+A detailed screencast of the tool along with the results, especially if one of the following special cases applies:
+  - The artifact needs proprietary/commercial software or proprietary data that is not easily available or cannot be distributed to the committee.
+  - The artifact requires significant computation resources (e.g., more than 24 hours of execution time to produce the results) or requires huge data sets.
+  - The artifact requires specific hardware or software that is not generally available in a typical lab and where no access can be provided in a reasonable way.
+
+As previously described, in all cases, artifacts must be provided in a manner that is appropriate for single-blind review by members of the AEC (i.e., anonymous reviewers).
+
+There are a growing number of tools and mechanisms that are designed specifically to meet the needs of research reproducibility; authors may want to consider using such tools when appropriate. A partial list includes:
+- [CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html): A mechanism for encapsulating and sharing research environments on the CloudLab facility.
+
+
+
 
 ## Further Advice
 
