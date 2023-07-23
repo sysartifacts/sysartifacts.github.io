@@ -68,16 +68,23 @@ You can notify a fellow evaluator with an @-mention in a HotCRP author
 discussion comment, as on many other platforms.  Type @ and let HotCRP
 autocomplete the name you want.
 
-Avoid overloading authors with questions and comments, especially given that
-there are multiple evaluators per artifact.  Use "Reviewer discussion" comments
-to synchronize with your fellow evaluators before communicating with authors.
-For instance, if you must provide your SSH key to the authors so they can give
-you access to their hardware, each evaluator can write their key in a reviewer
-discussion message, and the final one can copy/paste all of them in one single
-author discussion message.  If you encounter an issue with the artifact, try
-first asking other evaluators if they have had the same issue, and if they have
-not, see how your environments differ as this information can be helpful to
-help authors fix bugs.
+When possible, avoid overloading authors with questions and comments,
+especially if similar questions have already been asked or answered by other
+reviewers.  Before posting a new comment on HotCRP, ensure that the answer you
+are looking for is not already present in previous comments from the authors
+or other reviewers. With that said, if you encounter an issue to which the
+solution is not readily apparent, contact the authors as soon as possible to
+resolve it. Since authors and reviewers may span many timezones, it is
+imperative to raise blocking issues to authors quickly. This will ensure that
+authors have enough time to respond, provide solutions, and update their
+artifact documentation.
+
+For issues that require input from all reviewers, use "Reviewer discussion"
+comments to synchronize with your fellow evaluators before communicating with
+authors. For example, if you must provide your SSH key to the authors so they
+can give you access to their hardware, each evaluator can write their key in a
+reviewer discussion message, and the final one can copy/paste all of them in
+one single author discussion message.
 
 ## Evaluation setups
 
