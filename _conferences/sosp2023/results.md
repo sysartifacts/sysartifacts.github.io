@@ -13,6 +13,7 @@ artifacts:
   - title: "Acto: Automatic End-to-End Testing for Operation Correctness of Cloud System Management"
     github_url: "https://github.com/xlab-uiuc/acto/tree/sosp-ae"
     badges: Available, Functional, Reproduced
+    summary: acto
     doi: "10.1145/3600006.3613161"
 
   - title: "Bagpipe: Accelerating Deep Recommendation Model Training"
