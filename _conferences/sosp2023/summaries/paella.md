@@ -1,4 +1,8 @@
-# Artifact Review Summary: Paper [Paella: Low-latency Model Serving with Virtualized GPU Scheduling]
+---
+title: "Artifact Review Summary: Paella: Low-latency Model Serving with Software-defined GPU Scheduling"
+---
+
+{% include_relative _result-header.html %}
 
 ## Description of the Artifact
 
