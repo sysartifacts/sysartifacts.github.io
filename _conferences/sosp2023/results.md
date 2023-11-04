@@ -65,6 +65,7 @@ artifacts:
   - title: "Grove: a Separation-Logic Library for Verifying Distributed Systems"
     github_url: "https://github.com/mit-pdos/grove-artifact"
     badges: Available, Functional, Reproduced
+    summary: grove
     doi: "10.1145/3600006.3613172"
 
   - title: "gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning"
