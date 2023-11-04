@@ -90,6 +90,7 @@ artifacts:
   - title: "Paella: Low-latency Model Serving with Software-defined GPU Scheduling"
     github_url: "https://github.com/eniac/paella/tree/sosp23_artifact"
     badges: Available, Functional, Reproduced
+    summary: paella
     doi: "10.1145/3600006.3613163"
 
   - title: "Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory"
