@@ -31,7 +31,6 @@ The artifact was awarded the "Artifact Available" and "Artifact Functional” ba
     * Manually configured SSH connectivity between the master node and client nodes;
     * Ran a basic micro-benchmark experiment to verify the installation (Figure 10).
 
-  3. Results Reproduced Badge: While reviewers replicated the results of Figure 10 using both m510 and xl170 machines, Figures 11 (latency measurements) to 13 (overhead measurements) presented several challenges. Notably, the reviewers could not exercise approximately a third of the latency measurements, and could not match overhead measurement for two out of five applications.
 
 ## Additional Notes and Resources
 
