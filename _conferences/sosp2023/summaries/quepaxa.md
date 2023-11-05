@@ -19,7 +19,7 @@ The submitted artifacts are awarded the following badges:
 
 ## Environment(s) Used for Testing
 
-We used two environments:
+The reviewers used two environments:
 1. M1 Macbook, Docker and Visual Studio Code using the Remote-Docker extension
 2. AWS Free-tier ubuntu 20.04 vm in us-west1 location
    
@@ -27,7 +27,7 @@ We used two environments:
 
 ### Environment 1 - Docker
 
-I used a Docker VM on an M1 Macbook and tested the source code using Visual Studio Code.
+The reviewers used a Docker VM on an M1 Macbook and tested the source code using Visual Studio Code.
 My environment was setup as follows:
 1. Create a Dockerfile as follows:
    ```
@@ -48,7 +48,7 @@ My environment was setup as follows:
    
 ### Environment 2 - VMs
 
-I also managed to successfully build the code on AWS machines.
+The reviewers also managed to successfully build the code on AWS machines.
 1. Spawn a t2.micro instance and login to it
 2. Run the following commands to setup an environment:
    ```bash
@@ -63,7 +63,7 @@ I also managed to successfully build the code on AWS machines.
 
 ## How The Artifact Supports The Paper
 
-We awarded this artifact the following badges:
+The artifact has been awarded with the following badges:
 1. Artifact Available (v1.1) 
    The artifacts are publicly available on Github 
    - [https://github.com/dedis/quepaxa/](https://github.com/dedis/quepaxa/)
@@ -72,11 +72,11 @@ We awarded this artifact the following badges:
    - [https://github.com/dedis/paxos_and_raft](https://github.com/dedis/paxos_and_raft)
 2. Artifact Evaluated - Functional (v1.1)
    The artifacts are functional for the most parts. 
-   Some of the tests fail non-deterministically in the Macbook environment and others may experience similar results. If retried sufficiently (around 10-15 times), the tests pass. I also read the code and can roughly confirm its functionality (nothing is out of place).
+   Some of the tests fail non-deterministically in the Macbook environment and others may experience similar results. If retried sufficiently (around 10-15 times), the tests pass. The reviewers also read the code and can roughly confirm its functionality (nothing is out of place).
 
 ## Additional Notes and Resources
 
 - The integration tests mentioned in the project documentation were non-deterministic on the M1 macbook environment. It may need several retries before they succeed.
-- We did not manage to reproduce the results on AWS due to high cost barriers (~6500CHF). But that does not mean that the artifact cannot reproduce the results.
+- The reviewers did not manage to reproduce the results on AWS due to high cost barriers (~6500CHF). But that does not mean that the artifact cannot reproduce the results.
 - The experiments also take a long time, and need to be monitored. If using the free-tier of AWS, monitor the costs to avoid being charged from spawning several machines.
 
