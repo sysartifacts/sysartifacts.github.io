@@ -190,6 +190,7 @@ artifacts:
 
   - title: "Flexible Advancement in Asynchronous BFT Consensus"
     badges: Functional, Reproduced
+    summary: superma
     doi: "10.1145/3600006.3613164"
 ---
 
