@@ -163,6 +163,7 @@ artifacts:
   - title: "Pushing Performance Isolation Boundaries into Application with pBox"
     github_url: "https://github.com/OrderLab/pBox"
     badges: Available, Functional
+    summary: pbox
     doi: "10.1145/3600006.3613159"
 
   - title: "QuePaxa: Escaping the tyranny of timeouts in consensus"
