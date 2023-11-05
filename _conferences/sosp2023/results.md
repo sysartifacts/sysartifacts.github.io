@@ -37,6 +37,7 @@ artifacts:
   - title: "Edna: Disguising and Revealing User Data in Web Applications"
     github_url: "https://github.com/tslilyai/edna/tree/artifact"
     badges: Available, Functional, Reproduced
+    summary: edna
     doi: "10.1145/3600006.3613146"
 
   - title: "Efficient Memory Management for Large Language Model Serving with PagedAttention"
