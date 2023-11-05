@@ -142,6 +142,7 @@ artifacts:
   - title: "Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal Scheduling"
     github_url: "https://github.com/m8/concord"
     badges: Available, Functional
+    summary: concord
     doi: "10.1145/3600006.3613136"
 
   - title: "Antipode: Enforcing Cross-Service Causal Consistency in Distributed Applications"
