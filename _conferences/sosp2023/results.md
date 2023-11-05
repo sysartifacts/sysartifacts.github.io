@@ -125,6 +125,7 @@ artifacts:
   - title: "SPFresh: Incremental In-Place Update for Billion-Scale Vector Search"
     github_url: "https://github.com/SPFresh/SPFresh"
     badges: Available, Functional, Reproduced
+    summary: spfresh
     doi: "10.1145/3600006.3613166"
 
   - title: "Turbo: Effective Caching in Differentially-Private Databases"
