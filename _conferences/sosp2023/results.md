@@ -112,6 +112,7 @@ artifacts:
   - title: "Private Web Search with Tiptoe"
     github_url: "https://github.com/ahenzinger/tiptoe"
     badges: Available, Functional, Reproduced
+    summary: tiptoe
     doi: "10.1145/3600006.3613134"
 
   - title: "Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling"
