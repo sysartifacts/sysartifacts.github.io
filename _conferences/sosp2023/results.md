@@ -165,6 +165,7 @@ artifacts:
   - title: "QuePaxa: Escaping the tyranny of timeouts in consensus"
     github_url: "https://github.com/dedis/quepaxa/"
     badges: Available, Functional
+    summary: quepaxa
     doi: "10.1145/3600006.3613150"
 
   - title: "RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design"
