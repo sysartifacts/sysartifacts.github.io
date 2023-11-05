@@ -1,5 +1,5 @@
 ---
-title: "Grove: a Separation-Logic Library for Verifying Distributed Systems"
+title: "Artifact Review Summary: Grove: a Separation-Logic Library for Verifying Distributed Systems"
 ---
 
 {% include_relative _result-header.html %}
