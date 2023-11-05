@@ -41,6 +41,7 @@ artifacts:
   - title: "Efficient Memory Management for Large Language Model Serving with PagedAttention"
     github_url: "https://github.com/sosp-ae-39/sosp-ae-astra"
     badges: Available, Functional, Reproduced
+    summary: astra
     doi: "10.1145/3600006.3613165"
 
   - title: "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture"
