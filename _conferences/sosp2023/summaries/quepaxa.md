@@ -2,14 +2,17 @@
 title: "Artifact Review Summary: QuePaxa: Escaping the tyranny of timeouts in consensus"
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 This submission contains artifacts to run the SMR protocols: QuePaxa (this submission), EPaxos, Rabia, and RAFT protocols.
 The artifact of this paper is publicly available [here](https://github.com/dedis/quepaxa/) and the `docs/` folder contains artefact evaluation instructions.
 The artifacts for the related papers provided in this submission are publicly available here:
-- https://github.com/dedis/quepaxa-ePaxos-open-loop
-- https://github.com/dedis/quepaxa-rabia-open-loop
-- https://github.com/dedis/paxos_and_raft
+- [https://github.com/dedis/quepaxa-ePaxos-open-loop](https://github.com/dedis/quepaxa-ePaxos-open-loop)
+- [https://github.com/dedis/quepaxa-rabia-open-loop](https://github.com/dedis/quepaxa-ePaxos-open-loop)
+- [https://github.com/dedis/paxos_and_raft](https://github.com/dedis/paxos_and_raft)
+
 The submitted artifacts are awarded the following badges:
 - Artifact Available (v1.1)
 - Artifact Evaluated - Functional (v1.1)
@@ -63,10 +66,10 @@ I also managed to successfully build the code on AWS machines.
 We awarded this artifact the following badges:
 1. Artifact Available (v1.1) 
    The artifacts are publicly available on Github 
-   - https://github.com/dedis/quepaxa/
-   - https://github.com/dedis/quepaxa-ePaxos-open-loop
-   - https://github.com/dedis/quepaxa-rabia-open-loop
-   - https://github.com/dedis/paxos_and_raft
+   - [https://github.com/dedis/quepaxa/](https://github.com/dedis/quepaxa/)
+   - [https://github.com/dedis/quepaxa-ePaxos-open-loop](https://github.com/dedis/quepaxa-ePaxos-open-loop)
+   - [https://github.com/dedis/quepaxa-rabia-open-loop](https://github.com/dedis/quepaxa-rabia-open-loop)
+   - [https://github.com/dedis/paxos_and_raft](https://github.com/dedis/paxos_and_raft)
 2. Artifact Evaluated - Functional (v1.1)
    The artifacts are functional for the most parts. 
    Some of the tests fail non-deterministically in the Macbook environment and others may experience similar results. If retried sufficiently (around 10-15 times), the tests pass. I also read the code and can roughly confirm its functionality (nothing is out of place).
