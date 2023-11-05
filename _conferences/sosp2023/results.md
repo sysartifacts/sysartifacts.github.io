@@ -133,6 +133,7 @@ artifacts:
   - title: "UGACHE: A Unified GPU Cache for Embedding-based Deep Learning"
     github_url: "https://github.com/SJTU-IPADS/ugache-artifacts"
     badges: Available, Functional, Reproduced
+    summary: ugache
     doi: "10.1145/3600006.3613169"
 
   - title: "Achieving Microsecond-Scale Tail Latency Efficiently with Approximate Optimal Scheduling"
