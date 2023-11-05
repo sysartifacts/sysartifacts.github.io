@@ -84,7 +84,3 @@ The artifact has a `README` file that documents:
 The artifacts supply scripts to replicate the results of latency and throughput experiments, as well as other tables and figures mentioned in the paper. Based on the evaluators' reproduction, the results of the latency and throughput experiments, along with search quality evaluation, align with the assertions made in the paper.
 
 In the end, all evaluators support granting three badges to this paper.
-
-## Additional Notes and Resources
-
-N/A
