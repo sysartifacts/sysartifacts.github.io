@@ -72,6 +72,7 @@ artifacts:
   - title: "gSampler: General and Efficient GPU-based Graph Sampling for Graph Learning"
     github_url: "https://github.com/gpzlx1/gsampler-artifact-evaluation"
     badges: Available, Functional, Reproduced
+    summary: gsampler
     doi: "10.1145/3600006.3613168"
 
   - title: "Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing"
