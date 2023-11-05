@@ -2,6 +2,8 @@
 title: "Artifact Review Summary: SPFresh: Incremental In-Place Update for Billion-Scale Vector Search"
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The SPFresh GitHub repository can be found [here](https://github.com/SPFresh/SPFresh). This artifact allows for the evaluation of a new approach for in-place vector updates that outpeforms the current state-of-the-art graph and partition based approaches. The authors evaluate their proposed against two such approaches (one graph based and one partition based) on two widely used vector datasets from the literature with three different workloads. The authors demonstrate SPFresh outperforms the other approaches on a number of metrics such as search accuracy, search tail latency, queries per second, and memory usage.
