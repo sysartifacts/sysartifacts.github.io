@@ -157,6 +157,7 @@ artifacts:
   - title: "MEMTIS: Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination"
     github_url: "https://github.com/cosmoss-jigu/memtis"
     badges: Available, Functional
+    summary: memtis
     doi: "10.1145/3600006.3613167"
 
   - title: "Pushing Performance Isolation Boundaries into Application with pBox"
