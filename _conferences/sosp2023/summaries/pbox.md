@@ -11,11 +11,10 @@ The paper presents pBox, a new operating system abstraction designed to mitigate
 The artifact is available on a public GitHub repository. This repository hosts the pBox code, utility tooling, and guidelines for compiling, building, and testing the system. The authors further provide steps to verify the key findings of the paper. Specifically, the
 repository includes:
 
-    * the pBox kernel: a custom kernel that implement pBox's functionality.
-
-    * the pBox user-level library (psandbox-userlib): a library that serves as a bridge between user applications and the pBox kernel.
-    * tooling that automates the installation, building, and validation procedures.
-    * comprehensive documentation indicating how to prepare the kernel environment, install the user library, manage interactions between master and client nodes, and validate the main findings of the work.
+- the pBox kernel: a custom kernel that implement pBox's functionality.
+- the pBox user-level library (psandbox-userlib): a library that serves as a bridge between user applications and the pBox kernel.
+- tooling that automates the installation, building, and validation procedures.
+- comprehensive documentation indicating how to prepare the kernel environment, install the user library, manage interactions between master and client nodes, and validate the main findings of the work.
 
 ## Environment(s) Used for Testing
 
