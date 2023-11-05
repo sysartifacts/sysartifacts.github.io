@@ -31,6 +31,7 @@ artifacts:
   - title: "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System"
     github_url: "https://github.com/dmemsys/Ditto"
     badges: Available, Functional, Reproduced
+    summary: ditto
     doi: "10.1145/3600006.3613144"
 
   - title: "Edna: Disguising and Revealing User Data in Web Applications"
