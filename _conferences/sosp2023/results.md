@@ -176,6 +176,7 @@ artifacts:
   - title: "RackBlox: A Software-Defined Rack-Scale Storage System with Network-Storage Co-Design"
     github_url: "https://github.com/breidys2/RackBlox"
     badges: Available, Functional
+    summary: rackblox
     doi: "10.1145/3600006.3613170"
 
   - title: "Siloz: Leveraging DRAM Isolation Domains to Prevent Inter-VM Rowhammer"
