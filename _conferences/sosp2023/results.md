@@ -187,6 +187,7 @@ artifacts:
   - title: "Validating JIT Compilers via Compilation Space Exploration"
     github_url: "https://doi.org/10.5281/zenodo.8188346"
     badges: Available, Functional
+    summary: artemis
     doi: "10.1145/3600006.3613140"
 
   - title: "Flexible Advancement in Asynchronous BFT Consensus"
