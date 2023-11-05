@@ -2,6 +2,8 @@
 title: "Artifact Review Summary: Siloz: Leveraging DRAM Isolation Domains to Prevent Inter-VM Rowhammer"
 ---
 
+{% include_relative _result-header.html %}
+
 ## Description of the Artifact
 
 The artifact is available in a public [git repository](https://github.com/efeslab/siloz/tree/08c642c86256d0193ff5b14b7c4b211b7edb1472).
