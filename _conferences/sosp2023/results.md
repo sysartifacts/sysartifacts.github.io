@@ -48,6 +48,7 @@ artifacts:
   - title: "Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture"
     github_url: "https://github.com/vmexit/trio-sosp23-ae"
     badges: Available, Functional, Reproduced
+    summary: trio
     doi: "10.1145/3600006.3613171"
 
   - title: "Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory"
