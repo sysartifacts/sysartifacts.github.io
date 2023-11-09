@@ -93,7 +93,7 @@ But certain components/instructions seem to be missing, especially regarding the
 
 ### Run
 
-Execute ` ./test/scripts/figure*.sh`.
+Execute `./test/scripts/figure*.sh`.
 
 The expected runtime of each figure is still missing from the artifact. Authors' response during the AE:
 ```
