@@ -108,11 +108,11 @@ Figure 22 10min
 
 ## How The Artifact Supports The Paper
 
-The Functional Badge:
+### The Functional Badge:
 
 All evaluators managed to run all scripts under `./test/scripts/figure*.sh` successfully. Those scripts ran the edge-traverse application under different configurations and ran two relatively more complex appplications: DataFrame and GPT2.
 
-The Reproduced Badge:
+### The Reproduced Badge:
 
 The baseline system (i.e., Leap, Fastswap, AIFM) setup were missing in the artifact and not provided during the AE. Thus evaluators were not able to reproduce any baseline datapoints, only able to collect Mira metrics.
 
