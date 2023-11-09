@@ -37,7 +37,7 @@ MLNX_OFED version: MLNX_OFED_LINUX-4.9-7.1.0.0-ubuntu20.04-x86_64
 ## Step-By-Step Instructions to Exercise the Artifact
 
 To complete the whole evaluation, all evaluators used provided and pre-configured environments so no build/install process were performed.
-Evaluators simply ssh into the provided machines and execute ` ./test/scripts/figureXX.sh`.
+Evaluators simply ssh into the provided machines and execute `./test/scripts/figureXX.sh`.
 
 One evaluator managed to build the artifact binaries on the provided machine from scratch. But the self-built ones did not match the performance of prebuilt binaries provided by authors[3].
 The authors believed such difference was caused by environment and artifact limitations that evaluators cannot properly replace all prebuilt binaries with self-built ones. Eventually, the evaluator could not evaluate self-built binaries properly before the deadline.
