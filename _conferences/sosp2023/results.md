@@ -87,6 +87,7 @@ artifacts:
   - title: "Mira: A Program-Behavior-Guided Far Memory System"
     github_url: "https://bitbucket.org/mira-sosp23/mira-ae"
     badges: Available, Functional, Reproduced
+    summary: mira
     doi: "10.1145/3600006.3613157"
 
   - title: "Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates"
