@@ -18,8 +18,8 @@ order: 25
 
 #### Papers accepted in the EuroSys'24 Fall round
 - Acceptance notification to paper authors: **Wednesday, February 7, 2024**
-- Artifact intent registration deadline: **Friday, February 9, 2024**
-- Artifact submission deadline: **Wednesday, February 14, 2024**
-- Kick-the-tires response period: **Thursday, February 15 - Monday, February 19, 2024**
+- Artifact intent registration deadline: **Tuesday, February 13, 2024**
+- Artifact submission deadline: **Sunday, February 18, 2024**
+- Kick-the-tires response period: **Monday, February 19 - Wednesday, February 21, 2024**
 - Artifact decisions announced: **Wednesday, March 6, 2024**
 - Camera-ready deadline: **Thursday, March 7, 2024**
