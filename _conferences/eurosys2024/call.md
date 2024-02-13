@@ -17,9 +17,9 @@ Check the dates [here](dates)
 
 ## Registration and Submission
 
-*Link to HotCRP portal - Spring round:* [https://eurosys24ae-spring.hotcrp.com/](https://eurosys24ae-spring.hotcrp.com/)
+*Link to HotCRP portal - Spring round:* ~~[https://eurosys24ae-spring.hotcrp.com/](https://eurosys24ae-spring.hotcrp.com/)~~
 
-*Link to HotCRP portal - Fall round:* To be announced later.
+*Link to HotCRP portal - Fall round:* [https://eurosys24ae-fall.hotcrp.com/](https://eurosys24ae-fall.hotcrp.com/)
 
 Please submit your artifacts to the AE HotCRP portal and follow the two-step process:
 
