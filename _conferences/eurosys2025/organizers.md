@@ -15,4 +15,4 @@ You can reach the AEC chairs at [aec-2025@eurosys.org](mailto:aec-2025@eurosys.o
 ## Artifact Evaluation Committee
 
 Want to be part of the Artifact Evaluation Committee?
-Check [here](aec-call)
+Check [here](aec-call).
