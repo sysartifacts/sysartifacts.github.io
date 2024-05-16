@@ -7,7 +7,7 @@ Artifacts must be packaged to ease evaluation and use, including [instructions](
 Packaging is not only about evaluation but about future use of the artifact by other researchers who may want to build on top of it or use it as a baseline.
 
 We provide a few guidelines about packaging the artifact below.
-If you have further questions about how best to package your artifact, contact the AEC chairs at [aec-2024@eurosys.org](mailto:aec-2024@eurosys.org).
+If you have further questions about how best to package your artifact, contact the AEC chairs at [aec-2025@eurosys.org](mailto:aec-2025@eurosys.org).
 
 *Note*: Some artifacts may attempt to perform malicious or destructive operations by design.
 These cases should be boldly and explicitly flagged in detail at submission time (in the artifact instructions and appendix) so the AEC can take appropriate precautions before installing and running these artifacts. Please contact the AEC chairs if you believe that your artifacts fall into this category.
@@ -36,7 +36,7 @@ An artifact appendix must provide details on the time and hardware resources (e.
 If possible, the appendix should also describe how to compare the results of a reproduced experiment to the ones found in the paper (e.g., by providing access to the underlying dataset of the results).
 
 The intention for the artifact appendix is to be published in conjunction with your artifact.
-A template for the artifact appendix can be found here: [LaTeX Template](appendix/EuroSys24_ArtifactAppendix_template.tex) (to be used in conjuction with the EuroSys'24 template for research papers).
+A template for the artifact appendix can be found here: [LaTeX Template](appendix/EuroSys25_ArtifactAppendix_template.tex) (to be used in conjuction with the EuroSys'25 template for research papers).
 
 **Artifact Appendices are limited to 2 pages.**
 
@@ -63,7 +63,7 @@ Authors should consider one of the following methods to package the software com
    - The artifact needs proprietary/commercial software or proprietary data that is not easily available or cannot be distributed to the committee.
    - The artifact requires significant computation resources (e.g., more than 24 hours of execution time to produce the results) or requires huge data sets.
    - The artifact requires specific hardware or software that is not generally available in a typical lab and where no access can be provided in a reasonable way.
-   - If your artifact falls in this category please contact the AEC chairs at [aec-2024@eurosys.org](mailto:aec-2024@eurosys.org) as soon as possible.
+   - If your artifact falls in this category please contact the AEC chairs at [aec-2025@eurosys.org](mailto:aec-2025@eurosys.org) as soon as possible.
 
 
 

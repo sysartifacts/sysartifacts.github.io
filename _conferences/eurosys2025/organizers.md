@@ -5,10 +5,11 @@ order: 50
 
 ## Artifact Evaluation Chairs
 
-* [Miguel Matos](https://miguelmatos.me/) (IST, U. Lisboa & INESC-ID, Portugal)
-* [Valerio Schiavoni](http://members.unine.ch/valerio.schiavoni/) (Université de Neuchâtel, Switzerland)
+* [Thaleia Dimitra Doudali](https://thaleia-dimitradoudali.github.io/) (IMDEA Software Institute, Madrid, Spain)
+* [Christian Pinto](https://research.ibm.com/people/christian-pinto) (IBM Research Europe - Ireland Dublin, Ireland)
+* [Georgios Portokalidis](https://www.portokalidis.net) (IMDEA Software Institute, Madrid, Spain)
 
-You can reach the AEC chairs at [aec-2024@eurosys.org](mailto:aec-2024@eurosys.org).
+You can reach the AEC chairs at [aec-2025@eurosys.org](mailto:aec-2025@eurosys.org).
 
 
 ## Artifact Evaluation Committee
