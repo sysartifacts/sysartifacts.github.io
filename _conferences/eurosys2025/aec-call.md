@@ -26,7 +26,7 @@ Reviewer(s) that show meticulous and exceptional service to the committee will b
 How to Apply
 ------------
 
-If you are interested in taking part in the AEC, please complete [this online form](https://forms.gle/Z71Ak7HyCzkxZ4fZ9) by July 15, 2024.
+If you are interested in taking part in the AEC, please nominate yourself using [this online form](https://forms.gle/Z71Ak7HyCzkxZ4fZ9) by July 15, 2024.
 
 
 You can reach us at [aec-2025@eurosys.org](mailto:aec-2025@eurosys.org) with any questions.
