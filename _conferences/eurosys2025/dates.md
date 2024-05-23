@@ -6,8 +6,6 @@ order: 25
 
 ## Important Dates
 
-*All AEC deadlines are Anywhere on Earth (AoE).*
-
 #### Papers accepted in the EuroSys'25 Spring round
 - Acceptance notification to paper authors: **Wednesday, August 21, 2024 (AoE)**
 - Artifact intent registration deadline: **Monday, August 26, 2024 (AoE)**
