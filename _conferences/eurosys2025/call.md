@@ -13,7 +13,7 @@ Questions about artifact evaluation can be directed to [aec-2025@eurosys.org](ma
 
 For an artifact to be considered for the AEC process, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
-Check the dates [here](dates)
+Check the dates [here](dates).
 
 ## Registration and Submission
 
