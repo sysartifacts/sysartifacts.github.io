@@ -19,7 +19,7 @@ Check the dates [here](dates)
 
 *Link to HotCRP portal - Spring round:* [https://eurosys25-ae-spring.hotcrp.com/](https://eurosys25-ae-spring.hotcrp.com/)
 
-*Link to HotCRP portal - Fall round:* [https://eurosys25ae-fall.hotcrp.com/](https://eurosys25ae-fall.hotcrp.com/)
+*Link to HotCRP portal - Fall round:* [https://eurosys25-ae-fall.hotcrp.com/](https://eurosys25-ae-fall.hotcrp.com/)
 
 Please submit your artifacts to the AE HotCRP portal and follow the two-step process:
 
