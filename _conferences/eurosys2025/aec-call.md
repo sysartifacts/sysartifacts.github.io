@@ -21,6 +21,8 @@ Please also ensure you will be able to carry out the evaluation confidentially a
 
 We expect that evaluations can be done on your own computer (any moderately recent desktop or laptop computer will do). In other cases and to the extent possible, authors will arrange their artifacts so as to run in community research testbeds or will provide remote access to their systems (e.g., via SSH) with proper anonymisation.
 
+Reviewer(s) that show meticulous and exceptional service to the committee will be recognized with a "Distinguished Artifact Evaluator" award.
+
 How to Apply
 ------------
 
