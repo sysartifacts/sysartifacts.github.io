@@ -109,6 +109,7 @@ artifacts:
   - title: "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation"
     github_url: "https://github.com/microsoft/SparTA/tree/pit_artifact"
     badges: Available, Functional, Reproduced
+    summary: pit
     doi: "10.1145/3600006.3613139"
 
   - title: "Private Web Search with Tiptoe"
