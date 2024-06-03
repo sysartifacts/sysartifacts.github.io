@@ -59,9 +59,10 @@ artifacts:
     summary: falcon
     doi: "10.1145/3600006.3613141"
 
-  - title: "FIFO queues are all you need for cache eviction"
+  - title: "FIFO Queues are All You Need for Cache Eviction"
     github_url: "https://github.com/Thesys-lab/sosp23-s3fifo"
     badges: Available, Functional, Reproduced
+    summary: fifo
     doi: "10.1145/3600006.3613147"
 
   - title: "GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints"
