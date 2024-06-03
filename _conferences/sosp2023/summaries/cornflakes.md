@@ -33,10 +33,10 @@ This artifact clearly exceeds expectations and satisfies all badges in the follo
 
 ## Additional Notes and Resources
 
-1. Followed the instructions in the `cornflakes-scripts` repository README to setup the CloudLab environment. The authors provided clear instruction to setup CloudLab, and thus no prior CloudLab experience is required to run the artifact smoothly.
+1. The authors provided clear instruction to setup CloudLab, and thus no prior CloudLab experience is required to run the artifact smoothly.
 
-2. Ran the shell scripts in the `cornflakes-scripts` repository one by one. Generally, each shell scripts corresponds to one or several figures in the figure. The scripts are well automated -- each script not only starts the experiment, but also processes the results and draws the final figure. 
+2. Generally, each shell scripts corresponds to one or several figures in the figure. The scripts are well automated -- each script not only starts the experiment, but also processes the results and draws the final figure. 
 
-3. The README is clear in what initial output is expected at each step, and how long the script is expected to take. Following the README, I waited for each experiment to finish and checked the resulting results / figures.
+3. The README is clear in what initial output is expected at each step, and how long the script is expected to take. 
 
-4. Overall, the artifact source and scripts seem to be well tested. Little obstacles or issues were encountered during the evaluation.
+4. Overall, the artifact source and scripts are well tested. 
