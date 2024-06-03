@@ -56,6 +56,7 @@ artifacts:
   - title: "Falcon: Fast OLTP Engine for Persistent Cache and Non-Volatile Memory"
     github_url: "https://github.com/madsys-dev/Falcon"
     badges: Available, Functional, Reproduced
+    summary: falcon
     doi: "10.1145/3600006.3613141"
 
   - title: "FIFO queues are all you need for cache eviction"
