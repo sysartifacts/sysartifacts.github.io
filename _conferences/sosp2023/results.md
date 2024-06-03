@@ -143,6 +143,7 @@ artifacts:
   - title: "Turbo: Effective Caching in Differentially-Private Databases"
     github_url: "https://github.com/columbia/turbo-artifact"
     badges: Available, Functional, Reproduced
+    summary: turbo
     doi: "10.1145/3600006.3613174"
 
   - title: "UGACHE: A Unified GPU Cache for Embedding-based Deep Learning"
