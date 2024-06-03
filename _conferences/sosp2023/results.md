@@ -19,6 +19,7 @@ artifacts:
   - title: "Bagpipe: Accelerating Deep Recommendation Model Training"
     github_url: "https://github.com/iidsample/bagpipe_artifacts"
     badges: Available, Functional, Reproduced
+    summary: bagpipe
     doi: "10.1145/3600006.3613142"
 
   - title: "Cornflakes: Zero-Copy Serialization for Microsecond-Scale Networking"
