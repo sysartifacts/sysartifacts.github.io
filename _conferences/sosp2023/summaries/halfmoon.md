@@ -40,8 +40,8 @@ The artifact is awarded with the following badges:
 ## Additional Notes and Resources
 
 The following suggestions/comments were presented by the evaluators:
-* The README file should note that the $RUN parameter must be numerical
+* The README file should note that the $RUN parameter must be numerical.
 * The artifact could have some diagrams illustrating what types of services were involved in each workload, and what AWS infrastructure was being used to implement the associated services.
-* The scripts should have some verbose output
-* The authors should consider providing clearer instructions and simplifying the process for "Setting up EC2 security group and placement group."
+* The scripts should have some verbose output.
+* The authors should consider providing clearer instructions and simplifying the process for "Setting up EC2 security group and placement group".
 * Address and provide clearer instructions regarding the errors: "Max spot instances exceeded" and "Ignoring unsupported options: restart".
