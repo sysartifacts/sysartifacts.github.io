@@ -153,6 +153,7 @@ artifacts:
   - title: "Antipode: Enforcing Cross-Service Causal Consistency in Distributed Applications"
     github_url: "https://github.com/Antipode-SOSP23"
     badges: Available, Functional
+    summary: antipode
     doi: "10.1145/3600006.3613176"
 
   - title: "Blueprint: A Toolchain for Highly-Reconfigurable Microservice Applications"
