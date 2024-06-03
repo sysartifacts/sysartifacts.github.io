@@ -82,6 +82,7 @@ artifacts:
   - title: "Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing"
     github_url: "https://github.com/pkusys/Halfmoon-bench"
     badges: Available, Functional, Reproduced
+    summary: halfmoon
     doi: "10.1145/3600006.3613154"
 
   - title: "Mira: A Program-Behavior-Guided Far Memory System"
