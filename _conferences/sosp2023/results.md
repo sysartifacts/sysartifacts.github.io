@@ -120,9 +120,10 @@ artifacts:
     summary: tiptoe
     doi: "10.1145/3600006.3613134"
 
-  - title: "Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling"
+  - title: "Sia: Heterogeneity-Aware, Goodput-Optimized ML-Cluster Scheduling"
     github_url: "https://github.com/siasosp23/artifacts/tree/main"
     badges: Available, Functional, Reproduced
+    summary: sia
     doi: "10.1145/3600006.3613175"
 
   - title: "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor"
