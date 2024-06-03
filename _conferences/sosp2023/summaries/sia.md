@@ -29,10 +29,4 @@ The evaluators used the following steps to exercise the artifact:
 
 ## How The Artifact Supports The Paper
 
-All evaluators were able to run the simulation but not everyone could verify the claims in the paper. 
-In addition, the testbed experiments could not be run by everyone due to hardware restrictions that was hard to overcome.
-
-The artifact is awarded with the following badges:
-* Artifact Available
-* Artifact Functional
-* Results Reproduced
+All evaluators were able to run the simulation and the main results (i.e., Table 3) can be reproduced but the testbed experiments could not be run by everyone due to hardware restrictions that were hard to overcome.
