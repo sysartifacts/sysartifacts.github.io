@@ -27,6 +27,7 @@ artifacts:
     scripts_url: "https://github.com/deeptir18/cornflakes-scripts"
     cloudlab_url: "https://www.cloudlab.us/p/955539a31b0c7be330933414edd8d4af54f7dbec"
     badges: Available, Functional, Reproduced
+    summary: cornflakes
     doi: "10.1145/3600006.3613137"
 
   - title: "Ditto: An Elastic and Adaptive Memory-Disaggregated Caching System"
