@@ -26,7 +26,7 @@ The artifact evaluation repository contains scripts for reproducing Figures 7, 8
 
 ## How The Artifact Supports The Paper
 
-### Artifact functional
+### Artifact Functional
 The artifact has a README file with very well-written documentation. Specifically, the authors provide:
 
 - A comprehensive description of the code structure organization.
@@ -40,7 +40,7 @@ The artifact has a README file with very well-written documentation. Specificall
 
 The artifact is of high-quality and easily exercisable for a variety of use-cases beyond the ones considered in the paper.
 
-### Results reproduced
+### Results Reproduced
 The artifact's README file also documents:
 - The exact environment the authors used, i.e., a p3.x16large instance equipped with an NVIDIA V100 GPUs, 64 vCPUs, and 480GB memory.
 - The exact commands to run to reproduce each claim from the paper, which are sequentially executed by the `testbench.sh` scripts.
