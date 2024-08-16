@@ -16,6 +16,15 @@ The artifact, LUMOS, is a framework for kernel concurrency testing. It utilizes 
 * 64-core machine with 256 GB RAM and 2 TB storage, Ubuntu 18.04
 *  32 cores and 128GB of memory, Ubuntu 18.04 with a kernel version of 4.15.0
 
+## Step-By-Step Instructions to Exercise the Artifact
+
+* Step-0: Set up my env. I enabled Btrfs compression on my disk and installed the required denpendencies to get snowcat ready. Then I conducted the following steps.
+* Step-1: Collect training data.
+* Step-2: Train a PIC model.
+* Step-3: Use the PIC model to make inference.
+* Step-4: Emulate SKI (MLPCT).
+
+
 ## How The Artifact Supports The Paper
 
 ### Artifact Available 
