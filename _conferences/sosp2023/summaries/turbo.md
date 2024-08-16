@@ -14,6 +14,8 @@ Turbo is a proposed caching system for linear query tasks in differentially-priv
 * Laptop with 16 cores and 32 RAM with Windows Subsystem Linux 2 and Docker Desktop
 * PC with Intel(R) Xeon(R) E-2124G CPU, 64GB RAM, Ubuntu 18.04, and Linux kernel 5.4.0-150-generic
 
+## Step-By-Step Instructions to Exercise the Artifact
+The reviewers followed the steps described in the README file in the repo https://github.com/columbia/turbo-artifact
 
 ## How The Artifact Supports The Paper
 
