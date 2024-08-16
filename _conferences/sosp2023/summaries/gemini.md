@@ -35,4 +35,4 @@ The artifact evaluation example is a scaled-down version of the evaluation in th
 
 It would be better if the authors could put more comments in the code so that it would be easy to locate the implementation of GEMINI.
 
-The artifact was publicly available during the evaluation. However, it is not available for unknown reasons.
+The artifact was publicly available during the evaluation. However, it is not available during this summary preparation for unknown reasons.
