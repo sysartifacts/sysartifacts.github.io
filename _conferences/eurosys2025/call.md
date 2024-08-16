@@ -3,23 +3,23 @@ title: Call for Artifacts
 order: 20
 ---
 
-All papers accepted at both EuroSys'24 submission rounds are *encouraged to participate in the artifact evaluation* process.
+All papers accepted at both EuroSys'25 submission rounds are *encouraged to participate in the artifact evaluation* process.
 
 Artifacts must be consistent with the paper, as complete as possible, documented reasonably well, and easy to reuse.
 These ideals are implemented through three [badges](badges) that can be awarded to each paper: available, functional, and reproduced.
 The goal of the AEC is to help authors achieve these goals and to award badges to the artifacts that meet the criteria.
 
-Questions about artifact evaluation can be directed to [aec-2024@eurosys.org](mailto:aec-2024@eurosys.org).
+Questions about artifact evaluation can be directed to [aec-2025@eurosys.org](mailto:aec-2025@eurosys.org).
 
 For an artifact to be considered for the AEC process, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
-Check the dates [here](dates)
+Check the dates [here](dates).
 
 ## Registration and Submission
 
-*Link to HotCRP portal - Spring round:* ~~[https://eurosys24ae-spring.hotcrp.com/](https://eurosys24ae-spring.hotcrp.com/)~~
+*Link to HotCRP portal - Spring round:* [https://eurosys25-ae-spring.hotcrp.com/](https://eurosys25-ae-spring.hotcrp.com/)
 
-*Link to HotCRP portal - Fall round:* [https://eurosys24ae-fall.hotcrp.com/](https://eurosys24ae-fall.hotcrp.com/)
+*Link to HotCRP portal - Fall round:* [https://eurosys25-ae-fall.hotcrp.com/](https://eurosys25-ae-fall.hotcrp.com/)
 
 Please submit your artifacts to the AE HotCRP portal and follow the two-step process:
 
