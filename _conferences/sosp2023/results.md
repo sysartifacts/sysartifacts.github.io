@@ -110,6 +110,7 @@ artifacts:
   - title: "Partial Failure Resilient Memory Management System for (CXL-based) Distributed Shared Memory"
     github_url: "https://github.com/madsys-dev/sosp-paper19-ae"
     badges: Available, Functional, Reproduced
+    summary: partial
     doi: "10.1145/3600006.3613135"
 
   - title: "PIT: Optimization of Dynamic Sparse Deep Learning Models via Permutation Invariant Transformation"
