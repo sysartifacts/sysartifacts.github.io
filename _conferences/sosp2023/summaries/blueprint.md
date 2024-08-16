@@ -19,8 +19,8 @@ In addition, the artifact is augmented by Blueprint-compatible iterations of var
 
 ## How The Artifact Supports The Paper
 
-# Artifact Available
+### Artifact Available
 The artifact is available, and has a good setup script.
 
-# Artifact Functional
-The artifact consists of a compiler for microservice applications. The Blueprint compiler itself can function properly.
+### Artifact Functional
+The artifact consists of a compiler for microservice applications. The Blueprint compiler itself can generate code.
