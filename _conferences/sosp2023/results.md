@@ -134,6 +134,7 @@ artifacts:
   - title: "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor"
     github_url: "https://github.com/rssys/snowcat"
     badges: Available, Functional, Reproduced
+    summary: snowcat
     doi: "10.1145/3600006.3613148"
 
   - title: "SPFresh: Incremental In-Place Update for Billion-Scale Vector Search"
