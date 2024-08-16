@@ -98,6 +98,7 @@ artifacts:
   - title: "Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates"
     github_url: "https://github.com/SymbioticLab/oobleck"
     badges: Available, Functional, Reproduced
+    summary: oobleck
     doi: "10.1145/3600006.3613152"
 
   - title: "Paella: Low-latency Model Serving with Software-defined GPU Scheduling"
