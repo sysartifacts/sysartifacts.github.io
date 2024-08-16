@@ -17,6 +17,9 @@ Additionally, the repository includes test cases for evaluating the cxl-shm libr
 * Two-socket AMD Server (each socket has 64 physical cores and 12GB DRAM, Ubuntu 22.04)
 * Rack server (two Intel 4th Gen Xeon Platinum 8470 processors with 4800 MHz and 512 GB DDR5 DRAM for each socket): Although the Intel CXL type3 design example did not support the FPGA DEV KIT during the artifact evaluation period, one reviewer managed to set up an numactl-based environment to evaluate the artifact.
 
+## Step-By-Step Instructions to Exercise the Artifact
+
+The reviewers managed to follow the instructions in the README file provided by the authors to run the artifact.
 
 ## How The Artifact Supports The Paper
 
