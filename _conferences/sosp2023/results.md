@@ -169,6 +169,7 @@ artifacts:
   - title: "Blueprint: A Toolchain for Highly-Reconfigurable Microservice Applications"
     github_url: "https://gitlab.mpi-sws.org/cld/blueprint/blueprint-compiler"
     badges: Available, Functional
+    summary: blueprint
     doi: "10.1145/3600006.3613138"
 
   - title: "MEMTIS: Efficient Memory Tiering with Dynamic Page Classification and Page Size Determination"
