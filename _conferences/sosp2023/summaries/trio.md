@@ -1,5 +1,5 @@
 ---
-title: "Artifact Review Summary: Paper [Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture]"
+title: "Artifact Review Summary: Enabling High-Performance and Secure Userspace NVM File Systems with the Trio Architecture"
 ---
 
 {% include_relative _result-header.html %}
