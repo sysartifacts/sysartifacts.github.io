@@ -69,6 +69,7 @@ artifacts:
   - title: "GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints"
     github_url: "https://github.com/zhuangwang93/SOSP-30_AE"
     badges: Available, Functional, Reproduced
+    summary: gemini
     doi: "10.1145/3600006.3613145"
 
   - title: "Grove: a Separation-Logic Library for Verifying Distributed Systems"
