@@ -15,6 +15,6 @@ We expect that evaluations can be done on your own computer (any moderately rece
 ## How to Apply
 If you are interested in taking part in the AEC, please complete this [online self-nomination form link here](https://forms.gle/25jTPZMhNKVhN8zc7).
 
-Deadline: **August 18, 2023, Anywhere on Earth**
+Deadline: **August 21, 2024, Anywhere on Earth**
 
 You can contact the [AEC chairs](organizers) for any questions.

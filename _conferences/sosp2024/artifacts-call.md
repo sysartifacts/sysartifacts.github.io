@@ -20,7 +20,7 @@ Questions about the process can be directed to [sosp24-aec-chairs@cs.wisc.edu](m
 *All AEC deadlines are at 6 PM EDT*
 
 - Notification for paper authors:         *August 05, 2024*
-- Artifact intent registration deadline:  *August 14, 2024*
+- Artifact intent registration deadline:  *August 16, 2024*
 - Artifact submission deadline:           *August 21, 2024*
 - Kick-the-tires response period:         *August 22 – September 01, 2024*
 - Artifact decisions announced:           *September 19, 2024*
