@@ -8,6 +8,6 @@ order: 30
 - Alexey Tumanov, Georgia Tech
 - Henrique Fingler, Exostellar
 
-Contact the AEC chairs at [sosp24-aec-chairs@cs.wisc.edu](mailto:sosp24-aec-chairs@mpi-sws.org).
+Contact the AEC chairs at [sosp24-aec-chairs@cs.wisc.edu](mailto:sosp24-aec-chairs@cs.wisc.edu).
 
 ## Artifact Evaluation Committee
