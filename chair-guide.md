@@ -121,21 +121,24 @@ You may also want another channel only for the chairs. IM is particularly useful
 or ask for help in a way that reaches everyone rather than comments on the submission system that most people will not see.
 
 
-## Set up academic cloud projects
+## Set up academic cloud/testbed projects
 
 Two academic clouds are in common use for artifact evaluation: CloudLab and Chameleon Cloud.
+Both are free to use.
 
-These clouds provide compute credits and access to their online reservation system.
-Evaluators can be invited to join the project once they have created an account in the system.
-Afterwards, their reservations are billed to your project.
-Both academic clouds generously provided many more credits than needed in the past.
-
-For CloudLab, apply to a project [here](https://cloudlab.us/signup.php),
+For CloudLab, apply to a start a project [here](https://cloudlab.us/signup.php),
+see the tips regarding AEC use [here](https://docs.cloudlab.us/repeatable-research.html#%28part._aec%29),
 and contact [Robert Ricci](https://ricci.io/) if you have questions.
 
 For Chameleon, follow the steps [here](https://www.chameleoncloud.org/blog/2021/11/22/using-chameleon-for-artifact-evaluation/),
 and contact [Kate Keahey](https://www.mcs.anl.gov/~keahey/) if you have questions.
 
+Evaluators can be invited to join the project once they have created an account in the system.
+
+Additionally, the [Fabric](https://portal.fabric-testbed.net/) programmable network infrastructure can be
+used for artifacts with networking needs, and connects to a variety of research infrastructures including
+HPC centers. See Fabric's [reproducibility documentation](https://learn.fabric-testbed.net/knowledge-base/reproducibility/)
+and [sign up](https://portal.fabric-testbed.net/signup/1) for a free account. 
 
 ## Define the additional information needed from authors
 
