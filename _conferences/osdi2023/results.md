@@ -131,7 +131,14 @@ artifacts:
   {% for artifact in sorted_artifacts %}
     <tr>
       <td>
-        {{ artifact.title }}
+        {% if artifact.doi %}
+            <a href="{{artifact.doi}}" target="_blank">{{artifact.title}}</a>
+        {% else %}
+            {{ artifact.title }}
+        {% endif %}
+        {% if artifact.award %}
+          <br><b>{{ artifact.award }}</b>
+        {% endif %}
       </td>
       <td width="75px">
         {% if artifact.badges contains "Available" %}

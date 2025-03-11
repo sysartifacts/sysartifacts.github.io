@@ -15,6 +15,7 @@ artifacts:
     repository_url: "https://github.com/thustorage/osdi21ae"
   - title: "Oort: Efficient Federated Learning via Guided Participant Selection"
     doi: "https://www.usenix.org/conference/osdi21/presentation/lai"
+    award: "Distinguished Artifact Award"
     badges: "Available,Functional,Reproduced"
     repository_url: "https://github.com/SymbioticLab/Kuiper"
   - title: "NrOS: Effective Replication and Sharing in an Operating System"
@@ -127,8 +128,7 @@ artifacts:
 
 **Distinguished Artifact Award**:
 
-* **"Oort: Efficient Federated Learning
-via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury (University of Michigan)
+* **"Oort: Efficient Federated Learning via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury (University of Michigan)
 
 <table>
   <thead>
@@ -145,7 +145,14 @@ via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyas
   {% for artifact in sorted_artifacts %}
     <tr>
       <td>
-        {{ artifact.title }}
+        {% if artifact.doi %}
+            <a href="{{artifact.doi}}" target="_blank">{{artifact.title}}</a>
+        {% else %}
+            {{ artifact.title }}
+        {% endif %}
+        {% if artifact.award %}
+          <br><b>{{ artifact.award }}</b>
+        {% endif %}
       </td>
       <td width="75px">
         {% if artifact.badges contains "Available" %}
