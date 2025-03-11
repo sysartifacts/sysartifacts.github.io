@@ -199,9 +199,7 @@ artifacts:
         {% endif %}
       </td>
       <td>
-        {% if artifact.doi %}
-          <a href="{{artifact.doi}}">DOI</a><br>
-        {% endif %} {% if artifact.repository_url %}
+        {% if artifact.repository_url %}
           <a href="{{artifact.repository_url}}">GitHub</a><br>
         {% endif %} {% if artifact.cloudlab_url %}
           <a href="{{artifact.cloudlab_url}}">CloudLab&nbsp;Profile</a><br>
