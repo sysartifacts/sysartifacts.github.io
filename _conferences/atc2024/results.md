@@ -1,11 +1,11 @@
 ---
 title: Results
 order: 40
-available_img: "usenix-available.svg"
+available_img: "usenix_available.svg"
 available_name: "Artifacts Available"
-functional_img: "usenix-functional.svg"
+functional_img: "usenix_functional.svg"
 functional_name: "Artifacts Evaluated - Functional"
-reproduced_img: "usenix-reproduced.svg"
+reproduced_img: "usenix_reproduced.svg"
 reproduced_name: "Results Reproduced"
 
 artifacts:
