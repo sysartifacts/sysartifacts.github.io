@@ -176,6 +176,9 @@ artifacts:
         {% else %}
             {{ artifact.title }}
         {% endif %}
+        {% if artifact.award %}
+          <br><b>{{ artifact.award }}</b>
+        {% endif %}
       </td>
       <td width="75px">
         {% if artifact.badges contains "Available" %}
