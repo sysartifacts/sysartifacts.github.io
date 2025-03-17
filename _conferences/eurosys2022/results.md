@@ -126,7 +126,7 @@ artifacts:
     badges: "available,functional,reproduced"
     paper_url: "10.1145/3492321.3519586"
     artifact_url: "10.5281/zenodo.6348174"
-    repository_url: ""
+    repository_url: "https://github.com/ssrg-vt/kite"
     summary: "kite"
 
   - title: "Characterizing the Performance of Intel Optane Persistent Memory -- A Close Look at its On-DIMM Buffering"
