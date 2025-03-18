@@ -117,7 +117,7 @@ artifacts:
     badges: "available,functional"
 
   - title: "Comprehensive Deadlock Prevention for GPU Collective Communication"
-    artifact_url: "https://doi.org/10.1145/3689031.3717466"
+    artifact_url: "https://doi.org/10.5281/zenodo.14871978"
     badges: "available"
 
   - title: "HyperAlloc: Efficient VM Memory De/Inflation via Hypervisor-Shared Page-Frame Allocators"
