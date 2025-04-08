@@ -30,6 +30,7 @@ release usable software systems and validate the results of papers.
 
 Additional resources for artifact evaluation:
 - [Guide for AE chairs](chair-guide.md)
+- [Guide for artifact evaluators](evaluator-guide.md)
 - ... your contribution is welcome, [submit a pull request](https://github.com/sysartifacts/sysartifacts.github.io)!
 
 <!-- cannot change the footer template because it's computed only once for all pages -->
