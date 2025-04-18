@@ -12,6 +12,8 @@ Artifact evaluation is _single blind_: authors do not know evaluators' identity,
 
 <!-- **Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee! -->
 
+**Artifact registration and submission**: TBA
+
 
 ## Process
 
@@ -22,8 +24,6 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 3. Authors then _submit_ their artifact, packaged according to [the artifact packaging guide](/packaging-guide).
 4. Evaluators begin with a short "kick the tires" phase to double-check that the artifacts are complete and appear usable and contact authors if that is not the case.
 5. Evaluators proceed with the main evaluation period, operating mostly independently but occasionally contacting authors if an issue arises.
-
-**Submission site**: TBA
 
 
 ## Important Dates
@@ -38,6 +38,14 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 
 At least one author for each artifact submission must be reachable via email and respond to questions in a timely manner during the kick-the-tires period.
 Ideally, authors should also be available to respond to reasonable requests during the main evaluation period.
+
+
+## Awards
+
+Artifacts that obtain all available badges are eligible to receive a Distinguished Artifact award.
+This award will be given to the artifacts that best exemplify reusability and reproducibility practices, including clear documentation, simple installation, ease of use, and extensibility.
+
+The chairs may, at their discretion, award Distinguished Evaluator awards to evaluators who are particularly effective, friendly, and efficient.
 
 
 ## Committee
