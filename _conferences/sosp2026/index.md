@@ -21,9 +21,11 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 
 1. Authors decide which [badges and associated checklists](./badges) they target.
 2. Authors _register_ their artifact indicating which badges they target, along with the paper PDF and some metadata.
-3. Authors then _submit_ their artifact, packaged according to [the artifact packaging guide](/packaging-guide).
+3. Authors then _submit_ their artifact, packaged according to [the artifact packaging guide](/packaging-guide) using a service such as GitHub.
 4. Evaluators begin with a short "kick the tires" phase to double-check that the artifacts are complete and appear usable and contact authors if that is not the case.
 5. Evaluators proceed with the main evaluation period, operating mostly independently but occasionally contacting authors if an issue arises.
+6. Authors upload the final version of their artifact to permanent storage such as Zenodo and submit their artifact DOI.
+7. Authors are awarded badges which they add to their camera-ready paper submission.
 
 
 ## Important Dates
