@@ -76,30 +76,28 @@ If you believe you could be identified through other means, such as because of y
 
 ## Initial "kick the tires" phase
 
-Once you have been assigned artifacts comes the initial "kick the tires" period.
-The goal of this period is to quickly determine whether you have everything you need for a full review:
-the artifact itself, any necessary hardware or other dependencies, and a plan on how you will evaluate the artifact.
-If that is not the case, you must discuss with your fellow evaluators and let the authors know of any problems as soon as possible, so that they have enough time to fix issues.
+The goal of this period is to determine whether you have everything you need and come up with a plan on how you will evaluate the artifact.
+Remember that you do not need to evaluate the artifact for badges that were not requested,
+though if you believe an artifact meets the requirements for a badge the authors did not request, ask the authors, they may have forgotten to request it.
 
-Double-check which badges the authors requested in their artifact submission.
-You do not need to evaluate the artifact for badges that were not requested.
-If you believe an artifact already meets the requirements for a badge the authors did not request, ask the authors, they may have forgotten to request that badge.
+Your evaluation plan should answer the following questions:
+- Based on reading the paper and opening the artifact
+  - **Q1**: What are the central claims of the paper?
+  - **Q2**: How does the artifact relate to each claim?
+- If the artifact includes code
+  - **Q3**: From a quick glance at the documentation and code comments, do you expect to reach basic understanding of the code?  
+    You will not need to understand every line, only what the high-level modules are, how they match paper concepts, and the overall flow of key algorithms if any.
+- If you need to execute the artifact
+  - **Q4**: Do you have access to the necessary hardware?
+  - **Q5**: If the hardware is shared with other evaluators, who will use it when?
+  - **Q6**: Can you install the artifact?
+  - **Q7**: Can you run a simple experiment to completion?
+- If you need to reproduce results
+  - **Q8**: What relative or absolute results do you expect from the experiments?
 
-Carefully read the artifact documentation.
-In particular, check the software and hardware dependencies to make sure you have all you need.
-You are allowed to use your own judgment when making decisions, for instance to evaluate reasons why some artifacts may not be able to reproduce everything their paper contains.
-
-Discuss with your fellow evaluators, in reviewer discussion comments, so that you all agree on:
-- Whether you have everything you need to do the evaluation, and if not, what is missing including:
-   - Access to the necessary hardware owned by you, by the authors or academic clouds
-   - If relevant, documentation, full source code, and whether the code compiles
-   - If relevant, scripts to run the experiments and generate figures
-- A plan on how you will evaluate the artifact during the review period:
-   - Which results will be reproduced to verify which claims
-   - Time frames of when experiments will be run in case hardware is shared
-
-Post one author discussion comment with these points once all evaluators have agreed on them.
-This is a commitment to the authors, which you should only change later if you have a good reason.
+If the answer to any question is "no" or "I don't know", discuss with the other evaluators for the artifact and collectively ask the authors questions if needed.
+If the answer is "yes, but...", such as having to install additional undeclared dependencies or fix easy-to-spot bugs in a script,
+discuss with the other evaluators and collectively tell the authors what modifications you needed to make so they can update the artifact.
 
 
 ## Reviewing artifacts
