@@ -1,57 +1,122 @@
 ---
 title: Results
 order: 40
+available_img: "usenix_available.svg"
+available_name: "Artifacts Available"
+functional_img: "usenix_functional.svg"
+functional_name: "Artifacts Evaluated - Functional"
+reproduced_img: "usenix_reproduced.svg"
+reproduced_name: "Results Reproduced"
+
+artifacts:
+  - title: "Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/wang-qing"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/thustorage/osdi21ae"
+  - title: "Oort: Efficient Federated Learning via Guided Participant Selection"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/lai"
+    award: "Distinguished Artifact Award"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/SymbioticLab/Kuiper"
+  - title: "NrOS: Effective Replication and Sharing in an Operating System"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/bhardwaj"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://nrkernel.systems/book/benchmarking/ArtifactEvaluation.html"
+  - title: "Optimizing Storage Performance with Calibrated Interrupts"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/tai"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/amytai/cinterrupts-osdi"
+  - title: "The nanoPU: A Nanosecond Network Stack for Datacenters"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/ibanez"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/l-nic/chipyard/tree/nanoPU-artifact-v1.0"
+  - title: "MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/kumar"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/ucbrise/mage"
+  - title: "Polyjuice: High-Performance Transactions via Learned Concurrency Control"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/wang-jiachen"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://ipads.se.sjtu.edu.cn/ae/README_polyjuice.html"
+  - title: "PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/wang"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/whjthu/pet-osdi21-ae"
+  - title: "Scalable Memory Protection in the PENGLAI Enclave"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/feng"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/Penglai-Enclave/Penglai-Enclave-TVM"
+  - title: "GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/wang-yuke"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/YukeWang96/OSDI21_AE.git"
+  - title: "Rearchitecting Linux Storage Stack for µs latency and High Throughput"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/hwang"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/resource-disaggregation/blk-switch"
+  - title: "GoJournal: a verified, concurrent, crash-safe journaling system"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/chajed"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/mit-pdos/goose-nfsd/"
+  - title: "DistInv: Data-Driven Automated Invariant Learning for Distributed Protocols"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/yao"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://drive.google.com/file/d/1ogBU9KvZsvSRhXerY9Bv-MuiW9oOezBU/view?usp=sharing"
+  - title: "Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/qiao"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/aurickq/pollux-artifact"
+  - title: "Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/thorpe"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/uclasystem/dorylus"
+  - title: "Zeph: Cryptographic Enforcement of End-to-End Data Privacy"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/burkhalter"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/pps-lab/zeph-artifact"
+  - title: "ZNS+: Advanced Zoned Namespace Interface for Supporting In-Storage Zone Compaction"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/han"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "http://nyx.skku.ac.kr/?page_id=2808"
+  - title: "STORM: Refinement Types for Secure Web Applications"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/lehmann"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/storm-framework/artifact"
+  - title: " Marius: Learning Massive Graph Embeddings on a Single Machine"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/mohoney"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "https://github.com/marius-team/marius/tree/osdi2021"
+  - title: " CLP: Efficient and Scalable Search on Compressed Text Logs"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/rodrigues"
+    badges: "Available,Functional,Reproduced"
+    repository_url: "http://permalinks.yscope.com/clp-osdi21.tar.gz"
+  - title: " SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/zhang"
+    badges: "Available,Functional"
+    artifact_url: "https://zenodo.org/record/4655221#.YGU8SEhKhhE"
+  - title: " Modernizing File System through In-Storage Indexing"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/koo"
+    badges: "Available,Functional"
+    artifact_url: "https://zenodo.org/record/4659803"
+  - title: " Privacy Budget Scheduling"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/luo"
+    badges: "Available,Functional"
+    repository_url: "https://github.com/columbia/PrivateKube/"
+  - title: " Retrofitting High Availability Mechanism to Tame Hybrid Transaction/Analytical Processing"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/shen"
+    badges: "Available"
+    repository_url: "https://ipads.se.sjtu.edu.cn:1312/opensource/vegito"
+  - title: " DMon: Efficient Detection and Correction of Data Locality Problems using Selective Profiling"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/khan"
+    badges: "Available"
+    repository_url: "https://github.com/efeslab/DMon-AE"
+  - title: " Horcrux: Automatic JavaScript Parallelism for Resource-Efficient Web Computation"
+    doi: "https://www.usenix.org/conference/osdi21/presentation/mardani"
+    badges: "Available"
+    repository_url: "https://github.com/ShaghayeghMrdn/horcrux-osdi21#horcrux"
+
 ---
 
-<style>
-table th:first-of-type {
-    width: 60%;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-table th:nth-of-type(2) {
-    width: 20%;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-table th:nth-of-type(3) {
-    width: 20%;
-    margin-top:10px;
-    margin-bottom:10px;
-}
-
-table td {
-    padding:0.25em;
-}
-
-span#aa {
-    background-color:#f15c24;
-    color:#FFFFFF;
-    font-weight: bold;
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
-    width:100%;
-}
-
-span#af {
-    background-color:#1274bb;
-    color:#FFFFFF;
-    font-weight: bold;
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
-    width:100%;
-}
-
-span#rr {
-    background-color:#6c4099;
-    color:#FFFFFF;
-    font-weight: bold;
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
-    width:100%;
-}
-
-</style>
 
 **Submissions**: 26 (84% of accepted papers)
 
@@ -63,34 +128,57 @@ span#rr {
 
 **Distinguished Artifact Award**:
 
-* **"Oort: Efficient Federated Learning
-via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury (University of Michigan)
+* **"Oort: Efficient Federated Learning via Guided Participant Selection"** by Fan Lai, Xiangfeng Zhu, Harsha V. Madhyastha, and Mosharaf Chowdhury (University of Michigan)
 
-| Paper title | Awarded Badges | Available at |
-|:-----------:|:--------------:|:------------:|
-| [Nap: A Black-Box Approach to NUMA-Aware Persistent Memory Indexes](https://www.usenix.org/conference/osdi21/presentation/wang-qing) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/thustorage/osdi21ae) |
-| [Oort: Efficient Federated Learning via Guided Participant Selection](https://www.usenix.org/conference/osdi21/presentation/lai) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/SymbioticLab/Kuiper) |
-| [NrOS: Effective Replication and Sharing in an Operating System](https://www.usenix.org/conference/osdi21/presentation/bhardwaj) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://nrkernel.systems/book/benchmarking/ArtifactEvaluation.html) |
-| [Optimizing Storage Performance with Calibrated Interrupts](https://www.usenix.org/conference/osdi21/presentation/tai) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/amytai/cinterrupts-osdi) |
-| [The nanoPU: A Nanosecond Network Stack for Datacenters](https://www.usenix.org/conference/osdi21/presentation/ibanez) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/l-nic/chipyard/tree/nanoPU-artifact-v1.0) |
-| [MAGE: Nearly Zero-Cost Virtual Memory for Secure Computation](https://www.usenix.org/conference/osdi21/presentation/kumar) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/ucbrise/mage) |
-| [Polyjuice: High-Performance Transactions via Learned Concurrency Control](https://www.usenix.org/conference/osdi21/presentation/wang-jiachen) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://ipads.se.sjtu.edu.cn/ae/README_polyjuice.html) |
-| [PET: Optimizing Tensor Programs with Partially Equivalent Transformations and Automated Corrections](https://www.usenix.org/conference/osdi21/presentation/wang) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/whjthu/pet-osdi21-ae) |
-| [Scalable Memory Protection in the PENGLAI Enclave](https://www.usenix.org/conference/osdi21/presentation/feng) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/Penglai-Enclave/Penglai-Enclave-TVM) |
-| [GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs](https://www.usenix.org/conference/osdi21/presentation/wang-yuke) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/YukeWang96/OSDI21_AE.git) |
-| [Rearchitecting Linux Storage Stack for µs latency and High Throughput](https://www.usenix.org/conference/osdi21/presentation/hwang) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/resource-disaggregation/blk-switch) |
-| [GoJournal: a verified, concurrent, crash-safe journaling system](https://www.usenix.org/conference/osdi21/presentation/chajed) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/mit-pdos/goose-nfsd/) |
-| [DistInv: Data-Driven Automated Invariant Learning for Distributed Protocols](https://www.usenix.org/conference/osdi21/presentation/yao) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://drive.google.com/file/d/1ogBU9KvZsvSRhXerY9Bv-MuiW9oOezBU/view?usp=sharing) |
-| [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/conference/osdi21/presentation/qiao) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/aurickq/pollux-artifact) |
-| [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](https://www.usenix.org/conference/osdi21/presentation/thorpe) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/uclasystem/dorylus) |
-| [Zeph: Cryptographic Enforcement of End-to-End Data Privacy](https://www.usenix.org/conference/osdi21/presentation/burkhalter) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/pps-lab/zeph-artifact) |
-| [ZNS+: Advanced Zoned Namespace Interface for Supporting In-Storage Zone Compaction](https://www.usenix.org/conference/osdi21/presentation/han) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](http://nyx.skku.ac.kr/?page_id=2808) |
-| [STORM: Refinement Types for Secure Web Applications](https://www.usenix.org/conference/osdi21/presentation/lehmann) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/storm-framework/artifact) |
-| [ Marius: Learning Massive Graph Embeddings on a Single Machine](https://www.usenix.org/conference/osdi21/presentation/mohoney) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/marius-team/marius/tree/osdi2021) |
-| [ CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/conference/osdi21/presentation/rodrigues) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](http://permalinks.yscope.com/clp-osdi21.tar.gz) |
-| [ SANRAZOR: Reducing Redundant Sanitizer Checks in C/C++ Programs](https://www.usenix.org/conference/osdi21/presentation/zhang) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span>| [DOI](https://zenodo.org/record/4655221#.YGU8SEhKhhE) |
-| [ Modernizing File System through In-Storage Indexing](https://www.usenix.org/conference/osdi21/presentation/koo) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span>| [DOI](https://zenodo.org/record/4659803) |
-| [ Privacy Budget Scheduling](https://www.usenix.org/conference/osdi21/presentation/luo) | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span> | [Github](https://github.com/columbia/PrivateKube/) |
-| [ Retrofitting High Availability Mechanism to Tame Hybrid Transaction/Analytical Processing](https://www.usenix.org/conference/osdi21/presentation/shen) | <span id="aa">AVAILABLE</span>| [Github](https://ipads.se.sjtu.edu.cn:1312/opensource/vegito) |
-| [ DMon: Efficient Detection and Correction of Data Locality Problems using Selective Profiling](https://www.usenix.org/conference/osdi21/presentation/khan) | <span id="aa">AVAILABLE</span>| [Github](https://github.com/efeslab/DMon-AE) |
-| [ Horcrux: Automatic JavaScript Parallelism for Resource-Efficient Web Computation](https://www.usenix.org/conference/osdi21/presentation/mardani) | <span id="aa">AVAILABLE</span>| [Github](https://github.com/ShaghayeghMrdn/horcrux-osdi21#horcrux) |
+<table>
+  <thead>
+    <tr>
+      <th>Paper</th>
+      <th width="75px">Avail.</th>
+      <th width="75px">Funct.</th>
+      <th width="75px">Repro.</th>
+      <th>Available At</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% assign sorted_artifacts = page.artifacts | sort: "title" %}
+  {% for artifact in sorted_artifacts %}
+    <tr>
+      <td>
+        {% if artifact.doi %}
+            <a href="{{artifact.doi}}" target="_blank">{{artifact.title}}</a>
+        {% else %}
+            {{ artifact.title }}
+        {% endif %}
+        {% if artifact.award %}
+          <br><b>{{ artifact.award }}</b>
+        {% endif %}
+      </td>
+      <td width="75px">
+        {% if artifact.badges contains "Available" %}
+          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}">
+        {% endif %}
+      </td>
+      <td width="75px">
+        {% if artifact.badges contains "Functional" %}
+          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}">
+        {% endif %}
+      </td>
+      <td width="75px">
+        {% if artifact.badges contains "Reproduced" %}
+          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}">
+        {% endif %}
+      </td>
+      <td width="120px">
+        {% if artifact.artifact_url %}
+          <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
+        {% endif %} {% if artifact.repository_url %}
+          <a href="{{artifact.repository_url}}" target="_blank">Repository</a><br>
+        {% endif %} {% if artifact.appendix_url %}
+          <a href="{{artifact.appendix_url}}" target="_blank">Appendix</a><br>
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
