@@ -18,4 +18,4 @@ This includes authors’ efforts to make their artifact publicly available, docu
 AE is ***optional*** at EuroSys 2026.
 Authors of accepted papers have the option of submitting their artifacts shortly after the notification of their acceptance, although authors are encouraged to prepare their artifacts in advance.
 Each artifact is reviewed by the Artifact Evaluation Committee (AEC) between the author notification and the camera-ready deadline.
-A paper whose artifacts have passed the artifact evaluation process includes an appendix that details the artifacts and is recognized by one or more [badges](badges) that appear on the paper's first page.
+A paper whose artifacts have passed the artifact evaluation process includes an appendix that details the artifacts and is recognized by one or more [badges](badges.md) that appear on the paper's first page.
