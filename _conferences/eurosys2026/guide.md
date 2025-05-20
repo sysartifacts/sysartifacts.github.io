@@ -159,7 +159,7 @@ All reviewers must understand the infrastructure requirements of their artifacts
 (if they have access to comparable hardware), or, if it is not, whether they can use an academic cloud offering or,
 as a last resort, whether they need the authors to provide access to hardware.
 
-This year the EuroSys'22 AEC is working together with Chameleon Cloud and Cloudlab.
+This year the EuroSys'26 AEC is working together with Chameleon Cloud and Cloudlab.
 Access to academic clouds and author-owned hardware will likely be via SSH or other remote desktop software.
 We have created projects with preassigned quotas in the academic cloud offerings, please feel free to request access to them and follow the description below:
 
@@ -172,12 +172,12 @@ as well as the ability to experiment with software-defined networking and divers
 different types of powerful GPUs, FPGAs, storage hierarchy nodes with a mix of HDDs, SDDs, and NVMe, high-bandwidth I/O storage,
 SDN-enabled networking hardware, and Infiniband.
 
-Join Chameleon Cloud EuroSys26 AE project: please send an email whose title starts with [JOIN CHAMELEON EUROSYS26] to the chairs
+- Join Chameleon Cloud EuroSys26 AE project: please send an email whose title starts with [EUROSYS26 JOIN CHAMELEON] to the chairs
 Chameleon Cloud Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=1379s
-How to get started with Chameleon Cloud (including get access): https://chameleoncloud.readthedocs.io/en/latest/getting-started/index.html
-How to package experiments with [Chameleon Jupyter Notebooks (Trovi)](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html)
-How to find out what resources there are and when they are available: https://www.chameleoncloud.org/hardware/
-How to ask questions or ask for help: https://www.chameleoncloud.org/user/help/
+- How to get started with Chameleon Cloud (including get access): https://chameleoncloud.readthedocs.io/en/latest/getting-started/index.html
+- How to package experiments with [Chameleon Jupyter Notebooks (Trovi)](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html)
+- How to find out what resources there are and when they are available: https://www.chameleoncloud.org/hardware/
+- How to ask questions or ask for help: https://www.chameleoncloud.org/user/help/
 
 ### CloudLab
 
@@ -187,8 +187,8 @@ low-level access to hardware, and/or a non-shared environment for repeatable per
 Processors available on CloudLab include many generations of Intel, AMD, ARM, and IBM POWER architectures, as well as several varieties of GPUs.
 Networks include both Ethernet (up to 100Gbit) and Inifiband. The full list of CloudLab hardware is available in its manual.
 
-Join Cloudlab EuroSys22 AE project: https://www.cloudlab.us/signup.php?pid=AE-Eurosys-22
-Cloudlab Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=2517s
+- Join Cloudlab EuroSys26 AE project: [TODO: WE NEED A LINK]
+- Cloudlab Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=2517s
 
 
 ## Example review
