@@ -173,8 +173,7 @@ different types of powerful GPUs, FPGAs, storage hierarchy nodes with a mix of H
 SDN-enabled networking hardware, and Infiniband.
 
 - Join Chameleon Cloud EuroSys26 AE project: please send an email whose title starts with [EUROSYS26 JOIN CHAMELEON] to the chairs
-Chameleon Cloud Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=1379s
-- How to get started with Chameleon Cloud (including get access): https://chameleoncloud.readthedocs.io/en/latest/getting-started/index.html
+- How to get started with Chameleon Cloud (including get access): [docs](https://chameleoncloud.readthedocs.io/en/latest/getting-started/index.html), [demo](https://www.youtube.com/watch?v=grUOrKkiYuQ) and [webinar](https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=1379s)
 - How to package experiments with [Chameleon Jupyter Notebooks (Trovi)](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html)
 - How to find out what resources there are and when they are available: https://www.chameleoncloud.org/hardware/
 - How to ask questions or ask for help: https://www.chameleoncloud.org/user/help/
@@ -188,7 +187,7 @@ Processors available on CloudLab include many generations of Intel, AMD, ARM, an
 Networks include both Ethernet (up to 100Gbit) and Inifiband. The full list of CloudLab hardware is available in its manual.
 
 - Join Cloudlab EuroSys26 AE project: [TODO: WE NEED A LINK]
-- Cloudlab Webinar: https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=2517s
+- Cloudlab tutorials: [docs](https://docs.cloudlab.us/getting-started.html) and [webinar](https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=2517s)
 
 
 ## Example review

@@ -77,7 +77,7 @@ Please see the [tips](#tips) section for specific tips.
 
 There are also a growing number of tools and mechanisms that are designed specifically to meet the needs of research reproducibility; authors may want to consider using such tools when appropriate. A partial list includes:
 - *[Chameleon Jupyter Notebooks](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html):*
-  A framework for packaging and sharing research artifacts on the [Chameleon Cloud](https://www.chameleoncloud.org/) facility. Chameleon Cloud supports a wide range of [hardware and software environments](https://chameleoncloud.org/hardware/) (please **contact the AEC Chairs beforehand** if you plan to use Chameleon Cloud)
+  A framework for packaging and sharing research artifacts on the [Chameleon Cloud](https://www.chameleoncloud.org/) facility. Chameleon Cloud supports a wide range of [hardware and software environments](https://chameleoncloud.org/hardware/) (please **contact the AEC Chairs beforehand** if you plan to use Chameleon Cloud). Check out a demo video [here](https://www.youtube.com/watch?v=grUOrKkiYuQ).
 - *[CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html):* A mechanism for encapsulating and sharing research environments on the [CloudLab](https://cloudlab.us) facility (please **contact the AEC Chairs beforehand** if you plan to use CloudLab)
 - *[Popper](https://getpopper.io/):* A container-native system for automating workflow
 
