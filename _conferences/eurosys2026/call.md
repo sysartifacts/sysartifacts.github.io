@@ -8,14 +8,14 @@ TODO INSERT BOGDAN'S CALL HERE
 All papers accepted at both EuroSys'26 submission rounds are *encouraged to participate in the artifact evaluation* process.
 
 Artifacts must be consistent with the paper, as complete as possible, documented reasonably well, and easy to reuse.
-These ideals are implemented through three [badges](badges.md) that can be awarded to each paper: available, functional, and reproduced.
+These ideals are implemented through three [badges](badges) that can be awarded to each paper: available, functional, and reproduced.
 The goal of the AEC is to help authors achieve these goals and to award badges to the artifacts that meet the criteria.
 
 Questions about artifact evaluation can be directed to [aec-2026@eurosys.org](mailto:aec-2026@eurosys.org).
 
 For an artifact to be considered for the AEC process, at least one contact author for the submission must be reachable and respond to questions in a timely manner during the evaluation period to allow a sufficient amount of round trips between the AEC and the authors.
 
-Check the dates [here](dates.md).
+Check the dates [here](dates).
 
 ## Registration and Submission
 
@@ -42,7 +42,7 @@ Artifacts can be submitted only in the AE time frame associated with the paper s
 
 Because the time between paper acceptance and artifact submission is short, the AEC chairs encourage authors to start preparing artifacts while their papers are still under review.
 
-At artifact submission time, authors choose which [badges](badges.md) they want to obtain: available, functional, and reproduced.
+At artifact submission time, authors choose which [badges](badges) they want to obtain: available, functional, and reproduced.
 Artifacts can meet the criteria of one, two, or all three of the badges and will be awarded zero to three badges after evaluation.
 
 After the artifact submission deadline, artifact evaluators will evaluate each artifact, using the corresponding paper and artifact appendix as guides.
@@ -60,14 +60,14 @@ Paper proofs are not accepted, as evaluators lack the time and often the experti
 Physical objects, such as computer hardware, cannot be accepted due to the difficulty of making them available to evaluators.
 To the extent possible, artifacts should be able to run on **commodity hardware** (i.e., laptop/desktop-like systems). If this requirement cannot be met, please contact the AEC chairs beforehand to accommodate access to special hardware (e.g., your own) for the evaluators.
 
-When submitting your artifact, please specify which of the [three badges](badges.md) you are applying for.
+When submitting your artifact, please specify which of the [three badges](badges) you are applying for.
 For the *Artifact Functional* and *Results Reproduced* badges, AEC members will attempt to use your artifact to run the experiments described in your paper.
 
 Submitting an artifact for evaluation does **not** give the AEC permission to make its contents public or to retain any part of it after evaluation.
 Thus, authors are free to include proprietary models, data files, or code in artifacts.
 Participating in artifact evaluation does not require the public release of artifacts, though it is highly encouraged.
 
-Detailed artifact packaging instructions are available [here](packaging.md).
+Detailed artifact packaging instructions are available [here](packaging).
 
 AEC members may contact authors during the evaluation period, for example to ask for help if they are unable to get the artifact to work, and authors are asked to be responsive to such requests.
 However, your goal as an author should be to present and document your artifact in a way that AEC members can use it and complete the evaluation successfully in an autonomous manner (ideally without having to interact with the authors).
