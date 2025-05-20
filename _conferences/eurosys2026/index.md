@@ -3,7 +3,7 @@ title: Artifact Evaluation
 order: 0
 ---
 
-[EuroSys 2026](https://2026.eurosys.org/) is the fourth edition of the EuroSys conference to include an Artifact Evaluation (AE) process, allowing authors to submit an *artifact* for the research work discussed in the paper.
+[EuroSys 2026](https://2026.eurosys.org/) is the sixth edition of the EuroSys conference to include an Artifact Evaluation (AE) process, allowing authors to submit an *artifact* for the research work discussed in the paper.
 
 Scientific papers typically consist of artifacts that extend beyond the paper: software, hardware, data and documentation, raw survey results, mechanized proofs, models, test suites, benchmarks, and so on.
 The AE process promotes the reproducibility of experimental results of a scientific paper.
