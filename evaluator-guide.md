@@ -148,14 +148,15 @@ They will let you know how to request such access if it is available.
 
 ### Chameleon Cloud
 
-[Chameleon](http://www.chameleoncloud.org) is a large-scale, deeply-reconfigurable (bare metal) testbed for systems research based on enhanced OpenStack.
-Users get full control of the software stack including root privileges, kernel customization, console access,
-as well as the ability to experiment with software-defined networking and
-different types of powerful GPUs, FPGAs, storage hierarchy nodes with a mix of HDDs, SDDs, and NVMe, high-bandwidth I/O storage, SDN-enabled networking hardware, and Infiniband.
+[Chameleon](http://www.chameleoncloud.org) is a large-scale, deeply-reconfigurable environment for large-scale edge to cloud research.
+Users get full control of the software stack including root privileges, kernel customization, and console access.
+Users also have the ability to experiment with different types of powerful CPUs, GPUs, FPGAs, storage hierarchy 
+nodes with a mix of HDDs, SDDs, and NVMe, high-bandwidth I/O storage, SDN-enabled networking hardware, and Infiniband.
 
 Resources:
-- [Webinar](https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=1379s)
+- [Demo](https://www.youtube.com/watch?v=grUOrKkiYuQ) and [webinar](https://www.youtube.com/watch?v=2ORKQ9WhJPA&t=1379s)
 - [Getting started](https://chameleoncloud.readthedocs.io/en/latest/getting-started/index.html)
+- [Packackage experiments with Chameleon Jupyter Notebooks (Trovi)](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html)
 - [Finding out what resources there are and when they are available](https://www.chameleoncloud.org/hardware/)
 - [Asking for help](https://www.chameleoncloud.org/user/help/)
 
