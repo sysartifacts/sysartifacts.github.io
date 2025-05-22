@@ -26,7 +26,7 @@ Reviewer(s) that show meticulous and exceptional service to the committee will b
 How to Apply
 ------------
 
-If you are interested in taking part in the AEC, please nominate yourself using (TODO: LINK TO FORM HERE) by Monday, July 21, 2025.
+If you are interested in taking part in the AEC, please nominate yourself using [this form](https://forms.gle/tc7xca6PaYFqyYqW7) by Monday, July 21, 2025.
 
 
 You can reach us at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.org) with any questions.
