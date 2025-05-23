@@ -3,8 +3,6 @@ title: Call for Artifacts
 order: 20
 ---
 
-TODO INSERT BOGDAN'S CALL HERE
-
 All papers accepted at both EuroSys'26 submission rounds are *encouraged to participate in the artifact evaluation* process.
 
 Artifacts must be consistent with the paper, as complete as possible, documented reasonably well, and easy to reuse.

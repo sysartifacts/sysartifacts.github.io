@@ -2,11 +2,11 @@
 title: Important Dates
 order: 25
 ---
+#### AEC members nomination
 
+The AEC member self-nomination deadline is: **Friday, August 1, 2025**.
 
-## Important Dates
-
-#### Papers accepted in the EuroSys'26 Spring round
+#### AE: papers accepted in the EuroSys'26 Spring round
 - Acceptance notification to paper authors: **Friday, August 22, 2025**
 - Artifact intent registration deadline: **Wednesday, August 27, 2025 (AoE)**
 - Artifact submission deadline: **Wednesday, September 3, 2025 (AoE)**
@@ -14,7 +14,7 @@ order: 25
 - Artifact decisions announced: **Tuesday, September 23, 2025**
 - Camera-ready deadline: **Friday, September 26, 2025 (AoE)**
 
-#### Papers accepted in the EuroSys'26 Fall round
+#### AE: papers accepted in the EuroSys'26 Fall round
 - Acceptance notification to paper authors: **Friday, January 30, 2026 (AoE)**
 - Artifact intent registration deadline: **Wednesday, February 4, 2026 (AoE)**
 - Artifact submission deadline: **Wednesday, February 11, 2026 (AoE)**

@@ -10,6 +10,4 @@ reproduced_name: "Results Reproduced (v1.1)"
 
 ---
 
-**Evaluation Results**:
-
 TBA.
