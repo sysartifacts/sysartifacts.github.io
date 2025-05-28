@@ -34,8 +34,8 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 - Artifact registration deadline: **July 6, 2026 (AoE)**
 - Artifact submission deadline: **July 13, 2026 (AoE)**
 - Artifact "kick the tires" evaluation period ends: **July 27, 2026**
-- Artifact decisions: **September 2, 2026**
-- Paper camera-ready deadline: **September 4, 2026**
+- Artifact decisions: **August 25, 2026**
+- Paper camera-ready deadline: **August 28, 2026**
 
 At least one author for each artifact submission must be reachable via email and respond to questions in a timely manner during the kick-the-tires period.
 Ideally, authors should also be available to respond to reasonable requests during the main evaluation period.
