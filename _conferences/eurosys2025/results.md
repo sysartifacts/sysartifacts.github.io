@@ -26,7 +26,7 @@ artifacts:
     badges: "available,functional,reproduced"
 
   - title: "Collaborative Text Editing with Eg-walker: Better, Faster, Smaller"
-    artifact_url: "https://zenodo.org/records/13823409"
+    artifact_url: "https://doi.org/10.5281/zenodo.13823409"
     badges: "available,functional,reproduced"
 
   - title: "Flex: Fast, Accurate DNN Inference on Low-Cost Edges Using Heterogeneous Accelerator Execution"
@@ -109,7 +109,7 @@ artifacts:
     badges: "available,functional"
 
   - title: "Occamy: A Preemptive Buffer Management for On-chip Shared-memory Switches"
-    artifact_url: "https://zenodo.org/records/14871138"
+    artifact_url: "https://doi.org/10.5281/zenodo.14871138"
     badges: "available,functional,reproduced"
 
   - title: "LOFT: A Lock-free and Adaptive Learned Index with High Scalability for Dynamic Workloads"
