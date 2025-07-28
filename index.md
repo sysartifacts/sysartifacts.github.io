@@ -26,9 +26,8 @@ release usable software systems and validate the results of papers.
   {% endif %}
 {% endfor %}
 
-## Contribute to Sysartifacts
+## Additional Resources
 
-Additional resources for artifact evaluation:
 - [Guide for AE chairs](chair-guide.md)
 - [Guide for artifact evaluators](evaluator-guide.md)
 - [Guide for authors to package artifacts](packaging-guide.md)
