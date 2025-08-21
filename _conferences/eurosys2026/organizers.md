@@ -73,6 +73,7 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Pu (Luke) Yi, Stanford University
 * Pushpa Kumar Balan, University of Central Missouri
 * Quentin Guilloteau, INRIA
+* Raj Kumar Pandey, The Pennsylvania State University
 * Raja Gond, Microsoft Research India
 * Rajat Bhattacharjya, UC Irvine
 * Renzhi Xiao, Jiangxi University of Science and Technology
