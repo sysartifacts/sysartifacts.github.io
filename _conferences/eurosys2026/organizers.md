@@ -62,7 +62,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Manzur Mukhitdinov, Cloudflare
 * Mao Lin, University of California Merced
 * Martin Putra, University of Chicago
-* Maxim Ritter von Onciul, Friedrich-Alexander Universität Erlangen-Nürnberg
 * Michael Paper, Stanford University
 * Michelina Hanlon, UC San Diego
 * Millian Poquet, Univ Toulouse, IRIT
@@ -70,7 +69,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Ojas Gupta, Juniper Networks
 * Pengcheng Wang, Purdue University
 * Phaedra Curlin, University of Colorado Boulder
-* Pu (Luke) Yi, Stanford University
 * Pushpa Kumar Balan, University of Central Missouri
 * Quentin Guilloteau, INRIA
 * Raj Kumar Pandey, The Pennsylvania State University
