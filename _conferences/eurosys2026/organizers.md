@@ -51,7 +51,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Kayalvizhi Rajagopal, Tesla Inc
 * Ke Han, Purdue University
 * Keisuke Kamahori, University of Washington
-* Kha Huynh, Cardiff University
 * Konstantinos Papaioannou, IMDEA Software Institute
 * Kunlin LI, Hong Kong University of Science and Technology (Guangzhou)
 * Lana Honcharuk, Crusoe
