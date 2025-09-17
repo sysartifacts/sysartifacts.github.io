@@ -93,7 +93,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Wenjun Lyu, Rutgers University
 * Wenlong Ding, The Chinese University of Hong Kong
 * Won Joon Yun, University of Texas at Austin
-* Xia Zhou, Zhejiang University
 * Xin Tan, The Chinese University of Hong Kong
 * Xi Pang, Purdue University
 * Yankai Jiang, Northeastern University
@@ -107,3 +106,4 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Yuyi Li, University of California, Davis
 * Zeji Lin, Sun Yat-sen University
 * Zhanda Zhu, University of Toronto
+
