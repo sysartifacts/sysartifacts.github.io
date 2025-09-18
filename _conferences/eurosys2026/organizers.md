@@ -58,7 +58,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Mahbub Raton, University of California Irvine
 * Malvika Jadhav, University of Florida
 * Mamta Shukla, Leica Geosystems AG
-* Manzur Mukhitdinov, Cloudflare
 * Mao Lin, University of California Merced
 * Martin Putra, University of Chicago
 * Michael Paper, Stanford University
@@ -106,4 +105,5 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Yuyi Li, University of California, Davis
 * Zeji Lin, Sun Yat-sen University
 * Zhanda Zhu, University of Toronto
+
 
