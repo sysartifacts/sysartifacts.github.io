@@ -4,10 +4,101 @@ order: 30
 ---
 
 **Chairs**:
-- Sanidhya Kashyap, EPFL
-- Sudarsun Kannan, Rutgers University
-- Baptiste Lepers, Inria
 
+-   Sanidhya Kashyap, EPFL
+-   Sudarsun Kannan, Rutgers University
+-   Baptiste Lepers, Inria
 
 **Members**:
-- TBA
+
+-   Abdullah Al Raqibul Islam, University of North Carolina at Charlotte
+-   Abhishek Saini, Rutgers University
+-   Ajay Joshi, Software Engineer at Snowflake
+-   Amit Samanta, University of Utah
+-   Anna Karanika, University of Illinois Urbana-Champaign
+-   Armel Nguetoum, Grenoble INP
+-   Aurelio Escobar, Covenant of Mayors EU
+-   Ayush Bansal, University of Illinois Urbana-Champaign
+-   Bibek Gupta, Florida Polytechnic University
+-   Byungsoo Oh, Cornell University
+-   Chao Shi, Iowa State University
+-   Cláudia Brito, INESC TEC & U. Minho
+-   Divyaank Tiwari, Stony Brook University
+-   Dylan Wolff, National University of Singapore
+-   Elouan Barraud, KrakOS - LIG
+-   Fanjiang Ye, Rice University
+-   Fei Gui, Tsinghua University
+-   Georgiy Lebedev, EPFL
+-   Giannis Roumpos, IMDEA Software Institute
+-   Gihwan Oh, None
+-   Hanfei Yu, Stevens Institute of Technology
+-   Haoyu Li, Rutgers University
+-   HONG FUNG HENG COLIN, NTU Singapore
+-   Hussain Ahmad Mohammad, University of Chicago
+-   Jiyu Hu, University of Illinois Urbana-Champaign
+-   Jonggyu Park, University of Washington
+-   Jongho Baik, Korea University
+-   Jonghyeon Kim, Mangoboost
+-   Junbeom In, Northeastern University
+-   Jungwoo Kim, Stanford
+-   Kavya Shekar, Virginia Tech
+-   Kenta Ishiguro, Grenoble INP - UGA
+-   Khan Shariya Hasan Upoma, Sonargaon University
+-   Kiran Hombal, University of Illinois Urbana-Champaign
+-   Krishnan Gosakan, Rutgers University
+-   Li Wu, University of Massachusetts Amherst
+-   Linfeng He, Rutgers University
+-   Lingyun Yang, Hong Kong University of Science and Technology
+-   Luc Mahop, Grenoble INP
+-   Manoj Vishwanathan, Purdue University
+-   Mao Lin, University of California Merced
+-   Mehtab Zafar, National University of Singapore
+-   Nicola Mirotta, Cnr
+-   Nihal Balivada, University of Oregon/Computer Science
+-   Nikos Pagonas, Columbia University
+-   Pinhuan Wang, Rutgers, The State University of New Jersey
+-   Raja Gond, Microsoft Research India
+-   Ram Sharan Chaulagain, None
+-   Rani Rajurkar, Apple Inc.
+-   Ranjitha Rani, University of Oregon
+-   Reza Shams, None
+-   Sagar Mohan, Northeastern University
+-   Sandesh More, FLORIDA INSTITUTE OF TECHNOLOGY
+-   Seokjoo Cho, University of Illinois Urbana-Champaign
+-   Seyyidahmed Lahmer, UCLouvain
+-   Shaunak Galvankar, Santa Clara University
+-   Shengyu Fan, Institute of Information Engineering, Chinese Academy of Sciences
+-   Shiyue Hou, Northeastern University
+-   Shubham Chaudhary, Cornell University
+-   Shubhendra Pal Singhal, Georgia Institute of Technology
+-   Siddhisanket Raskar, Pacific Northwest National Laboratory
+-   Sidharth Sundar, EPFL
+-   Sijia Li, Virginia Tech
+-   Srinija Ramichetty, George Washington University
+-   Tânia Esteves, INESC TEC & University of Minho
+-   Tony Hong, University of Illinois Urbana-Champaign
+-   Tuhin Khare, Georgia Institute of Technology
+-   Vaibhav Bhosale, Georgia Institute of Technology
+-   Vishal Rao, Georgia Institute of Technology
+-   Wahid Uz Zaman, Pennsylvania State University
+-   Wenhui Zhang, Bytedance
+-   Xiaoxiang Shi, Shanghai Jiao Tong University
+-   Yan Tong, UC Santa Cruz
+-   Yanbo Zhou, UC San Diego
+-   Yangtao Deng, The Chinese University of Hong Kong
+-   Yankai Jiang, Northeastern University
+-   Yao Hsiao, Stanford University
+-   Yibo Huang, The University of Texas at Austin
+-   Yifan Zhu, University of Rochester
+-   Yonghao Zou, Peking University
+-   Yuanyuan Yang, University of Washington
+-   Yuben Yang, University of Sydney
+-   Yue Guan, University of California, San Diego
+-   Yulin Zou, Nanyang Technological University
+-   Yulong Tang, Renmin University of China
+-   Yuxing Xiang, Peking University
+-   Yves Kone, IRIT
+-   Zaifeng Pan, University of California, San Diego
+-   Zejia Lin, Sun Yat-sen University
+-   Zhiyang Chen, University of Toronto
+-   Zihan Chen, Rutgers University
