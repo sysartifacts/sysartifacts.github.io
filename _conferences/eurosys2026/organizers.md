@@ -100,7 +100,7 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Yongye Su, Purdue University
 * Yuetao Chen, The Chinese University of Hong Kong
 * Yulong Tang, Renmin University of China
-* yusheng zheng, UC Santa Cruz
+* Yusheng Zheng, UC Santa Cruz
 * Yuxuan Jiang, SambaNova Systems Inc.
 * Yuyi Li, University of California, Davis
 * Zeji Lin, Sun Yat-sen University
