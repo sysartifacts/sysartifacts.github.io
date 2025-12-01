@@ -13,26 +13,21 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 
 ## Artifact Evaluation Committee
 
-* Aadithya Muthu, Indian Institute of Technology Madras, India
 * Ahmad Alawneh, Purdue University
 * Ajay Joshi, Independent
 * Alenkruth Krishnan Murali, University of Virginia
 * Alexander Krause, TU Dortmund
-* Amirhossein Ghaffari, University of Oulu
 * Amit Samanta, University of Utah
 * Anirudh Sarma, Georgia Tech
 * Anna Karanika, University of Illinois Urbana-Champaign
 * Arjun Ramesh, Carnegie Mellon University
 * Ayush Bansal, University of Illinois Urbana-Champaign
 * Ayush Bhardwaj, Akamai Technologies
-* Balamurugan Marimuthu, SambaNova Systems
 * Cláudia Brito, INESC TEC
 * David de Andres Hernandez, Imdea Networks Institute
 * Dimitris Siakavaras, National Technical University of Athens
-* Divyaank Tiwari, Stony Brook University
 * Enguang Fan, UIUC
 * Fei Dai, Eastern Institute of Technology
-* Fei Gui, Tsinghua University
 * Feng Cheng, Duke University
 * Filippo Carloni, Politecnico di Milano
 * Georgios Liargkovas, Columbia University
@@ -84,12 +79,9 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Timothée Zerbib, Brown University
 * Tingfeng Lan, University of Virginia
 * Tingjia Cao, UW Madison
-* Tony Hong, University of Illinois Urbana-Champaign
 * Tony Zhang, Databricks
-* Ts Dr Khairi Azhar Aziz, Bank Kerjasama Rakyat Malaysia
 * Tuowei Wang, Tsinghua University
 * Wei Geng, Technical University of Munich
-* Wenjun Lyu, Rutgers University
 * Wenlong Ding, The Chinese University of Hong Kong
 * Won Joon Yun, University of Texas at Austin
 * Xin Tan, The Chinese University of Hong Kong
@@ -97,13 +89,11 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Yankai Jiang, Northeastern University
 * Yibo Huang, The University of Texas at Austin
 * Yongkang Zhang, The Hong Kong University of Science and Technology
-* Yongye Su, Purdue University
 * Yuetao Chen, The Chinese University of Hong Kong
 * Yulong Tang, Renmin University of China
 * Yusheng Zheng, UC Santa Cruz
 * Yuxuan Jiang, SambaNova Systems Inc.
 * Yuyi Li, University of California, Davis
-* Zeji Lin, Sun Yat-sen University
 * Zhanda Zhu, University of Toronto
 
 
