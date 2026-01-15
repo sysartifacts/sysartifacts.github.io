@@ -5,7 +5,7 @@ order: 20
 
 Join the Artifact Evaluation committee, learn about the latest research before everyone else, and help make science more reusable and reproducible!
 
-**Apply now**: TBA (deadline: **TBA**)
+**Apply now**: [fill this self-nomination form](https://forms.gle/ccxUDjSqYtPmYd3k8) (deadline: **May 31st, 2026 (AoE)**)
 
 You can be located anywhere in the world as all committee discussions will happen online.
 AEC membership is especially suitable if you are early in your career, such as the first or second year of your PhD.

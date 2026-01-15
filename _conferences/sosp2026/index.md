@@ -10,7 +10,7 @@ Based on the success of artifact evaluation for past editions, SOSP 2026 will ha
 The artifact evaluation process considers the reusability and reproducibility of artifacts associated with papers.
 Artifact evaluation is _single blind_: authors do not know evaluators' identity, but evaluators know who the authors are.
 
-<!-- **Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee! -->
+**Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee!
 
 **Artifact registration and submission**: TBA
 
@@ -53,6 +53,6 @@ The chairs may, at their discretion, award Distinguished Evaluator awards to eva
 
 Chairs, reachable at [aec@sosp26.cit.tum.de](aec@sosp26.cit.tum.de):
 - Alex Voulimeneas, TU Delft
-- Solal Pirelli
+- Solal Pirelli, EPFL
 
 Full membership list [here](./committee).
