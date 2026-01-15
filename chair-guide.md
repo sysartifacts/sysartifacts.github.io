@@ -61,8 +61,12 @@ Below is a template timeline:
 
 ## Create an evaluator self-nomination form
 
-Ask at a minimum for email, name, and affiliation.
-You can also ask if applicants have experience doing AE, if you want to try and have at least one "senior" evaluator per artifact during the evaluation process.
+Ask at a minimum for:
+- Email address
+- Name
+- Affiliation
+- Whether they've done AE before (if you want to try and have at least one "senior" evaluator per artifact)
+- Confirmation that they'll be available during the evaluation period
 
 There is an infinite number of other questions you could ask on topics such as demographics or motivation,
 but keep in mind that you need a large number of evaluators to spread the load, so you do not have to "weed out" applicants, quite the opposite.
