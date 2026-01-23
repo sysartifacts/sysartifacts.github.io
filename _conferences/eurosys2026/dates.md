@@ -16,7 +16,7 @@ The AEC member self-nomination deadline is: **Friday, August 1, 2025**.
 
 #### AE: papers accepted in the EuroSys'26 Fall round
 - Acceptance notification to paper authors: **Friday, January 30, 2026 (AoE)**
-- Artifact intent registration deadline: **Wednesday, February 4, 2026 (AoE)**
+- (No intent registration needed for this round) <s>Artifact intent registration deadline: Wednesday, February 4, 2026 (AoE)</s>
 - Artifact submission deadline: **Wednesday, February 11, 2026 (AoE)**
 - Kick-the-tires response period: **Thursday, February 12 - Wednesday, February 18, 2026**
 - Artifact decisions announced: **Tuesday, March 3, 2026**
