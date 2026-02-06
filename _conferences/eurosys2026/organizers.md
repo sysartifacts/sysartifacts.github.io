@@ -6,7 +6,7 @@ order: 50
 ## Artifact Evaluation Chairs
 
 * [Pierre Olivier](https://sites.google.com/view/pierreolivier) (The University of Manchester, UK)
-* [Bogdan Alexandru Stoica](https://bastoica.github.io/) (University of Chicago, USA)
+* [Bogdan Alexandru Stoica](https://bastoica.github.io/) (University of Illinois Urbana-Champaign / University of Chicago, USA)
 
 You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.org).
 
@@ -116,5 +116,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Yuxuan Jiang, SambaNova Systems Inc.
 * Yuyi Li, University of California, Davis
 * Zhanda Zhu, University of Toronto
+
 
 
