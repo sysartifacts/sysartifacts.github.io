@@ -81,7 +81,6 @@ The following tools are commonly used in artifact packaging and distribution:
 - [Nix](https://nixos.org/) or [Guix](https://guix.gnu.org/), to create reproducible software environments, containers, virtual machines and system images.
 
 Other useful tools include:
-- [Popper](https://getpopper.io/), a container-native system for automating workflows
 - [CloudLab Profiles](https://docs.cloudlab.us/repeatable-research.html), a mechanism for encapsulating and sharing research environments on the [CloudLab](https://cloudlab.us) facility
 - [Chameleon Trovi](https://chameleoncloud.readthedocs.io/en/latest/technical/sharing.html), a mechanism for sharing research run on the [Chameleon Cloud](https://www.chameleoncloud.org/) facility
 
