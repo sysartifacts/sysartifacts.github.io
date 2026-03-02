@@ -35,6 +35,7 @@ Consider one of the following methods to package the software components of thei
     - For raw data, the container/VM contains the data and the analysis scripts.
     - For mechanized proofs, the container/VM contains the right version of the relevant theorem prover
     - For a mobile phone application, the VM has a phone emulator installed
+
   Note however that container and virtual machine recipes (such as Dockerfile) might not be by default reproducible.
   In the case of Docker, pay attention to use a tag when using another image (and not the `latest` one) but also be aware that [images can be removed from caches](https://hub.docker.com/r/nvidia/cuda/#cuda-container-support-policy), know that `apt-get update` might yield different package versions every time it is being called.
   One practice is to archive the produced container or VM on long-term storage such as Zenodo, but this is not a substitute to sharing the recipe.
