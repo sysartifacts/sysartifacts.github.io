@@ -35,6 +35,11 @@ Consider one of the following methods to package the software components of thei
     - For raw data, the container/VM contains the data and the analysis scripts.
     - For mechanized proofs, the container/VM contains the right version of the relevant theorem prover
     - For a mobile phone application, the VM has a phone emulator installed
+
+  Note however that container and virtual machine recipes (such as Dockerfile) might not be by default reproducible.
+  In the case of Docker, pay attention to use a tag when using another image (and not the `latest` one) but also be aware that [images can be removed from caches](https://hub.docker.com/r/nvidia/cuda/#cuda-container-support-policy), know that `apt-get update` might yield different package versions every time it is being called.
+  One practice is to archive the produced container or VM on long-term storage such as Zenodo, but this is not a substitute to sharing the recipe.
+  For producing containers or VMs with more reproducibility guarantees, you can take a look at [Nix](https://nixos.org) or [Guix](https://guix.gnu.org/).
 - **Live instance on the web:**
   This can be a companion to source code as a way to make usage easier, or a replacement for source code for artifacts that cannot be made public.
   It can be a custom site or use public clouds such as the ones mentioned in "tools" below.
@@ -73,6 +78,7 @@ The following tools are commonly used in artifact packaging and distribution:
 - [GitHub](https://github.com) and [GitLab](https://gitlab.com), good options to host a Git repository for your artifact during evaluation, since they allow you to easily push updates in response to reviewer concerns
 - [Zenodo](https://zenodo.org), to provide long-term storage and a DOI, ensuring the final version of your artifact can be archived permanently
 - [Docker](https://docs.docker.com/get-started/overview/), to create a lightweight container with all of your artifact's dependencies, and even write scripts to manage multiple containers locally instead of using a cloud provider
+- [Nix](https://nixos.org/) or [Guix](https://guix.gnu.org/), to create reproducible software environments, containers, virtual machines and system images.
 
 Other useful tools include:
 - [Popper](https://getpopper.io/), a container-native system for automating workflows
