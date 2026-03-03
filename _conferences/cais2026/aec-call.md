@@ -8,7 +8,7 @@ We are looking for reviewers who can provide detailed, constructive evaluations 
 How to Apply
 ------------
 
-If you are interested in taking part in the AEC, please nominate yourself using [this form](https://forms.gle/tc7xca6PaYFqyYqW7) by **Sunday, April 12, 2026**.
+If you are interested in taking part in the AEC, please nominate yourself using [this form](https://forms.gle/bhuPueC2cboQ1K6C8) by **Sunday, April 12, 2026**.
 
 You can reach us at [aec-chairs@caisconf.org](mailto:aec-chairs@caisconf.org) with any questions.
 

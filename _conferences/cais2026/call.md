@@ -14,9 +14,9 @@ To be considered in the AE process, at least one contact author for the submissi
 
 ## Registration and Submission
 
-**Link to HotCRP portal:** [https://acm-cais26-ae.hotcrp.com/](https://acm-cais26-ae.hotcrp.com/)
+**Link to HotCRP portal:** [https://acm-cais26-ae.hotcrp.com/](https://cais26-ae.hotcrp.com/)
 
-Please submit your artifacts to the [AE HotCRP portal](https://acm-cais26-ae.hotcrp.com/) by providing an URL or a packaged artifact, selecting which artifact badges you apply for, and provide an artifact appendix that describes the artifact.
+Please submit your artifacts to the [AE HotCRP portal](https://cais26-ae.hotcrp.com/) by providing an URL or a packaged artifact, selecting which artifact badges you apply for, and provide an artifact appendix that describes the artifact.
 
 The effort that you put into packaging your artifacts has a direct impact on the committee's ability to make well-informed decisions.
 Please package your artifacts with care to make it as straightforward and easy as possible for the AEC to understand and evaluate their quality.
