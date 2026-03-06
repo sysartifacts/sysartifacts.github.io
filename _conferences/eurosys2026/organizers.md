@@ -16,7 +16,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Aditya Jain, Netflix
 * Ahmad Alawneh, Purdue University
 * Ajay Joshi, Independent
-* Alagappan Maruthappan, Netflix
 * Alenkruth Krishnan Murali, University of Virginia
 * Alexander Krause, TU Dortmund
 * Amit Samanta, University of Utah
@@ -80,7 +79,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Raj Kumar Pandey, The Pennsylvania State University
 * Raja Gond, Microsoft Research India
 * Rajat Bhattacharjya, UC Irvine
-* Rajendran Shobha Ajin, University of Florence
 * Renzhi Xiao, Jiangxi University of Science and Technology
 * Rohan Dilip Bhosle, Microsoft
 * Ruwen Fan, Tsinghua University
@@ -99,7 +97,6 @@ You can reach the AEC chairs at [aec-2026@eurosys.org](mailto:aec-2026@eurosys.o
 * Tingjia Cao, UW Madison
 * Tony Zhang, Databricks
 * Tuowei Wang, Tsinghua University
-* Vahideh Hayyolalam, Koç University
 * Venkat Sai Suman Lamba Karanam, Bowling Green State University
 * Videet Singhai, Carnegie Mellon University
 * Vijay Jain, Amazon
