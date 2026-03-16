@@ -99,7 +99,7 @@ span#rr {
 | [SimEnc: A High-Performance Similarity-Preserving Encryption Approach for Deduplication of Encrypted Docker Images]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span> | [Github](https://github.com/suntong30/SimEnc) |
 | [Every Mapping Counts in Large Amounts: Folio Accounting]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Gitlab](https://gitlab.com/foliomap_paper/ae) |
 | [Fast (Trapless) Kernel Probes Everywhere]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span> | [Github](https://github.com/hardos-ebpf-fuzzing/atc24-uno-kprobe) |
-| [Balancing Analysis Time and Bug Detection: Daily Development-friendly Bug Detection in Linux]() | | [Github](https://github.com/sslab-keio/FiTx) |
+| [Balancing Analysis Time and Bug Detection: Daily Development-friendly Bug Detection in Linux]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/sslab-keio/FiTx) |
 | [Monarch: A Fuzzing Framework for Distributed File Systems]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/rs3lab/Monarch) |
 | [Expeditious High-Concurrency MicroVM SnapStart in Persistent Memory with an Augmented Hypervisor]() | <span id="aa">AVAILABLE</span> | [Github](https://github.com/DISCOPASS/PASS) |
 | [vFPIO: A Virtual I/O Abstraction for FPGA-accelerated I/O Devices]() | <span id="aa">AVAILABLE</span><br><span id="af">FUNCTIONAL</span><br><span id="rr">REPRODUCED</span> | [Github](https://github.com/TUM-DSE/vFPIO) |
