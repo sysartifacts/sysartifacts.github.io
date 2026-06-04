@@ -88,7 +88,7 @@ Your evaluation plan should answer the following questions:
   - **Q3**: From a quick glance at the documentation and code comments, do you expect to reach basic understanding of the code?  
     You will not need to understand every line, only what the high-level modules are, how they match paper concepts, and the overall flow of key algorithms if any.
 - If you need to execute the artifact
-  - **Q4**: Do you have access to appropriate hardware?
+  - **Q4**: Do you have access to appropriate hardware?  
     Check what the artifact states as its dependencies, which can be specialized hardware or simply specific amounts of RAM, CPU cores, and so on.
   - **Q5**: If the hardware is shared with other evaluators, who will use it when?
   - **Q6**: Can you install the artifact?
