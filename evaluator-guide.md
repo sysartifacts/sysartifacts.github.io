@@ -88,7 +88,8 @@ Your evaluation plan should answer the following questions:
   - **Q3**: From a quick glance at the documentation and code comments, do you expect to reach basic understanding of the code?  
     You will not need to understand every line, only what the high-level modules are, how they match paper concepts, and the overall flow of key algorithms if any.
 - If you need to execute the artifact
-  - **Q4**: Do you have access to the necessary hardware?
+  - **Q4**: Do you have access to appropriate hardware?
+    Check what the artifact states as its dependencies, which can be specialized hardware or simply specific amounts of RAM, CPU cores, and so on.
   - **Q5**: If the hardware is shared with other evaluators, who will use it when?
   - **Q6**: Can you install the artifact?
   - **Q7**: Can you run a simple experiment to completion?
@@ -119,6 +120,7 @@ such as by finding the right package containing the dependency for your operatin
 However, it is the authors' responsibility to make their artifacts work, not yours.
 You do not need to spend hours trying to debug and fix complex issues.
 If you encounter a non-trivial error, first ask your fellow evaluators if they encountered it too or if they know how to fix it, then ask the authors to fix it.
+Include a summary of your machine specs in any such bug report, such as how much RAM you have, what your CPU is, and so on.
 
 **It is acceptable to deny badges if artifacts require unreasonable effort**, especially if such effort could be avoided through automation.
 For instance, if reproducing a claim requires 50 points of data, and the artifact requires you to manually edit 5 config files then
