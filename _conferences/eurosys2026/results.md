@@ -230,7 +230,7 @@ artifacts:
 
 * 29 Artifact Available, Functional, and Results Reproduced
 * 25 Artifact Available and Functional
-* 0 Artifact Functiona, and Results Reproduced
+* 0 Artifact Functional and Results Reproduced
 
 <table>
   <thead>
