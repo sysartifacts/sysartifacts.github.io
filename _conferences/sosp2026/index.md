@@ -31,7 +31,6 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 ## Important Dates
 
 - Paper acceptance notification: **July 3, 2026**
-- Artifact registration deadline: **July 6, 2026 (AoE)**
 - Artifact submission deadline: **July 13, 2026 (AoE)**
 - Artifact "kick the tires" evaluation period ends: **July 27, 2026**
 - Artifact decisions: **August 25, 2026**
