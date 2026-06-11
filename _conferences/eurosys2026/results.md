@@ -10,7 +10,7 @@ reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
   - title: "OptiLog: Assigning Roles in Byzantine Consensus"
-    artifact_url: "https://github.com/relab/optilog_artifacts"
+    artifact_url: "[https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts)"
     badges: "available,functional"
 
   - title: "TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO"
@@ -130,7 +130,7 @@ artifacts:
     badges: "available,functional,reproduced"
 
   - title: "MTTM: Dynamic Fast Memory Partitioning with Bandwidth Optimization for Multi-tenant Cloud"
-    artifact_url: "https://github.com/"
+    artifact_url: "https://github.com/casys-kaist/MTTM_ae_EuroSys26"
     badges: "available,functional,reproduced"
 
   - title: "FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling"
@@ -153,7 +153,7 @@ artifacts:
     artifact_url: "https://github.com/casys-kaist/bask_ae_eurosys26"
     badges: "available,functional,reproduced"
 
-  - title: "Coral: externalizing network I/O in serverless computing"
+  - title: "Fix: externalizing network I/O in serverless computing"
     artifact_url: "https://github.com/fix-project/fix"
     badges: "available,functional,reproduced"
 
@@ -214,11 +214,11 @@ artifacts:
     badges: "available,functional,reproduced"
 
   - title: "Proteus: Heterogeneous FPGA Virtualization"
-    artifact_url: "https://github.com/"
+    artifact_url: "https://github.com/TUM-DSE/proteus.git"
     badges: "available,functional,reproduced"
 
   - title: "Suika: Efficient and High-quality Re-scheduling of 3D-parallelized LLM Training Jobs in Shared Clusters"
-    artifact_url: "https://github.com/fAKe2004/Suika"
+    artifact_url: "https://zenodo.org/records/18617527"
     badges: "available,functional,reproduced"
 
   - title: "FicusDB: Scalable Multi-Versioned Authenticated Storage"
