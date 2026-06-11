@@ -10,7 +10,7 @@ reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
   - title: "OptiLog: Assigning Roles in Byzantine Consensus"
-    artifact_url: "https://github.com/relab/hotstuff"
+    artifact_url: "https://github.com/relab/optilog_artifacts"
     badges: "available,functional"
 
   - title: "TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO"
