@@ -168,9 +168,10 @@ Follow the instructions form your general chairs to set it up, as your venue lik
 Your submission form should include
 (1) the title of the paper as it was submitted;
 (2) the PDF of the paper as it was submitted;
-(3) a link to the artifact, such as a GitHub repository;
-(4) an artifact appendix if you require one;
-and (5) any additional comments, such as specific hardware that the evaluators need, or credentials for exotic hardware provided by the authors.
+(3) which badges the authors apply for;
+(4) a link to the artifact, such as a GitHub repository;
+(5) an artifact appendix if you require one;
+and (6) any additional comments, such as specific hardware that the evaluators need, or credentials for exotic hardware provided by the authors.
 
 While you could offer a "submit artifact as a ZIP" option, this is in practice so rarely used that authors who need it could submit a private sharing link
 if their artifact is not publicly available, or a private code repository with credentials provided in the additional comments.
