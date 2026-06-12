@@ -1,0 +1,20 @@
+name: Notify ReproDB Pipeline
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '_conferences/**/results.md'
+      - '_conferences/**/organizers.md'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger ReproDB pipeline update
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.REPRODB_DISPATCH_TOKEN }}" \
+            https://api.github.com/repos/ReproDB/reprodb-pipeline/dispatches \
+            -d '{"event_type":"source-data-updated","client_payload":{"source":"sysartifacts","ref":"${{ github.sha }}"}}'
