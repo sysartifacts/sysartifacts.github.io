@@ -40,11 +40,11 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 
 ### Fall Deadline
 
-- Paper acceptance notification: **January 29, 2026**
+- Paper acceptance notification: **January 29, 2027**
 - Artifact submission deadline: **TBA**
 - Artifact "kick the tires" evaluation period ends: **TBA**
 - Artifact decisions: **TBA**
-- Paper camera-ready deadline: **March 5, 2026**
+- Paper camera-ready deadline: **March 5, 2027**
 
 
 At least one author for each artifact submission must be reachable via email and respond to questions in a timely manner during the kick-the-tires period.
