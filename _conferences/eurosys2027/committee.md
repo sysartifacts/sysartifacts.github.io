@@ -3,7 +3,7 @@ title: Committee
 order: 30
 ---
 
-**Chairs** <!--, reachable at []()-->:
+**Chairs**, reachable at [aec-2027@eurosys.org](mailto:aec-2027@eurosys.org):
 - Redha Gouicem, RWTH Aachen
 - Solal Pirelli, EPFL
 
