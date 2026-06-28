@@ -32,10 +32,10 @@ artifacts:
   repository_url: "https://github.com/rs3lab/mage-artifact"
   badges: Available, Functional, Reproduced
   doi: "10.1145/3731569.3764842"
-- title: "Device-Assisted Live Migration of RDMA Devices"
-  #repository_url: "???"
-  badges: Available
-  doi: "10.1145/3731569.3764795"
+#- title: "Device-Assisted Live Migration of RDMA Devices"
+#  repository_url: "<could not be found when this was added, thus this entry is commented out>"
+#  badges: Available
+#  doi: "10.1145/3731569.3764795"
 - title: "Demeter: A Scalable and Elastic Tiered Memory Solution for Virtualized Cloud via Guest Delegation"
   repository_url: "https://doi.org/10.5281/zenodo.16912877"
   badges: Available, Functional, Reproduced
@@ -167,10 +167,10 @@ artifacts:
   repository_url: "https://github.com/kvcache-ai/ktransformers"
   badges: Available, Functional, Reproduced
   doi: "10.1145/3731569.3764843"
-- title: "Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market"
-  #repository_url: "???"
-  badges: Available, Functional, Reproduced
-  doi: "10.1145/3731569.3764815"
+#- title: "Aegaeon: Effective GPU Pooling for Concurrent LLM Serving on the Market"
+#  repository_url: "<the website explicitly says not available yet, thus this is commented out>"
+#  badges: Available, Functional, Reproduced
+#  doi: "10.1145/3731569.3764815"
 - title: "Mercury: Unlocking Multi-GPU Operator Optimization for LLMs via Remote Memory Scheduling"
   repository_url: "https://github.com/ChandlerGuan/mercury_artifact"
   badges: Available, Functional
