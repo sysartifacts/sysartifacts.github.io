@@ -10,9 +10,9 @@ Based on the success of artifact evaluation for past editions, SOSP 2026 will ha
 The artifact evaluation process considers the reusability and reproducibility of artifacts associated with papers.
 Artifact evaluation is _single blind_: authors do not know evaluators' identity, but evaluators know who the authors are.
 
-**Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee!
+<!--**Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee!-->
 
-**Artifact registration and submission**: TBA
+**Artifact submission**: Submit your artifact [here](https://sosp26ae.hotcrp.com/)!
 
 
 ## Process
