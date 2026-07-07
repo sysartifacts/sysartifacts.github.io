@@ -2,4 +2,6 @@
 title: ATC
 ---
 
-The [USENIX Annual Technical Conference](https://www.usenix.org/conferences/byname/131) introduced artifact evaluation in 2022.
+The [ACM SIGOPS Annual Technical Conference (ATC)](https://sigops.org/s/conferences/atc/2026/) (formerly the USENIX Annual Technical Conference) is organized by [ACM SIGOPS](https://sigops.org/). Research artifact evaluation was first introduced in 2022. 
+
+
