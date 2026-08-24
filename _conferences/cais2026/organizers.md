@@ -27,7 +27,6 @@ You can reach the AEC chairs at [aec-chairs@caisconf.org](mailto:aec-chairs@cais
 - Chengpo Yan (University of Wisconsin-Madison)
 - Cláudia Brito (INESC TEC)
 - Duo Lu (Brown University)
-- Enguang Fan (University of Illinois at Urbana-Champaign)
 - Fanjiang Ye (Rice University)
 - Feng Cheng (Duke University)
 - Ghadeer Almusaddar (Binghamton University)
