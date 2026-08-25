@@ -35,7 +35,8 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 - Paper acceptance notification: **August 21, 2026**
 - Artifact submission deadline: **August 31, 2026 (AoE)**
 - Artifact "kick the tires" evaluation period ends: **September 8, 2026**
-- Artifact decisions: **September 21, 2026**
+- "Functional" & "Reproduced" decisions: **September 21, 2026**
+- Permanent archival for "Available" deadline: **September 23, 2026**
 - Paper camera-ready deadline: **September 25, 2026**
 
 ### Fall Deadline
@@ -43,7 +44,8 @@ Artifact evaluation is a cooperative process, unlike paper reviewing, meaning th
 - Paper acceptance notification: **January 29, 2027**
 - Artifact submission deadline: **TBA**
 - Artifact "kick the tires" evaluation period ends: **TBA**
-- Artifact decisions: **TBA**
+- "Functional" & "Reproduced" decisions: **TBA**
+- Permanent archival for "Available" deadline: **TBA**
 - Paper camera-ready deadline: **March 5, 2027**
 
 
