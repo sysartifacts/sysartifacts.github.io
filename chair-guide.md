@@ -342,6 +342,8 @@ This is also a good opportunity to make a shortlist for a "best reviewer award" 
 
 ## Finalize evaluation decisions
 
+Assign each submission a decision and edit HotCRP settings to make them public.
+
 Besides having final decisions for each badge, what to do here heavily depends on what the publications chair asked from you.
 
 
