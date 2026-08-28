@@ -358,6 +358,12 @@ Remember that the more questions you ask, the fewer people will complete the for
 and the sooner you send the feedback form once evaluation decisions are made, the more people will complete the form.
 
 
+## Publish the final AE committee list
+
+Edit the AE "committee" page to add evaluator names and affiliations.
+Include only evaluators who finished their reviews, of course.
+
+
 # Notification deadline
 
 
