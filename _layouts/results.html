@@ -21,7 +21,7 @@ layout: single
 #   repository_url: <optional string, such as a GitHub link, without using 'artifact_base_url'>
 #   summary_url: <optional string, path to a page containing a summary of the artifact reviews>
 #
-# Artifacts with a badge are shown first, then sorted by awards.
+# Artifacts with an award are shown first, then sorted by badges, then by title.
 #
 # The layout will throw an error (using a hacky non-existent link) if a badge marked Available has no artifact_url.
 # To avoid this for old results pages, set the artifact_url to "MISSING".
@@ -31,15 +31,76 @@ layout: single
 {% assign reproduced_count = 0 %}
 {% assign functional_count = 0 %}
 
-{% assign grouped_artifacts = page.artifacts | group_by: 'award' | reverse %}
-{% for artifact in grouped_artifacts %}
-   {% assign this_sorted = artifact['items'] | sort: 'badges' | reverse %}
-   {% if forloop.first %}
-      {% assign sorted_artifacts = this_sorted %}
-   {% else %}
-      {% assign sorted_artifacts = sorted_artifacts | concat: this_sorted %}
-   {% endif %}
+{% assign with_award = "" | split: "" %}
+{% assign all_three = "" | split: "" %}
+{% assign two_reproduced_functional = "" | split: "" %}
+{% assign two_reproduced_available = "" | split: "" %}
+{% assign two_functional_available = "" | split: "" %}
+{% assign one_reproduced = "" | split: "" %}
+{% assign one_functional = "" | split: "" %}
+{% assign one_available = "" | split: "" %}
+
+{% for artifact in page.artifacts %}
+  {% assign badges = artifact.badges | downcase %}
+  {% assign has_reproduced = false %}
+  {% assign has_functional = false %}
+  {% assign has_available = false %}
+
+  {% if badges contains "reproduced" %}
+    {% assign has_reproduced = true %}
+    {% assign available_count = available_count | plus: 1 %}
+  {% endif %}
+  {% if badges contains "functional" %}
+    {% assign has_functional = true %}
+    {% assign functional_count = functional_count | plus: 1 %}
+  {% endif %}
+  {% if badges contains "available" %}
+    {% assign has_available = true %}
+    {% assign reproduced_count = reproduced_count | plus: 1 %}
+  {% endif %}
+
+  {% if artifact.award %}
+    {% assign with_award = with_award | push: artifact %}
+  {% elsif has_reproduced and has_functional and has_available %}
+    {% assign all_three = all_three | push: artifact %}
+  {% elsif has_reproduced and has_functional %}
+    {% assign two_reproduced_functional = two_reproduced_functional | push: artifact %}
+  {% elsif has_reproduced and has_available %}
+    {% assign two_reproduced_available = two_reproduced_available | push: artifact %}
+  {% elsif has_functional and has_available %}
+    {% assign two_functional_available = two_functional_available | push: artifact %}
+  {% elsif has_reproduced %}
+    {% assign one_reproduced = one_reproduced | push: artifact %}
+  {% elsif has_functional %}
+    {% assign one_functional = one_functional | push: artifact %}
+  {% elsif has_available %}
+    {% assign one_available = one_available | push: artifact %}
+  {% endif %}
 {% endfor %}
+
+{% assign with_award = with_award | sort: "title" %}
+{% assign all_three = all_three | sort: "title" %}
+{% assign two_reproduced_functional = two_reproduced_functional | sort: "title" %}
+{% assign two_reproduced_available = two_reproduced_available | sort: "title" %}
+{% assign two_functional_available = two_functional_available | sort: "title" %}
+{% assign one_reproduced = one_reproduced | sort: "title" %}
+{% assign one_functional = one_functional | sort: "title" %}
+{% assign one_available = one_available | sort: "title" %}
+
+{% assign sorted_artifacts = with_award
+  | concat: all_three
+  | concat: two_reproduced_functional
+  | concat: two_reproduced_available
+  | concat: two_functional_available
+  | concat: one_reproduced
+  | concat: one_functional
+  | concat: one_available %}
+
+<ul>
+  <li><strong>{{ available_count }}</strong> available artifacts</li>
+  <li><strong>{{ functional_count }}</strong> functional artifacts</li>
+  <li><strong>{{ reproduced_count }}</strong> reproduced artifacts</li>
+</ul>
 
 <table>
   {% for artifact in sorted_artifacts %}
@@ -61,15 +122,12 @@ layout: single
           {% unless artifact.artifact_url %}
             {% link error_an_available_artifact_has_no__paper_url__property_!!! %}
           {% endunless %}
-          {% assign available_count = available_count | plus: 1 %}
           <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px" />
         {% endif %}
         {% if badges contains "functional" %}
-          {% assign functional_count = functional_count | plus: 1 %}
           <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px" />
         {% endif %}
         {% if badges contains "reproduced" %}
-          {% assign reproduced_count = reproduced_count | plus: 1 %}
           <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px" />
         {% endif %}
       </td>
@@ -99,10 +157,3 @@ layout: single
     </tr>
   {% endfor %}
 </table>
-
-<p>Total:</p>
-<ul>
-  <li><strong>{{ available_count }}</strong> available artifacts</li>
-  <li><strong>{{ functional_count }}</strong> functional artifacts</li>
-  <li><strong>{{ reproduced_count }}</strong> reproduced artifacts</li>
-</ul>
