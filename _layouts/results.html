@@ -23,7 +23,8 @@ layout: single
 #
 # Artifacts with a badge are shown first, then sorted by awards.
 #
-# The layout will throw an error (using a hacky non-existent link) if a badge marked Available has no paper_url.
+# The layout will throw an error (using a hacky non-existent link) if a badge marked Available has no artifact_url.
+# To avoid this for old results pages, set the artifact_url to "MISSING".
 ---
 
 {% assign available_count = 0 %}
@@ -74,7 +75,10 @@ layout: single
       </td>
       <td>
         {% if artifact.artifact_url %}
-          <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a>
+          {% if artifact.artifact_url == "MISSING" %}
+          {% else %}
+            <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a>
+          {% endif %}
         {% endif %}
         {% if artifact.artifact_extra_urls %}
           {% for extra_url in artifact.artifact_extra_urls %}
