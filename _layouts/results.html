@@ -120,7 +120,7 @@ layout: single
         {% assign badges = artifact.badges | downcase %}
         {% if badges contains "available" %}
           {% unless artifact.artifact_url %}
-            {% link error_an_available_artifact_has_no__paper_url__property_!!! %}
+            {% link error_an_available_artifact_has_no__artifact_url__property_!!! %}
           {% endunless %}
           <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px" />
         {% endif %}
