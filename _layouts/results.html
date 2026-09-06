@@ -18,6 +18,7 @@ layout: single
 #   paper_url: <optional string, such as a DOI>
 #   artifact_url: <optional (for non-Available, otherwise mandatory) string, such as a DOI>
 #   artifact_extra_urls: <not recommended, for legacy pages: collection of strings, such as GitHub links, without using 'artifact_base_url'>
+#   repository_url: <optional string, such as a GitHub link, without using 'artifact_base_url'>
 #   summary_url: <optional string, path to a page containing a summary of the artifact reviews>
 #
 # Artifacts with a badge are shown first, then sorted by awards.
@@ -57,7 +58,7 @@ layout: single
         {% assign badges = artifact.badges | downcase %}
         {% if badges contains "available" %}
           {% unless artifact.artifact_url %}
-            {% link error_an_available_badge_has_no_link_!!! %}
+            {% link error_an_available_artifact_has_no__paper_url__property_!!! %}
           {% endunless %}
           {% assign available_count = available_count | plus: 1 %}
           <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px" />
@@ -73,13 +74,17 @@ layout: single
       </td>
       <td>
         {% if artifact.artifact_url %}
-          <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a><br>
+          <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a>
         {% endif %}
         {% if artifact.artifact_extra_urls %}
           {% for extra_url in artifact.artifact_extra_urls %}
             <br />
             and <a href="{{ extra_url }}">Link</a>
           {% endfor %}
+        {% endif %}
+        {% if artifact.repository_url %}
+          <br />
+          and <a href="{{ artifact.repository_url }}">Repository</a>
         {% endif %}
       </td>
       <td>
