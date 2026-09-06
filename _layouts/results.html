@@ -1,0 +1,99 @@
+---
+layout: single
+
+# This layout expects the following page properties:
+# available_img: <relative path from '/images/'>
+# available_name: <string>
+# functional_img: <relative path from '/images/'>
+# functional_name: <string>
+# reproduced_img: <relative path from '/images/'>
+# reproduced_name: <string>
+# paper_base_url: <optional string, will be prepended to all 'paper_url' properties below>
+# artifact_base_url: <optional string, will be prepended to all 'artifact_url' properties below>
+# summary_base_url: <optional string, will be prepended to all 'summary_url' properties below>
+# artifacts: <collection of items with the following properties:>
+# - title: <string>
+#   badges: <string, containing 'Available', 'Functional', 'Reproduced' in any order, case-insensitive>
+#   award: <optional string, if the paper got an award>
+#   paper_url: <optional string, such as a DOI>
+#   artifact_url: <optional (for non-Available, otherwise mandatory) string, such as a DOI>
+#   artifact_extra_urls: <not recommended, for legacy pages: collection of strings, such as GitHub links, without using 'artifact_base_url'>
+#   summary_url: <optional string, path to a page containing a summary of the artifact reviews>
+#
+# Artifacts with a badge are shown first, then sorted by awards.
+#
+# The layout will throw an error (using a hacky non-existent link) if a badge marked Available has no paper_url.
+---
+
+{% assign available_count = 0 %}
+{% assign reproduced_count = 0 %}
+{% assign functional_count = 0 %}
+
+{% assign grouped_artifacts = page.artifacts | group_by: 'award' | reverse %}
+{% for artifact in grouped_artifacts %}
+   {% assign this_sorted = artifact['items'] | sort: 'badges' | reverse %}
+   {% if forloop.first %}
+      {% assign sorted_artifacts = this_sorted %}
+   {% else %}
+      {% assign sorted_artifacts = sorted_artifacts | concat: this_sorted %}
+   {% endif %}
+{% endfor %}
+
+<table>
+  {% for artifact in sorted_artifacts %}
+    <tr>
+      <td>
+        {% if artifact.paper_url %}
+          <a href="{{ page.paper_base_url }}{{ artifact.paper_url }}">{{ artifact.title }}</a>
+        {% else %}
+          {{ artifact.title }}
+        {% endif %}
+        {% if artifact.award %}
+          <br />
+          <strong>{{ artifact.award }}</strong>
+        {% endif %}
+      </td>
+      <td width="200px">
+        {% assign badges = artifact.badges | downcase %}
+        {% if badges contains "available" %}
+          {% unless artifact.artifact_url %}
+            {% link error_an_available_badge_has_no_link_!!! %}
+          {% endunless %}
+          {% assign available_count = available_count | plus: 1 %}
+          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px" />
+        {% endif %}
+        {% if badges contains "functional" %}
+          {% assign functional_count = functional_count | plus: 1 %}
+          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px" />
+        {% endif %}
+        {% if badges contains "reproduced" %}
+          {% assign reproduced_count = reproduced_count | plus: 1 %}
+          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px" />
+        {% endif %}
+      </td>
+      <td>
+        {% if artifact.artifact_url %}
+          <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a><br>
+        {% endif %}
+        {% if artifact.artifact_extra_urls %}
+          {% for extra_url in artifact.artifact_extra_urls %}
+            <br />
+            and <a href="{{ extra_url }}">Link</a>
+          {% endfor %}
+        {% endif %}
+      </td>
+      <td>
+        {% if artifact.summary_url %}
+          <a href="{{ page.summary_base_url }}{{ artifact.summary_url }}">Summary</a>
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
+
+<p>Total:</p>
+<ul>
+  <li><strong>{{ available_count }}</strong> available artifacts</li>
+  <li><strong>{{ functional_count }}</strong> functional artifacts</li>
+  <li><strong>{{ reproduced_count }}</strong> reproduced artifacts</li>
+</ul>

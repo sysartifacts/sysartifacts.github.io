@@ -1,6 +1,8 @@
 ---
 title: Results
 order: 70
+layout: results
+
 available_img: "acm_available_1.1.png"
 available_name: "Artifacts Available (v1.1)"
 functional_img: "acm_functional_1.1.png"
@@ -10,7 +12,7 @@ reproduced_name: "Results Reproduced (v1.1)"
 
 artifacts:
   - title: "OptiLog: Assigning Roles in Byzantine Consensus"
-    artifact_url: "[https://github.com/relab/hotstuff](https://github.com/relab/optilog_artifacts)"
+    artifact_url: "https://github.com/relab/optilog_artifacts"
     badges: "available,functional"
 
   - title: "TierScape: Harnessing Multiple Compressed Tiers to Tame Server Memory TCO"
@@ -225,56 +227,3 @@ artifacts:
     artifact_url: "https://github.com/0x486F626F/ficusdb-evaluation"
     badges: "available,functional,reproduced"
 ---
-
-**Evaluation Results**:
-
-* 29 Artifact Available, Functional, and Results Reproduced
-* 25 Artifact Available and Functional
-* 0 Artifact Functional and Results Reproduced
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Available</th>
-      <th>Functional</th>
-      <th>Reproduced</th>
-      <th>Available at</th>
-    </tr>
-  </thead>
-  <tbody>
-  {% for artifact in page.artifacts %}
-    <tr>
-      <td>
-        {% if artifact.paper_url %}
-          <a href="{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
-        {% else %}
-          {{ artifact.title }}
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "available" %}
-          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "functional" %}
-          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "reproduced" %}
-          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.award %}
-          <b>{{ artifact.award }}</b><br>
-        {% endif %} {% if artifact.artifact_url %}
-          <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
