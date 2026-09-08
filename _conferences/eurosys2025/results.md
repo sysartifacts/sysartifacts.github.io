@@ -1,6 +1,8 @@
 ---
 title: Results
 order: 70
+layout: results
+
 available_img: "acm_available_1.1.png"
 available_name: "Artifacts Available (v1.1)"
 functional_img: "acm_functional_1.1.png"
@@ -95,7 +97,7 @@ artifacts:
   - title: "TUNA: Tuning Unstable and Noisy Cloud Applications"
     artifact_url: "https://doi.org/10.5281/zenodo.14872390"
     badges: "available,functional"
-  
+
   - title: "SpotHedge: Serving AI Models on Spot Instances"
     artifact_url: "https://github.com/MaoZiming/spothedge_ae"
     badges: "available,functional" 
@@ -183,61 +185,8 @@ artifacts:
   - title: "CRAVE: Analyzing Cross-Resource Interaction to Improve Energy Efficiency in Systems-on-Chip"
     artifact_url: "https://github.com/dipayan2/CRAVE_Artifact_EuroSys"
     badges: "available"
-  
+
   - title: "NeuStream: Bridging Deep Learning Serving and Stream Processing"
     artifact_url: "https://github.com/Fjallraven-hc/NeuStream-AE"
     badges: "available,functional"
 ---
-
-**Evaluation Results**:
-
-* 44 Artifact Available
-* 42 Artifact Functional
-* 21 Results Reproduced
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Available</th>
-      <th>Functional</th>
-      <th>Reproduced</th>
-      <th>Available at</th>
-    </tr>
-  </thead>
-  <tbody>
-  {% for artifact in page.artifacts %}
-    <tr>
-      <td>
-        {% if artifact.paper_url %}
-          <a href="{{artifact.paper_url}}" target="_blank">{{artifact.title}}</a>
-        {% else %}
-          {{ artifact.title }}
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "available" %}
-          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "functional" %}
-          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.badges contains "reproduced" %}
-          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px">
-        {% endif %}
-      </td>
-      <td>
-        {% if artifact.award %}
-          <b>{{ artifact.award }}</b><br>
-        {% endif %} {% if artifact.artifact_url %}
-          <a href="{{artifact.artifact_url}}" target="_blank">Artifact</a><br>
-        {% endif %}
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
