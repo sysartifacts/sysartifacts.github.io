@@ -21,9 +21,6 @@ However, if you believe you have found a technical flaw in a paper anyway, conta
 
 ## Timeline
 
-The **bidding deadline** allows the chairs to distribute artifacts in a way that maximizes evaluator expertise and interest.
-Bidding maximizes your chances to evaluate artifacts in domains you know about and are interested in.
-
 The **"kick the tires" period** is when evaluators go through the artifacts to ensure they will be able to properly evaluate them later.
 It is important to do this as soon as possible, so that authors have enough time to fix big issues if needed.
 

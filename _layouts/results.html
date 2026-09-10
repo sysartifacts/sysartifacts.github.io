@@ -1,0 +1,159 @@
+---
+layout: single
+
+# This layout expects the following page properties:
+# available_img: <relative path from '/images/'>
+# available_name: <string>
+# functional_img: <relative path from '/images/'>
+# functional_name: <string>
+# reproduced_img: <relative path from '/images/'>
+# reproduced_name: <string>
+# paper_base_url: <optional string, will be prepended to all 'paper_url' properties below>
+# artifact_base_url: <optional string, will be prepended to all 'artifact_url' properties below>
+# summary_base_url: <optional string, will be prepended to all 'summary_url' properties below>
+# artifacts: <collection of items with the following properties:>
+# - title: <string>
+#   badges: <string, containing 'Available', 'Functional', 'Reproduced' in any order, case-insensitive>
+#   award: <optional string, if the paper got an award>
+#   paper_url: <optional string, such as a DOI>
+#   artifact_url: <optional (for non-Available, otherwise mandatory) string, such as a DOI>
+#   artifact_extra_urls: <not recommended, for legacy pages: collection of strings, such as GitHub links, without using 'artifact_base_url'>
+#   repository_url: <optional string, such as a GitHub link, without using 'artifact_base_url'>
+#   summary_url: <optional string, path to a page containing a summary of the artifact reviews>
+#
+# Artifacts with an award are shown first, then sorted by badges, then by title.
+#
+# The layout will throw an error (using a hacky non-existent link) if a badge marked Available has no artifact_url.
+# To avoid this for old results pages, set the artifact_url to "MISSING".
+---
+
+{% assign available_count = 0 %}
+{% assign reproduced_count = 0 %}
+{% assign functional_count = 0 %}
+
+{% assign with_award = "" | split: "" %}
+{% assign all_three = "" | split: "" %}
+{% assign two_reproduced_functional = "" | split: "" %}
+{% assign two_reproduced_available = "" | split: "" %}
+{% assign two_functional_available = "" | split: "" %}
+{% assign one_reproduced = "" | split: "" %}
+{% assign one_functional = "" | split: "" %}
+{% assign one_available = "" | split: "" %}
+
+{% for artifact in page.artifacts %}
+  {% assign badges = artifact.badges | downcase %}
+  {% assign has_reproduced = false %}
+  {% assign has_functional = false %}
+  {% assign has_available = false %}
+
+  {% if badges contains "reproduced" %}
+    {% assign has_reproduced = true %}
+    {% assign available_count = available_count | plus: 1 %}
+  {% endif %}
+  {% if badges contains "functional" %}
+    {% assign has_functional = true %}
+    {% assign functional_count = functional_count | plus: 1 %}
+  {% endif %}
+  {% if badges contains "available" %}
+    {% assign has_available = true %}
+    {% assign reproduced_count = reproduced_count | plus: 1 %}
+  {% endif %}
+
+  {% if artifact.award %}
+    {% assign with_award = with_award | push: artifact %}
+  {% elsif has_reproduced and has_functional and has_available %}
+    {% assign all_three = all_three | push: artifact %}
+  {% elsif has_reproduced and has_functional %}
+    {% assign two_reproduced_functional = two_reproduced_functional | push: artifact %}
+  {% elsif has_reproduced and has_available %}
+    {% assign two_reproduced_available = two_reproduced_available | push: artifact %}
+  {% elsif has_functional and has_available %}
+    {% assign two_functional_available = two_functional_available | push: artifact %}
+  {% elsif has_reproduced %}
+    {% assign one_reproduced = one_reproduced | push: artifact %}
+  {% elsif has_functional %}
+    {% assign one_functional = one_functional | push: artifact %}
+  {% elsif has_available %}
+    {% assign one_available = one_available | push: artifact %}
+  {% endif %}
+{% endfor %}
+
+{% assign with_award = with_award | sort: "title" %}
+{% assign all_three = all_three | sort: "title" %}
+{% assign two_reproduced_functional = two_reproduced_functional | sort: "title" %}
+{% assign two_reproduced_available = two_reproduced_available | sort: "title" %}
+{% assign two_functional_available = two_functional_available | sort: "title" %}
+{% assign one_reproduced = one_reproduced | sort: "title" %}
+{% assign one_functional = one_functional | sort: "title" %}
+{% assign one_available = one_available | sort: "title" %}
+
+{% assign sorted_artifacts = with_award
+  | concat: all_three
+  | concat: two_reproduced_functional
+  | concat: two_reproduced_available
+  | concat: two_functional_available
+  | concat: one_reproduced
+  | concat: one_functional
+  | concat: one_available %}
+
+<ul>
+  <li><strong>{{ available_count }}</strong> available artifacts</li>
+  <li><strong>{{ functional_count }}</strong> functional artifacts</li>
+  <li><strong>{{ reproduced_count }}</strong> reproduced artifacts</li>
+</ul>
+
+<table>
+  {% for artifact in sorted_artifacts %}
+    <tr>
+      <td>
+        {% if artifact.paper_url %}
+          <a href="{{ page.paper_base_url }}{{ artifact.paper_url }}">{{ artifact.title }}</a>
+        {% else %}
+          {{ artifact.title }}
+        {% endif %}
+        {% if artifact.award %}
+          <br />
+          <strong>{{ artifact.award }}</strong>
+        {% endif %}
+      </td>
+      <td width="200px">
+        {% assign badges = artifact.badges | downcase %}
+        {% if badges contains "available" %}
+          {% unless artifact.artifact_url %}
+            {% link error_an_available_artifact_has_no__artifact_url__property_!!! %}
+          {% endunless %}
+          <img src="{{ site.baseurl }}/images/{{ page.available_img }}" alt="{{ page.available_name }}" width="50px" />
+        {% endif %}
+        {% if badges contains "functional" %}
+          <img src="{{ site.baseurl }}/images/{{ page.functional_img }}" alt="{{ page.functional_name }}" width="50px" />
+        {% endif %}
+        {% if badges contains "reproduced" %}
+          <img src="{{ site.baseurl }}/images/{{ page.reproduced_img }}" alt="{{ page.reproduced_name }}" width="50px" />
+        {% endif %}
+      </td>
+      <td>
+        {% if artifact.artifact_url %}
+          {% if artifact.artifact_url == "MISSING" %}
+          {% else %}
+            <a href="{{ page.artifact_base_url }}{{ artifact.artifact_url }}">Artifact</a>
+          {% endif %}
+        {% endif %}
+        {% if artifact.artifact_extra_urls %}
+          {% for extra_url in artifact.artifact_extra_urls %}
+            <br />
+            and <a href="{{ extra_url }}">Link</a>
+          {% endfor %}
+        {% endif %}
+        {% if artifact.repository_url %}
+          <br />
+          and <a href="{{ artifact.repository_url }}">Repository</a>
+        {% endif %}
+      </td>
+      <td>
+        {% if artifact.summary_url %}
+          <a href="{{ page.summary_base_url }}{{ artifact.summary_url }}">Summary</a>
+        {% endif %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>

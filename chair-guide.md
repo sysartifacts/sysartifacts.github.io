@@ -167,10 +167,10 @@ Follow the instructions form your general chairs to set it up, as your venue lik
 
 Your submission form should include
 (1) the title of the paper as it was submitted;
-(2) the PDF of the paper as it was submitted;
-(3) which badges the authors apply for;
-(4) a link to the artifact, such as a GitHub repository;
-(5) an artifact appendix if you require one;
+(2) the ID of the paper as it was submitted;
+(3) the PDF of the paper as it was submitted;
+(4) which badges the authors apply for;
+(5) a link to the artifact, such as a GitHub repository;
 and (6) any additional comments, such as specific hardware that the evaluators need, or credentials for exotic hardware provided by the authors.
 
 While you could offer a "submit artifact as a ZIP" option, this is in practice so rarely used that authors who need it could submit a private sharing link
@@ -179,7 +179,8 @@ if their artifact is not publicly available, or a private code repository with c
 **Important**: Review all HotCRP settings, and in particular ensure that
 (1) authors can see reviews,
 (2) authors can exchange comments with reviewers,
-and (3) authors can view reviews as soon as they are posted.
+(3) authors can view reviews as soon as they are posted,
+and (4) under "Review", all "Can... see..." are set to "Yes"
 
 
 # At most a week before artifact submission
@@ -341,6 +342,8 @@ This is also a good opportunity to make a shortlist for a "best reviewer award" 
 
 ## Finalize evaluation decisions
 
+Assign each submission a decision and edit HotCRP settings to make them public.
+
 Besides having final decisions for each badge, what to do here heavily depends on what the publications chair asked from you.
 
 
@@ -353,6 +356,12 @@ You can use this step to validate any specific improvements you made during the 
 
 Remember that the more questions you ask, the fewer people will complete the form,
 and the sooner you send the feedback form once evaluation decisions are made, the more people will complete the form.
+
+
+## Publish the final AE committee list
+
+Edit the AE "committee" page to add evaluator names and affiliations.
+Include only evaluators who finished their reviews, of course.
 
 
 # Notification deadline

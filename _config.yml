@@ -16,6 +16,7 @@ collections:
     permalink: /:path
 
 # Apply the default layout to all files (= empty path)
+# If you change the default layout here, also change what _layouts/results inherits from!
 defaults:
   - scope:
       path: ""
