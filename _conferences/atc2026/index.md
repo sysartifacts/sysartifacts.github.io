@@ -9,7 +9,7 @@ The artifact evaluation process considers the reusability and reproducibility of
 
 **Call for evaluators**: Apply [here](./aec-call) to join the artifact evaluation committee!
 
-**Artifact registration and submission**: TBA
+**Artifact registration and submission**: [https://atc26ae.hotcrp.com](https://atc26ae.hotcrp.com)
 
 ## Process
 
