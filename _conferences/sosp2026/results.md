@@ -40,6 +40,63 @@ artifacts:
 - title: "Tamias: Feedback-Guided Systematic Concurrency Exploration for Transparent Distributed System Fuzzing"
   artifact_url: "https://doi.org/10.5281/zenodo.22122309"
   badges: Available, Functional
+- title: "Efficient GPU Multitasking with Morphable Kernels"
+  artifact_url: "https://doi.org/10.5281/zenodo.22104933"
+  badges: Available, Functional, Reproduced
+- title: "Multi-LLM Serving at Production Scale"
+  artifact_url: "https://doi.org/10.5281/zenodo.22049568"
+  badges: Available, Functional
+- title: "SANDHI: Fine-Grained Merging for Memory Efficient Multi-Model Serving"
+  artifact_url: "https://doi.org/10.5281/zenodo.22108093"
+  badges: Available, Functional, Reproduced
+- title: "VoliStorM: A crash-consistent I/O cache with two kernels instead of two caches"
+  artifact_url: "https://doi.org/10.5281/zenodo.22132413"
+  badges: Available, Functional, Reproduced
+- title: "Cohort: Decentralized PIR"
+  artifact_url: "https://doi.org/10.5281/zenodo.21929085"
+  badges: Available, Functional, Reproduced
+- title: "PirateShip: Append-Only Ledgers for (Mostly) Trusted Execution Environments"
+  artifact_url: "https://doi.org/10.5281/zenodo.22117853"
+  badges: Available, Functional, Reproduced
+- title: "TuxBot: Semantic-Aware Online OS Tuning with LLMs"
+  artifact_url: "https://doi.org/10.5281/zenodo.21285693"
+  badges: Available, Functional, Reproduced
+- title: "Axiom: Achieving Determinism in LLM Inference"
+  artifact_url: "https://doi.org/10.5281/zenodo.22058709"
+  badges: Available, Functional, Reproduced
+- title: "AgileLog: A Forkable Shared Log for Agents on Data Streams"
+  artifact_url: "https://doi.org/10.5281/zenodo.22102576"
+  badges: Available, Functional, Reproduced
+- title: "It's the Kernel's Fault! Custom Page Fault Handling With bpf_fault"
+  artifact_url: "https://zenodo.org/records/22150443"
+  badges: Available, Functional, Reproduced
+- title: "Ahead-of-time Analysis of Shell Program Effects"
+  artifact_url: "https://doi.org/10.5281/zenodo.22103126"
+  badges: Available, Functional, Reproduced
+- title: "Compositional Verification of Cluster Control Planes"
+  artifact_url: "https://doi.org/10.5281/zenodo.21763916"
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
+- title: ""
+  artifact_url: ""
+  badges: Available, Functional, Reproduced
 - title: ""
   artifact_url: ""
   badges: Available, Functional, Reproduced
