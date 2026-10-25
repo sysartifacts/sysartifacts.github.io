@@ -36,7 +36,7 @@ artifacts:
     artifact_url: "https://doi.org/10.5281/zenodo.18420987"
     badges: Available, Functional, Reproduced
   - title: "ELDR: Expert-Locality-Aware Decode Routing for PD-Disaggregated MoE Serving"
-    artifact_url: "https://doi.org/10.5281/zenodo.22910959"
+    artifact_url: "https://doi.org/10.5281/zenodo.23310788"
     badges: Available, Functional, Reproduced
   - title: "EntangledEdge: A Distributed System for Orbital Quantum Sensing and Learning"
     artifact_url: "https://doi.org/10.5281/zenodo.22909579"
